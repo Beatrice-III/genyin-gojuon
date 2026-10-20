@@ -1,0 +1,1503 @@
+/* ============================================================================
+   《源音·五十音》—— 东方书卷美学与移动端自适应设计系统
+   设计取向：素宣留白 · 松烟墨韵 · 朱印点睛 · 秩序节律
+   ============================================================================ */
+
+:root {
+  --bg-canvas: #F5F1E8;
+  --bg-card: #FCF9F3;
+  --bg-subtle: #ECE6D9;
+  --bg-glass: rgba(252, 249, 243, 0.92);
+
+  --ink-900: #1C1A17;
+  --ink-700: #4A443C;
+  --ink-500: #787065;
+  --ink-300: #ABA294;
+
+  --vermilion: #A63429;
+  --vermilion-soft: rgba(166, 52, 41, 0.08);
+  --vermilion-line: rgba(166, 52, 41, 0.26);
+
+  --indigo: #2B455C;
+  --indigo-soft: rgba(43, 69, 92, 0.08);
+  --indigo-line: rgba(43, 69, 92, 0.24);
+
+  --celadon: #366952;
+  --celadon-soft: rgba(54, 105, 82, 0.09);
+
+  --ochre: #966F2E;
+  --ochre-soft: rgba(150, 111, 46, 0.1);
+
+  --line-hair: rgba(110, 98, 82, 0.16);
+  --line-strong: rgba(110, 98, 82, 0.3);
+
+  --shadow-card: 0 2px 12px rgba(28, 26, 23, 0.04);
+  --shadow-elevated: 0 8px 28px rgba(28, 26, 23, 0.08);
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --font-sans: "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-serif: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "Yu Mincho", "Hiragino Mincho ProN", "SimSun", serif;
+  --font-kaiti: "STKaiti", "KaiTi", "Kaiti SC", "Yu Kyokasho", "Hiragino Mincho ProN", serif;
+  --font-cursive: "STXingkai", "FZShuTi", "Xingkai SC", "STKaiti", "KaiTi", cursive, serif;
+}
+
+body.dark-mode {
+  --bg-canvas: #141311;
+  --bg-card: #1D1B18;
+  --bg-subtle: #26231F;
+  --bg-glass: rgba(29, 27, 24, 0.94);
+
+  --ink-900: #EFEAE1;
+  --ink-700: #B8B0A3;
+  --ink-500: #857D71;
+  --ink-300: #575148;
+
+  --vermilion: #CF5246;
+  --vermilion-soft: rgba(207, 82, 70, 0.14);
+  --vermilion-line: rgba(207, 82, 70, 0.34);
+
+  --indigo: #6994B8;
+  --indigo-soft: rgba(105, 148, 184, 0.14);
+  --indigo-line: rgba(105, 148, 184, 0.32);
+
+  --celadon: #539B7B;
+  --celadon-soft: rgba(83, 155, 123, 0.14);
+
+  --ochre: #C99B49;
+  --ochre-soft: rgba(201, 155, 73, 0.14);
+
+  --line-hair: rgba(239, 234, 225, 0.1);
+  --line-strong: rgba(239, 234, 225, 0.22);
+
+  --shadow-card: 0 2px 14px rgba(0, 0, 0, 0.35);
+  --shadow-elevated: 0 10px 32px rgba(0, 0, 0, 0.55);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--ink-900);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  min-height: 100vh;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ==================== 顶部书卷栏 ==================== */
+.app-header {
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line-hair);
+  position: sticky;
+  top: 0;
+  z-index: 120;
+}
+
+.header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-seal {
+  width: 38px;
+  height: 38px;
+  background: var(--vermilion);
+  color: #FCF9F3;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 1.5px rgba(252, 249, 243, 0.3);
+  flex-shrink: 0;
+}
+
+.brand-title {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--ink-900);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-tag {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--vermilion);
+  background: var(--vermilion-soft);
+  border: 1px solid var(--vermilion-line);
+  padding: 1px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.brand-subtitle {
+  font-size: 12px;
+  color: var(--ink-500);
+  letter-spacing: 0.3px;
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.meta-capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line-hair);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 12.5px;
+  color: var(--ink-700);
+}
+
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.meta-item strong {
+  color: var(--ink-900);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.meta-divider {
+  width: 1px;
+  height: 11px;
+  background: var(--line-strong);
+}
+
+.ghost-btn {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-700);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12.5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+}
+
+.ghost-btn:hover {
+  border-color: var(--vermilion);
+  color: var(--vermilion);
+  background: var(--vermilion-soft);
+}
+
+/* ==================== 导航栏（桌面书卷目录 + 移动底部导航） ==================== */
+.main-nav {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-top: 1px solid var(--line-hair);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.main-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-tab {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 11px 18px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink-500);
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.4px;
+}
+
+.nav-tab .nav-num {
+  font-family: var(--font-serif);
+  font-size: 11.5px;
+  color: var(--ink-300);
+}
+
+.nav-tab:hover {
+  color: var(--ink-900);
+}
+
+.nav-tab.active {
+  color: var(--vermilion);
+  border-bottom-color: var(--vermilion);
+  font-weight: 600;
+}
+
+.nav-tab.active .nav-num {
+  color: var(--vermilion);
+}
+
+.nav-badge {
+  font-size: 10.5px;
+  background: var(--vermilion-soft);
+  color: var(--vermilion);
+  border: 1px solid var(--vermilion-line);
+  padding: 0 6px;
+  border-radius: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==================== 主体内容与章节引首 ==================== */
+.main-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 28px 24px 64px;
+}
+
+.tab-panel {
+  display: none;
+  animation: panelFade 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+@keyframes panelFade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 章节引首（Editorial Section Header） */
+.chapter-intro {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-intro::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--vermilion);
+}
+
+.chapter-kicker {
+  font-family: var(--font-serif);
+  font-size: 12px;
+  color: var(--vermilion);
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.chapter-intro h2 {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink-900);
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.chapter-intro p {
+  font-size: 13.5px;
+  color: var(--ink-700);
+  max-width: 780px;
+  line-height: 1.7;
+}
+
+/* 工具条与分段控制器 */
+.control-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+}
+
+.segmented-control {
+  display: inline-flex;
+  background: var(--bg-subtle);
+  padding: 3px;
+  border-radius: var(--radius-xs);
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.seg-btn {
+  background: transparent;
+  border: none;
+  color: var(--ink-700);
+  padding: 6px 13px;
+  border-radius: 5px;
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.seg-btn:hover {
+  color: var(--ink-900);
+}
+
+.seg-btn.active {
+  background: var(--bg-card);
+  color: var(--vermilion);
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  background: var(--vermilion);
+  color: #FCF9F3;
+  border: none;
+  padding: 9px 18px;
+  border-radius: var(--radius-xs);
+  font-size: 13.5px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.18s ease;
+}
+
+.primary-btn:hover {
+  filter: brightness(1.08);
+}
+
+.secondary-btn {
+  background: var(--indigo);
+  color: #FCF9F3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: var(--radius-xs);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.18s ease;
+}
+
+.secondary-btn:hover {
+  filter: brightness(1.1);
+}
+
+.outline-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--line-strong);
+  color: var(--ink-700);
+  padding: 6px 12px;
+  border-radius: var(--radius-xs);
+  font-size: 12.5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.18s ease;
+}
+
+.outline-btn:hover,
+.outline-btn.active {
+  border-color: var(--vermilion);
+  color: var(--vermilion);
+  background: var(--vermilion-soft);
+}
+
+/* ==================== 卷一：五十音图矩阵（优雅留白编排） ==================== */
+.gojuon-board {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gojuon-col-header {
+  display: grid;
+  grid-template-columns: 150px repeat(5, 1fr);
+  gap: 12px;
+  padding: 0 4px 6px;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.col-label {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 13.5px;
+  color: var(--ink-700);
+  padding: 6px;
+}
+
+.col-label small {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--ink-500);
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.gojuon-row-group {
+  display: grid;
+  grid-template-columns: 150px repeat(5, 1fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+.row-meta-box {
+  background: var(--bg-subtle);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row-meta-title {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink-900);
+}
+
+.row-meta-desc {
+  font-size: 11.5px;
+  color: var(--ink-500);
+  margin: 3px 0 8px;
+  line-height: 1.4;
+}
+
+.row-practice-link {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-700);
+  font-size: 11.5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.16s;
+}
+
+.row-practice-link:hover {
+  border-color: var(--vermilion);
+  color: var(--vermilion);
+  background: var(--bg-card);
+}
+
+/* 单个假名卡片 —— 克制、留白、三段节律 */
+.kana-cell {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px 12px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 118px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: var(--shadow-card);
+}
+
+.kana-cell:hover {
+  transform: translateY(-2px);
+  border-color: var(--vermilion-line);
+  box-shadow: var(--shadow-elevated);
+}
+
+.kana-cell.empty-cell {
+  background: transparent;
+  border: 1px dashed var(--line-hair);
+  box-shadow: none;
+  cursor: default;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  color: var(--ink-300);
+}
+
+.kana-cell.hard-highlight {
+  border-color: var(--vermilion);
+  background: var(--vermilion-soft);
+}
+
+.kana-cell.same-origin-highlight {
+  border-color: var(--ochre);
+  background: var(--ochre-soft);
+}
+
+.cell-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cell-romaji {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--indigo);
+  font-weight: 600;
+}
+
+.cell-sound-trigger {
+  background: none;
+  border: none;
+  color: var(--ink-300);
+  cursor: pointer;
+  padding: 2px 4px;
+  font-size: 12px;
+  transition: color 0.15s;
+}
+
+.kana-cell:hover .cell-sound-trigger {
+  color: var(--vermilion);
+}
+
+.cell-center {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0 8px;
+}
+
+.cell-hira {
+  font-family: var(--font-kaiti);
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--ink-900);
+  line-height: 1.1;
+}
+
+.cell-kata {
+  font-family: var(--font-sans);
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--ink-500);
+  line-height: 1.1;
+}
+
+.cell-kanji-hero {
+  font-family: var(--font-cursive);
+  font-size: 30px;
+  color: var(--vermilion);
+  line-height: 1.1;
+}
+
+.cell-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--ink-500);
+  padding-top: 6px;
+  border-top: 1px solid var(--line-hair);
+}
+
+.cell-origin-pair span {
+  color: var(--ink-700);
+  font-family: var(--font-serif);
+}
+
+.cell-mastery-dot {
+  font-size: 10.5px;
+  color: var(--ink-300);
+  font-variant-numeric: tabular-nums;
+}
+
+.cell-progress-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: transparent;
+  overflow: hidden;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+}
+
+.cell-progress-fill {
+  height: 100%;
+  background: var(--celadon);
+  transition: width 0.3s ease;
+}
+
+.cell-progress-fill.low {
+  background: var(--vermilion);
+}
+
+.cell-progress-fill.mid {
+  background: var(--ochre);
+}
+
+.kana-cell.blind-hide .cell-bottom,
+.kana-cell.blind-hide .cell-romaji {
+  opacity: 0.08;
+  transition: opacity 0.2s;
+}
+
+.kana-cell.blind-hide:hover .cell-bottom,
+.kana-cell.blind-hide:hover .cell-romaji {
+  opacity: 1;
+}
+
+/* ==================== 拓展音韵卡片（浊音·拗音·音拍） ==================== */
+.editorial-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-card);
+}
+
+.editorial-card h3 {
+  font-family: var(--font-serif);
+  font-size: 17.5px;
+  color: var(--ink-900);
+  margin-bottom: 10px;
+}
+
+.scholarly-note {
+  background: var(--bg-subtle);
+  border-left: 3px solid var(--indigo);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
+  font-size: 13px;
+  color: var(--ink-700);
+  margin-bottom: 16px;
+  white-space: pre-line;
+  line-height: 1.7;
+}
+
+.scholarly-note.vermilion {
+  border-left-color: var(--vermilion);
+  background: var(--vermilion-soft);
+}
+
+.dakuon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.yoon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.mini-kana-card {
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  cursor: pointer;
+  transition: border-color 0.16s, transform 0.16s;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mini-kana-card:hover {
+  border-color: var(--vermilion);
+  transform: translateY(-1px);
+}
+
+/* ==================== 卷二：万叶书源馆 ==================== */
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.timeline-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+  box-shadow: var(--shadow-card);
+}
+
+.timeline-era {
+  font-family: var(--font-serif);
+  font-size: 11.5px;
+  color: var(--vermilion);
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.timeline-card h4 {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  margin-bottom: 8px;
+  color: var(--ink-900);
+}
+
+.timeline-card p {
+  font-size: 12.5px;
+  color: var(--ink-700);
+  line-height: 1.65;
+}
+
+.advantage-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.adv-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+}
+
+.adv-badge {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: 11px;
+  color: var(--vermilion);
+  background: var(--vermilion-soft);
+  border: 1px solid var(--vermilion-line);
+  padding: 1px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.origin-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.origin-evo-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.evo-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--line-hair);
+  padding-bottom: 10px;
+}
+
+.evo-romaji-badge {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--indigo);
+  background: var(--indigo-soft);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+.evo-track {
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.evo-track-title {
+  font-size: 11.5px;
+  color: var(--ink-500);
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo-stages-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-xs);
+  padding: 10px 8px;
+  margin-bottom: 8px;
+}
+
+.evo-step-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.evo-step-char.kaisho {
+  font-family: var(--font-kaiti);
+  font-size: 28px;
+  color: var(--ink-900);
+}
+
+.evo-step-char.sosho {
+  font-family: var(--font-cursive);
+  font-size: 32px;
+  color: var(--vermilion);
+  transform: rotate(-3deg);
+}
+
+.evo-step-char.radical-box {
+  font-family: var(--font-kaiti);
+  font-size: 22px;
+  color: var(--indigo);
+  background: var(--indigo-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.evo-step-char.final-kana {
+  font-family: var(--font-kaiti);
+  font-size: 32px;
+  color: var(--ink-900);
+}
+
+.evo-step-label {
+  font-size: 10.5px;
+  color: var(--ink-500);
+}
+
+.evo-arrow {
+  color: var(--ink-300);
+  font-size: 14px;
+}
+
+.evo-desc-text {
+  font-size: 12.5px;
+  color: var(--ink-700);
+  line-height: 1.6;
+}
+
+/* ==================== 卷三：十二组字形辨微 ==================== */
+.confusable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  gap: 18px;
+}
+
+.confusable-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.confusable-members-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+  gap: 10px;
+}
+
+.conf-member-box {
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 12px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.16s;
+}
+
+.conf-member-box:hover {
+  border-color: var(--vermilion);
+}
+
+.conf-member-char {
+  font-size: 36px;
+  font-family: var(--font-kaiti);
+  line-height: 1.15;
+  color: var(--ink-900);
+}
+
+.conf-member-romaji {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--vermilion);
+  margin: 3px 0;
+}
+
+.conf-member-origin {
+  font-size: 11.5px;
+  color: var(--indigo);
+}
+
+.conf-member-feature {
+  font-size: 11px;
+  color: var(--ink-500);
+  margin-top: 3px;
+}
+
+/* ==================== 卷四：书道临池 ==================== */
+.writing-dojo-layout {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.dojo-canvas-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+#calligraphy-canvas {
+  width: 290px;
+  height: 290px;
+  border-radius: var(--radius-sm);
+  cursor: crosshair;
+  margin: 12px auto;
+  display: block;
+  touch-action: none;
+}
+
+.dojo-info-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.kana-Quick-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+}
+
+.kana-mini-pill {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--line-hair);
+  background: var(--bg-card);
+  cursor: pointer;
+  font-size: 13.5px;
+  color: var(--ink-900);
+}
+
+.kana-mini-pill.active {
+  background: var(--vermilion);
+  color: #FCF9F3;
+  border-color: var(--vermilion);
+}
+
+/* ==================== 卷五：十阶修习 ==================== */
+.stages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.stage-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+  transition: border-color 0.18s;
+}
+
+.stage-card:hover {
+  border-color: var(--vermilion-line);
+}
+
+.stage-card.cleared {
+  border-left: 3px solid var(--celadon);
+}
+
+.stage-num-badge {
+  font-family: var(--font-serif);
+  font-size: 11.5px;
+  padding: 2px 9px;
+  border-radius: 4px;
+  background: var(--indigo-soft);
+  color: var(--indigo);
+}
+
+.stage-card.cleared .stage-num-badge {
+  background: var(--celadon-soft);
+  color: var(--celadon);
+}
+
+/* ==================== 卷六：综合演练与考场 ==================== */
+.mode-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+  margin: 12px 0 20px;
+}
+
+.mode-select-card {
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.16s;
+}
+
+.mode-select-card:hover {
+  border-color: var(--vermilion-line);
+}
+
+.mode-select-card.selected {
+  border-color: var(--vermilion);
+  background: var(--vermilion-soft);
+}
+
+.mode-select-card h4 {
+  font-family: var(--font-serif);
+  font-size: 14.5px;
+  margin-bottom: 4px;
+  color: var(--ink-900);
+}
+
+.mode-select-card p {
+  font-size: 12px;
+  color: var(--ink-500);
+  line-height: 1.5;
+}
+
+.quiz-active-stage {
+  background: var(--bg-card);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  max-width: 780px;
+  margin: 0 auto 24px;
+  box-shadow: var(--shadow-elevated);
+}
+
+.quiz-top-hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.quiz-progress-bar {
+  height: 4px;
+  background: var(--bg-subtle);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.quiz-progress-fill {
+  height: 100%;
+  background: var(--vermilion);
+  transition: width 0.25s ease;
+}
+
+.quiz-question-box {
+  text-align: center;
+  padding: 24px 16px;
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-hair);
+  border-radius: var(--radius-sm);
+  margin-bottom: 20px;
+}
+
+.quiz-tag-pill {
+  display: inline-block;
+  font-family: var(--font-serif);
+  background: var(--indigo-soft);
+  color: var(--indigo);
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.quiz-prompt-title {
+  font-size: 15px;
+  color: var(--ink-700);
+  margin-bottom: 10px;
+}
+
+.quiz-prompt-main {
+  font-family: var(--font-kaiti);
+  font-size: 64px;
+  color: var(--ink-900);
+  line-height: 1.15;
+  margin: 6px 0;
+}
+
+.quiz-prompt-sub {
+  font-size: 12.5px;
+  color: var(--ink-500);
+  margin-top: 6px;
+}
+
+.quiz-choices-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.quiz-choice-btn {
+  background: var(--bg-canvas);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: var(--ink-900);
+}
+
+.quiz-choice-btn:hover:not(:disabled) {
+  border-color: var(--indigo);
+  background: var(--indigo-soft);
+}
+
+.quiz-choice-btn .choice-main {
+  font-size: 24px;
+  font-family: var(--font-kaiti);
+}
+
+.quiz-choice-btn .choice-sub {
+  font-size: 11.5px;
+  color: var(--ink-500);
+}
+
+.quiz-choice-btn.correct {
+  background: var(--celadon-soft) !important;
+  border-color: var(--celadon) !important;
+  color: var(--celadon) !important;
+}
+
+.quiz-choice-btn.wrong {
+  background: var(--vermilion-soft) !important;
+  border-color: var(--vermilion) !important;
+  color: var(--vermilion) !important;
+}
+
+.quiz-typing-area {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.quiz-typing-input {
+  font-size: 20px;
+  padding: 10px 18px;
+  border: 1px solid var(--indigo);
+  border-radius: var(--radius-xs);
+  background: var(--bg-canvas);
+  color: var(--ink-900);
+  text-align: center;
+  width: 240px;
+  font-family: monospace;
+  outline: none;
+}
+
+.quiz-feedback-box {
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  margin-top: 12px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quiz-feedback-box.correct {
+  background: var(--celadon-soft);
+  border: 1px solid var(--celadon);
+}
+
+.quiz-feedback-box.wrong {
+  background: var(--vermilion-soft);
+  border: 1px solid var(--vermilion);
+}
+
+/* ==================== 深度精学模态窗 ==================== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 19, 17, 0.58);
+  backdrop-filter: blur(4px);
+  z-index: 500;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal-backdrop.open {
+  display: flex;
+}
+
+.modal-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  max-width: 840px;
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 26px;
+  box-shadow: var(--shadow-elevated);
+  position: relative;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line-hair);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 15px;
+  cursor: pointer;
+  color: var(--ink-700);
+}
+
+.detail-grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+/* ==================== Android 移动端与窄屏响应式精调 ==================== */
+@media (max-width: 860px) {
+  body {
+    padding-bottom: 70px;
+  }
+
+  .header-inner {
+    padding: 10px 16px;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  /* 移动端底部固定导航栏 */
+  .main-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-glass);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid var(--line-strong);
+    padding: 4px 6px calc(4px + env(safe-area-inset-bottom, 0px));
+    justify-content: space-around;
+    z-index: 300;
+  }
+
+  .nav-tab {
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 8px;
+    font-size: 11.5px;
+    border-bottom: none;
+    border-radius: 8px;
+  }
+
+  .nav-tab .nav-num {
+    font-size: 10px;
+  }
+
+  .nav-badge {
+    display: none;
+  }
+
+  .main-container {
+    padding: 16px 14px 32px;
+  }
+
+  .chapter-intro {
+    padding: 16px 18px;
+  }
+
+  .chapter-intro h2 {
+    font-size: 18px;
+  }
+
+  /* 移动端五十音图：行标题独立置顶，5列假名一行排布无需横向滚动 */
+  .gojuon-col-header {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+
+  .gojuon-col-header .col-label:first-child {
+    display: none;
+  }
+
+  .gojuon-row-group {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+
+  .row-meta-box {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+  }
+
+  .row-meta-desc {
+    margin: 0;
+  }
+
+  .kana-cell {
+    padding: 8px 6px;
+    min-height: 92px;
+  }
+
+  .cell-hira {
+    font-size: 24px;
+  }
+
+  .cell-kata {
+    font-size: 16px;
+  }
+
+  .cell-bottom {
+    font-size: 10px;
+  }
+
+  .timeline-grid,
+  .advantage-cards,
+  .writing-dojo-layout,
+  .detail-grid-two,
+  .confusable-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dakuon-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+}

@@ -1,0 +1,30 @@
+name: Source checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check JavaScript syntax
+        shell: bash
+        run: |
+          for source in js/*.js tools/*.cjs; do node --check "$source"; done
+      - name: Check Python syntax without creating caches
+        run: python -c "import ast,pathlib; [ast.parse(p.read_text(encoding='utf-8-sig'),filename=str(p)) for d in ('android','tools') for p in pathlib.Path(d).glob('*.py')]; print('Python syntax passed')"
+      - name: Check learning logic
+        run: node tools/verify_learning_logic.cjs
+      - name: Check public source allowlist
+        run: python tools/publish_source.py --check

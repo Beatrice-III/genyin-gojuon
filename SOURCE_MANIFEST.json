@@ -1,0 +1,293 @@
+{
+  "format": "genyin.public-source.v1",
+  "files": [
+    {
+      "path": ".github/workflows/source-check.yml",
+      "bytes": 927,
+      "sha256": "d916aea4a6d9e283b4faae59a13ad278ad0d1d18b0832d238d8a55336e2241aa"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 825,
+      "sha256": "b3841edef5999b035e1c7068387356936351b39e13e6d8fb4c2bbb508d4b3d47"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1416,
+      "sha256": "4c2c6d43098f33e9c9149827e7f7affd22c0ca50f3b47ae13413262a9685d3fc"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1321,
+      "sha256": "e8f15807462dbe4d9afff81b72187ceba2b0bba0ff609ed010dfac468112b91f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5206,
+      "sha256": "5589334200404acec7c15e8548d5a2ca8cc0d019824f3706961417ccc36dfefe"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 3262,
+      "sha256": "c960f1aadff828d29fd47c386f83aabf546bbd043e5434644d0d69693652582f"
+    },
+    {
+      "path": "android/AndroidManifest.xml",
+      "bytes": 1371,
+      "sha256": "f18beda21d276621daa33ebf36e5cfd1b6780048d3469c17df3d2e614382539e"
+    },
+    {
+      "path": "android/README.md",
+      "bytes": 3981,
+      "sha256": "119a697578a86a05175e14a12e01f80b6cabbd3ba2f3d896a796123c48608ad3"
+    },
+    {
+      "path": "android/build_apk.py",
+      "bytes": 11046,
+      "sha256": "73d6163b5d7cc7ec96f2b6667815d6d750b9c8104cd2ce9a51f7ee7cd8aaaabc"
+    },
+    {
+      "path": "android/res/drawable-xxhdpi/ic_launcher.png",
+      "bytes": 7503,
+      "sha256": "81471dd996d8fbfba53a56c71568f2f03eb7fc22c9129c8aa9cc6f11ba8d1525"
+    },
+    {
+      "path": "android/res/values/strings.xml",
+      "bytes": 119,
+      "sha256": "6d2cc7e905df1d24cc020d8b2f508bffb5625a77c032c312d6c22219ce99882c"
+    },
+    {
+      "path": "android/src/com/genyin/gojuon/MainActivity.java",
+      "bytes": 16913,
+      "sha256": "c41c6f63ca147b9251f6ef3805d6477e4c6e37e3a89515289f8d83c0b475a468"
+    },
+    {
+      "path": "assets/audio/LICENSE",
+      "bytes": 981,
+      "sha256": "bf3492ca57257553cb2b1d1fc5192b31174da8083549229bd96b58c314f8d269"
+    },
+    {
+      "path": "assets/audio/README.md",
+      "bytes": 436,
+      "sha256": "e49be48ab210c545e1cae55d0441a52d149f62dcfc7a98e5ed4a904df10a2718"
+    },
+    {
+      "path": "assets/audio/manifest.json",
+      "bytes": 194026,
+      "sha256": "f954f0b8f9ede658bccabaab9af4a5f5eb272302c7568d54602ec91b44f279a8"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/fonts/SourceKana.woff2",
+      "bytes": 651820,
+      "sha256": "6a7f957569f9cae07a43b57f317efa1f8994b1e2bcf067343d438344fc7c7e0e"
+    },
+    {
+      "path": "css/mobile.css",
+      "bytes": 25868,
+      "sha256": "ccb24eb6222b5ee4784da594845de634362d3633edb0bc77636bad45aaa9fa28"
+    },
+    {
+      "path": "css/native-mobile.css",
+      "bytes": 17339,
+      "sha256": "f06e2e3af35fdd39b3de501825894dbe83d2da820ee244a445b7aedac47181bf"
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 29695,
+      "sha256": "6dd47d6e4e27a1390da7405d8ec8a2987e67d88df88defd8bc1c5986a592c385"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26290,
+      "sha256": "914140af57edba207c18eaf3ae691714e0456fa81adf971a74ad0ff4e3e6e8c3"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 70081,
+      "sha256": "40487683a07d1d2520cbba60ef7253896c528d1f8558b62381c709bfdba92a3a"
+    },
+    {
+      "path": "js/audio-engine.js",
+      "bytes": 14258,
+      "sha256": "42ffe65398f75c9933904eddca11df4382b9cafde701bb0c82f2ac72f5a2287f"
+    },
+    {
+      "path": "js/calligraphy-canvas.js",
+      "bytes": 9869,
+      "sha256": "9366e11a90ce7ce5c84389a0a887cc37837987f0eb97bf6b23d59dacb4e7456b"
+    },
+    {
+      "path": "js/data-extensions.js",
+      "bytes": 49107,
+      "sha256": "977672510cac269c0b63fe6d4b2e7d414ac74bcd532eb11131d5147e1a5d5426"
+    },
+    {
+      "path": "js/data-kana.js",
+      "bytes": 90365,
+      "sha256": "b2c14a43f54616ad98f8b3a021fe79c7ab0014a50592a007e779211f1dc32234"
+    },
+    {
+      "path": "js/mobile-practice.js",
+      "bytes": 25646,
+      "sha256": "cff69f7105e97aabf0275752f1455f5872bb93ffce14c803dd0bbc047d988b0e"
+    },
+    {
+      "path": "js/mobile-shell.js",
+      "bytes": 6264,
+      "sha256": "3fba913daa88c320dddb09d2b7edb9228b53f4b12733fcf9aa27d5eb2837c9d8"
+    },
+    {
+      "path": "js/quiz-generator.js",
+      "bytes": 20115,
+      "sha256": "4fab1e0bd8d912e457269ab7fcf3fb1f18a1ce0999d456ca98ebc592071425d4"
+    },
+    {
+      "path": "js/storage-srs.js",
+      "bytes": 18161,
+      "sha256": "c9c6eadc7c65d53eabcbb399f0295092620071fb1d75c1569a77e4e7dca0825f"
+    },
+    {
+      "path": "record_bilibili_video.py",
+      "bytes": 25094,
+      "sha256": "3f3aa01cd9b5478dd445fe773a60e4960f342b54201aef2efa6d2398691297a5"
+    },
+    {
+      "path": "tools/audio_inventory.cjs",
+      "bytes": 2734,
+      "sha256": "557156b5aa61cf113053e006f4eb7117d43caa45af2b5e32b8a48de2d27e1922"
+    },
+    {
+      "path": "tools/capture_product_demo.py",
+      "bytes": 29036,
+      "sha256": "5a8ce811659dabfb6f804b865e0796cf347e223209924851b9ca193ec977ddb3"
+    },
+    {
+      "path": "tools/prepare_audio.py",
+      "bytes": 1549,
+      "sha256": "eb0eee1adaf52c5d224db70f235e0582c89f10f0f0e504d6f911b86b469c855c"
+    },
+    {
+      "path": "tools/prepare_course_audio.py",
+      "bytes": 4560,
+      "sha256": "f9fb8234675c46787349b7b7580b8fb97523c0392d56775f1a126eaed15e4854"
+    },
+    {
+      "path": "tools/prepare_font.py",
+      "bytes": 1211,
+      "sha256": "1447b8d7bb05385b06377b60edee76fe1c1f296ebd74183e67223f8ab08a32f3"
+    },
+    {
+      "path": "tools/prepare_product_voice.py",
+      "bytes": 4915,
+      "sha256": "df82407de30a3fbbcdfa403f695bf1715d7cb87a953e1e0f22c817f75451f174"
+    },
+    {
+      "path": "tools/publish_source.py",
+      "bytes": 9308,
+      "sha256": "f2ec6d72e2fbd78906b925ffe438e2fe2b25d6ee41fd3047a1474278c5fe8695"
+    },
+    {
+      "path": "tools/qwen_README.md",
+      "bytes": 3223,
+      "sha256": "670ca7b0199517e699441b815fdda4313916a93f0a311d1514fd063d130fb25d"
+    },
+    {
+      "path": "tools/qwen_download.py",
+      "bytes": 3546,
+      "sha256": "84d640581facabec6bf4d4ed16b2ca9c6bcf92401669a7cac7bdde1085908e3e"
+    },
+    {
+      "path": "tools/qwen_model_sources.json",
+      "bytes": 4522,
+      "sha256": "4d21090cae0190f9b50ebd78a25858f0733d7350a67fc80d2f3d4ab6e1ce3b36"
+    },
+    {
+      "path": "tools/qwen_narration_v3.json",
+      "bytes": 9297,
+      "sha256": "df5761a9633d6bb4e358f55aa4c26435e6d1620e023cfea4e3a28b7bb28b518c"
+    },
+    {
+      "path": "tools/qwen_requirements.txt",
+      "bytes": 72,
+      "sha256": "4c7c3890424c4c31e2a05ca3aa698600e1f19c400b243bd52f07ec8dd57c5d16"
+    },
+    {
+      "path": "tools/qwen_runtime_lock.txt",
+      "bytes": 461,
+      "sha256": "e4654e60ea15e0e296f961da3aee8fcc9c5a1f75b07cff45767813dd33e9a288"
+    },
+    {
+      "path": "tools/qwen_serena_samples.json",
+      "bytes": 293,
+      "sha256": "29682b74e1fbe9fb736ef21887a1905af4168c1673fee7650a8d51ee9b7711bf"
+    },
+    {
+      "path": "tools/qwen_setup.ps1",
+      "bytes": 858,
+      "sha256": "502467a2057ff0ed0d3ecb56d394b9e9a8ec1f828ae1126898f13e56ccf58524"
+    },
+    {
+      "path": "tools/qwen_synthesize.py",
+      "bytes": 6234,
+      "sha256": "caacf2508228cc2efc73a8873f79833c477004cea882f69a13a2ee6273716ff3"
+    },
+    {
+      "path": "tools/record_intro.py",
+      "bytes": 38251,
+      "sha256": "5fe234f8a17697f08d1469df4fef5c2a1e5288a1a42f7b6f980f287b45c62e26"
+    },
+    {
+      "path": "tools/render_product_demo.py",
+      "bytes": 28586,
+      "sha256": "dd60340328f7d3fa444bf43135b76743adef289a23deb33b3dd53f12939430f6"
+    },
+    {
+      "path": "tools/verify_android_interactions.cjs",
+      "bytes": 10587,
+      "sha256": "d5fb80415ab64a901d0f37fc1587eef4679ecf9288ade450aa031c4d18776344"
+    },
+    {
+      "path": "tools/verify_audio.py",
+      "bytes": 935,
+      "sha256": "45e40cffb750f6b2afa4653363ab8676a5169093684c597c9157036422cb2fd7"
+    },
+    {
+      "path": "tools/verify_learning_logic.cjs",
+      "bytes": 15140,
+      "sha256": "9b67ed0acb45339309c2c246ea8168bda2bf2f2f434af12e315193d2500d1d43"
+    },
+    {
+      "path": "tools/verify_mobile_ui.py",
+      "bytes": 6425,
+      "sha256": "d2a8f5c9c5d1a7f3b6af39bb93c530a97324cb41f4e9d2bb3846119a65c55f88"
+    },
+    {
+      "path": "tools/verify_offline_audio.py",
+      "bytes": 3336,
+      "sha256": "f476bd8a714c3e3b1db50fbb033b383ed292216a91a99d6dbcbc4c400a2dc9d3"
+    },
+    {
+      "path": "tools/verify_phone_interactions.py",
+      "bytes": 9339,
+      "sha256": "d0e0b0843b072b4e157ec3db5f40a498985c81e47253f6a14e76398755e0feed"
+    },
+    {
+      "path": "启动应用.bat",
+      "bytes": 147,
+      "sha256": "9f88198e234f795f0d82fa975854b0c1f293ab388449ef3a1ea88dd29851c3da"
+    }
+  ],
+  "exclusions": [
+    "signing keys and credentials",
+    "work and outputs",
+    "model weights",
+    "all Microsoft-service audio binaries",
+    "unused Qwen course-audio packaging experiment",
+    "legacy duplicated android/assets web sources"
+  ]
+}

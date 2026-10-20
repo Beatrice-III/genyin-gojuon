@@ -1,0 +1,52 @@
+# Local builds, recordings, model weights, scratch files and release deliverables.
+/work/
+/outputs/
+/.venv/
+/venv/
+/.cache/
+**/__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.apk
+*.aab
+*.zip
+*.mp4
+*.mkv
+*.mov
+*.safetensors
+*.bin
+/源音五十音-B站封面.png
+
+# Signing identities are private. Each builder supplies their own key.
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+local.properties
+keystore.properties
+
+# The Android build copies root web sources; this inherited copy is obsolete.
+/android/assets/
+/android/build/
+/android/.gradle/
+
+# Speech-service recordings stay local; scripts and catalog are public.
+/assets/audio/**/*.mp3
+/assets/audio/**/*.wav
+/assets/audio/**/*.ogg
+/assets/audio/**/*.m4a
+/audio/
+/tools/pack_course_audio.py
+
+# Platform/editor files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

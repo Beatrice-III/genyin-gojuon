@@ -1,0 +1,5 @@
+[
+  {"id":"serena_01_question", "text":"这个假名，你能一眼认出来吗？", "speaker":"Serena"},
+  {"id":"serena_02_listen", "text":"先别急着点，听一遍。", "speaker":"Serena"},
+  {"id":"serena_03_review", "text":"刚才认错的字，又回来了。", "speaker":"Serena"}
+]

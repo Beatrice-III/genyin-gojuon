@@ -1,0 +1,6879 @@
+{
+  "version": 2,
+  "complete": true,
+  "provider": "Microsoft Edge TTS",
+  "audio": {
+    "あ": "assets/audio/ja/cc0414683fcad294.mp3",
+    "ア": "assets/audio/ja/cc0414683fcad294.mp3",
+    "あい": "assets/audio/ja/bbb61e22a67034f6.mp3",
+    "アイスクリーム": "assets/audio/ja/50113536328307c6.mp3",
+    "あさ": "assets/audio/ja/42932e1253ae273a.mp3",
+    "アニメ": "assets/audio/ja/eebc9fa16e6564d9.mp3",
+    "あめ": "assets/audio/ja/17c614408eb82378.mp3",
+    "あめ ① / ⓪": "assets/audio/ja/17c614408eb82378.mp3",
+    "あめ ①": "assets/audio/ja/17c614408eb82378.mp3",
+    "あんぜん": "assets/audio/ja/e81001fcd1a43a07.mp3",
+    "い": "assets/audio/ja/fe2abbb065219374.mp3",
+    "イ": "assets/audio/ja/fe2abbb065219374.mp3",
+    "いちご": "assets/audio/ja/4e98d9c2560d114d.mp3",
+    "いぬ": "assets/audio/ja/342c16d79d5edf3d.mp3",
+    "いのち": "assets/audio/ja/1239627e267f6c59.mp3",
+    "いみ": "assets/audio/ja/fbf599b3e2d1698d.mp3",
+    "いろ": "assets/audio/ja/76553685275d0fc5.mp3",
+    "ウ": "assets/audio/ja/a2c917ed47976070.mp3",
+    "う": "assets/audio/ja/a2c917ed47976070.mp3",
+    "うちゅう": "assets/audio/ja/000bcfe5993ef4c4.mp3",
+    "うみ": "assets/audio/ja/ed7daf5417e88803.mp3",
+    "うんめい": "assets/audio/ja/7c3a0264c9486c84.mp3",
+    "エ": "assets/audio/ja/eecec31a107a7ebe.mp3",
+    "え": "assets/audio/ja/eecec31a107a7ebe.mp3",
+    "えいえん": "assets/audio/ja/46fb9743956829ab.mp3",
+    "えがお": "assets/audio/ja/f52081cd8a8a96e6.mp3",
+    "えき": "assets/audio/ja/95f4cef464655c1b.mp3",
+    "えんぴつ": "assets/audio/ja/567f3cb53acaa76b.mp3",
+    "お": "assets/audio/ja/742a9775f938ecb8.mp3",
+    "オ": "assets/audio/ja/742a9775f938ecb8.mp3",
+    "おうこく": "assets/audio/ja/8860744dd35afa92.mp3",
+    "おちゃ": "assets/audio/ja/683f377fdcacf955.mp3",
+    "おちゃをのむ": "assets/audio/ja/91c6cf9a67f4c6d8.mp3",
+    "おとめ": "assets/audio/ja/fb41c08c8433c8ea.mp3",
+    "おばあさん": "assets/audio/ja/7e2e41274a3ad967.mp3",
+    "おんがく": "assets/audio/ja/890b8df4dda81896.mp3",
+    "か": "assets/audio/ja/58b33ac0b714eb0c.mp3",
+    "カ": "assets/audio/ja/58b33ac0b714eb0c.mp3",
+    "が": "assets/audio/ja/a6fdf6561ea5660d.mp3",
+    "ガ": "assets/audio/ja/a6fdf6561ea5660d.mp3",
+    "かがく": "assets/audio/ja/d070f7274878cd50.mp3",
+    "かさ": "assets/audio/ja/5019a816fe94f712.mp3",
+    "かぞく": "assets/audio/ja/e0db8983db649ea4.mp3",
+    "がっこう": "assets/audio/ja/a6468a711f97621e.mp3",
+    "かんじ": "assets/audio/ja/bb3c7b8377baa3c3.mp3",
+    "キ": "assets/audio/ja/ccfd059637c51571.mp3",
+    "き": "assets/audio/ja/ccfd059637c51571.mp3",
+    "ぎ": "assets/audio/ja/707ac6a9274e1c27.mp3",
+    "ギ": "assets/audio/ja/707ac6a9274e1c27.mp3",
+    "きおく": "assets/audio/ja/5a8f31413a6c44cc.mp3",
+    "きせつ": "assets/audio/ja/0b125007c83893a2.mp3",
+    "きって": "assets/audio/ja/d24862c9b585266c.mp3",
+    "きのう": "assets/audio/ja/9be26851a23002cf.mp3",
+    "きぼう": "assets/audio/ja/e36924e66a9785e9.mp3",
+    "キャ": "assets/audio/ja/e1999a706ca58ac9.mp3",
+    "きゃ": "assets/audio/ja/e1999a706ca58ac9.mp3",
+    "ギャ": "assets/audio/ja/44114f0c4627f990.mp3",
+    "ぎゃ": "assets/audio/ja/44114f0c4627f990.mp3",
+    "きゃく": "assets/audio/ja/fa2e2877cb08eeca.mp3",
+    "ぎゃく": "assets/audio/ja/b662800c82d44e67.mp3",
+    "きゅ": "assets/audio/ja/abdda5c8ae9cd4e8.mp3",
+    "キュ": "assets/audio/ja/abdda5c8ae9cd4e8.mp3",
+    "ギュ": "assets/audio/ja/f4c8496c1fbfd4e6.mp3",
+    "ぎゅ": "assets/audio/ja/f4c8496c1fbfd4e6.mp3",
+    "きゅう": "assets/audio/ja/309d99239db889a6.mp3",
+    "ぎゅうにく": "assets/audio/ja/1dd75df1b37276ab.mp3",
+    "ぎゅうにゅう": "assets/audio/ja/16e7a8e27a646312.mp3",
+    "キョ": "assets/audio/ja/3c71124c12c8c2b3.mp3",
+    "きょ": "assets/audio/ja/3c71124c12c8c2b3.mp3",
+    "ぎょ": "assets/audio/ja/59ae509ed5dce283.mp3",
+    "ギョ": "assets/audio/ja/59ae509ed5dce283.mp3",
+    "きょう": "assets/audio/ja/2003e37c9d80586f.mp3",
+    "きんぎょ": "assets/audio/ja/d2707dae60ad81eb.mp3",
+    "ぎんこう": "assets/audio/ja/cee10d0834462ecc.mp3",
+    "ク": "assets/audio/ja/04e90214eb604b8b.mp3",
+    "く": "assets/audio/ja/04e90214eb604b8b.mp3",
+    "グ": "assets/audio/ja/45fafeaedb4a60ed.mp3",
+    "ぐ": "assets/audio/ja/45fafeaedb4a60ed.mp3",
+    "くうき": "assets/audio/ja/f05cf6520f0b619e.mp3",
+    "くに": "assets/audio/ja/9071aa6aef1f93c0.mp3",
+    "くるま": "assets/audio/ja/2cc9291c16e5865c.mp3",
+    "ぐんたい": "assets/audio/ja/662590e6d77bef36.mp3",
+    "ケ": "assets/audio/ja/c0aa13d364e195c3.mp3",
+    "け": "assets/audio/ja/c0aa13d364e195c3.mp3",
+    "げ": "assets/audio/ja/9ef5982a774b7357.mp3",
+    "ゲ": "assets/audio/ja/9ef5982a774b7357.mp3",
+    "けいかく": "assets/audio/ja/1bc49b8c6b8d870c.mp3",
+    "けいざい": "assets/audio/ja/f0651c26d910be0f.mp3",
+    "けしき": "assets/audio/ja/f6a7b1e0a37ac0cb.mp3",
+    "げんき": "assets/audio/ja/4a9fef1f41bf899a.mp3",
+    "こ": "assets/audio/ja/264e8e6dc06294ec.mp3",
+    "コ": "assets/audio/ja/264e8e6dc06294ec.mp3",
+    "ご": "assets/audio/ja/0de6ac05494981a1.mp3",
+    "ゴ": "assets/audio/ja/0de6ac05494981a1.mp3",
+    "コーヒー": "assets/audio/ja/9ed1427c6866455f.mp3",
+    "こころ": "assets/audio/ja/7b637f63835e3e3e.mp3",
+    "こころ ②": "assets/audio/ja/7b637f63835e3e3e.mp3",
+    "こじん": "assets/audio/ja/63cc1c69354c2336.mp3",
+    "ことば": "assets/audio/ja/fc4e77d42c478253.mp3",
+    "ごびゅう": "assets/audio/ja/e5565c1a94c7a5db.mp3",
+    "コンビニ": "assets/audio/ja/43b75c09df431659.mp3",
+    "コンピュータ": "assets/audio/ja/58c38ed37a330abe.mp3",
+    "さ": "assets/audio/ja/d16bb75a1541ff4d.mp3",
+    "サ": "assets/audio/ja/d16bb75a1541ff4d.mp3",
+    "ざ": "assets/audio/ja/6e791c9917e91e21.mp3",
+    "ザ": "assets/audio/ja/6e791c9917e91e21.mp3",
+    "さいご": "assets/audio/ja/7faa4e8106466684.mp3",
+    "さくら ⓪": "assets/audio/ja/4014ba3d0abc2574.mp3",
+    "さくら": "assets/audio/ja/4014ba3d0abc2574.mp3",
+    "ざっし": "assets/audio/ja/876c45620059ae51.mp3",
+    "さんびゃく": "assets/audio/ja/2542f82677b2f90c.mp3",
+    "さんぽ": "assets/audio/ja/08afcffbd3a97c61.mp3",
+    "シ": "assets/audio/ja/b88b295dd12faf96.mp3",
+    "し": "assets/audio/ja/b88b295dd12faf96.mp3",
+    "じ": "assets/audio/ja/c3d0636c03373333.mp3",
+    "ジ": "assets/audio/ja/c3d0636c03373333.mp3",
+    "しあわせ": "assets/audio/ja/2227fa06db3fdf72.mp3",
+    "じかん": "assets/audio/ja/dab975cb358e6f6f.mp3",
+    "しぜん": "assets/audio/ja/06dd66c01b9638c1.mp3",
+    "シャ": "assets/audio/ja/cb604e4ebf74d304.mp3",
+    "しゃ": "assets/audio/ja/cb604e4ebf74d304.mp3",
+    "じゃ": "assets/audio/ja/e65ec13054bdc7fd.mp3",
+    "ジャ": "assets/audio/ja/e65ec13054bdc7fd.mp3",
+    "しゃしん": "assets/audio/ja/a73d1faa43eb7531.mp3",
+    "じゃま": "assets/audio/ja/9708f2fa04db1e16.mp3",
+    "しゅ": "assets/audio/ja/dab4a4fdb2f7b232.mp3",
+    "シュ": "assets/audio/ja/dab4a4fdb2f7b232.mp3",
+    "じゅ": "assets/audio/ja/0243d0980cf1b252.mp3",
+    "ジュ": "assets/audio/ja/0243d0980cf1b252.mp3",
+    "じゅう": "assets/audio/ja/5b950b6562145944.mp3",
+    "じゆう": "assets/audio/ja/f40efc7b0b23ea4d.mp3",
+    "しゅみ": "assets/audio/ja/e42d83dc7a743629.mp3",
+    "しょ": "assets/audio/ja/585135b6bc262857.mp3",
+    "ショ": "assets/audio/ja/585135b6bc262857.mp3",
+    "ジョ": "assets/audio/ja/b998712c882bbfa1.mp3",
+    "じょ": "assets/audio/ja/b998712c882bbfa1.mp3",
+    "しょくじ": "assets/audio/ja/56e47db75fda898c.mp3",
+    "じょせい": "assets/audio/ja/fb67a51764c73da1.mp3",
+    "しんぶん": "assets/audio/ja/6051409143eee204.mp3",
+    "しんらい": "assets/audio/ja/fc9e4955663e5612.mp3",
+    "す": "assets/audio/ja/203cbd3fa42b372e.mp3",
+    "ス": "assets/audio/ja/203cbd3fa42b372e.mp3",
+    "ず": "assets/audio/ja/7367e76f65dec510.mp3",
+    "ズ": "assets/audio/ja/7367e76f65dec510.mp3",
+    "すいようび": "assets/audio/ja/efc983faf717ebce.mp3",
+    "すき": "assets/audio/ja/57b064f4d3ba1650.mp3",
+    "すし": "assets/audio/ja/a3a8ae220a563ce9.mp3",
+    "スマホ": "assets/audio/ja/2ce5ff8c3c12707d.mp3",
+    "セ": "assets/audio/ja/02e4f6c68222bcbe.mp3",
+    "せ": "assets/audio/ja/02e4f6c68222bcbe.mp3",
+    "ぜ": "assets/audio/ja/74e5be0e35548ccf.mp3",
+    "ゼ": "assets/audio/ja/74e5be0e35548ccf.mp3",
+    "せいかつ": "assets/audio/ja/44393591513fc37f.mp3",
+    "せかい": "assets/audio/ja/51c7b6e9e2372cc5.mp3",
+    "せんせい": "assets/audio/ja/56be8dd6d7947624.mp3",
+    "ぜんぶ": "assets/audio/ja/f70f058d37d354a6.mp3",
+    "そ": "assets/audio/ja/2d545f275700384d.mp3",
+    "ソ": "assets/audio/ja/2d545f275700384d.mp3",
+    "ゾ": "assets/audio/ja/620555a166b4e450.mp3",
+    "ぞ": "assets/audio/ja/620555a166b4e450.mp3",
+    "そら": "assets/audio/ja/833fc13f3a180a04.mp3",
+    "そんざい": "assets/audio/ja/84a6463b7dcb089d.mp3",
+    "タ": "assets/audio/ja/e63b99ab88ba55f7.mp3",
+    "た": "assets/audio/ja/e63b99ab88ba55f7.mp3",
+    "ダ": "assets/audio/ja/833f47c6c67de443.mp3",
+    "だ": "assets/audio/ja/833f47c6c67de443.mp3",
+    "だいがく": "assets/audio/ja/ff111aea7ef0a48a.mp3",
+    "たいせつ": "assets/audio/ja/82ad1f98f7707b80.mp3",
+    "たいよう": "assets/audio/ja/c7470edfda4a4275.mp3",
+    "タクシー": "assets/audio/ja/9a5271d850ac41e1.mp3",
+    "たのしい": "assets/audio/ja/3cebcd06916e6c65.mp3",
+    "たべもの": "assets/audio/ja/2dd54a6dc9049411.mp3",
+    "ち": "assets/audio/ja/9f5bc4ec96d00707.mp3",
+    "チ": "assets/audio/ja/9f5bc4ec96d00707.mp3",
+    "ヂ": "assets/audio/ja/8fb9199ec2f5ed95.mp3",
+    "ぢ": "assets/audio/ja/8fb9199ec2f5ed95.mp3",
+    "ちから": "assets/audio/ja/8205c6c1282bd557.mp3",
+    "ちきゅう": "assets/audio/ja/1ea4fa4a4ad44acf.mp3",
+    "ちしき": "assets/audio/ja/4c0bb3ff2bca4ab6.mp3",
+    "ちず": "assets/audio/ja/9a140d604a22f561.mp3",
+    "ちゃ": "assets/audio/ja/ffcfce1b16f542fb.mp3",
+    "チャ": "assets/audio/ja/ffcfce1b16f542fb.mp3",
+    "チュ": "assets/audio/ja/12c51c4f5abcf579.mp3",
+    "ちゅ": "assets/audio/ja/12c51c4f5abcf579.mp3",
+    "ちゅうごく": "assets/audio/ja/5baf8b6423866345.mp3",
+    "チョ": "assets/audio/ja/7cb03c7868dc6c80.mp3",
+    "ちょ": "assets/audio/ja/7cb03c7868dc6c80.mp3",
+    "ちょうせん": "assets/audio/ja/523b94c01b7c9a1f.mp3",
+    "つ": "assets/audio/ja/330cc7cd72b22e56.mp3",
+    "ツ": "assets/audio/ja/330cc7cd72b22e56.mp3",
+    "ヅ": "assets/audio/ja/70097980c0403488.mp3",
+    "づ": "assets/audio/ja/70097980c0403488.mp3",
+    "つうしん": "assets/audio/ja/a7ef2f9abc3edc20.mp3",
+    "つき": "assets/audio/ja/864e368ca502a824.mp3",
+    "つづく": "assets/audio/ja/bb9f403149c45f45.mp3",
+    "つよい": "assets/audio/ja/dedb454e5d7d9649.mp3",
+    "て": "assets/audio/ja/855fe7c3feb08830.mp3",
+    "テ": "assets/audio/ja/855fe7c3feb08830.mp3",
+    "で": "assets/audio/ja/e8a1f34a906b1840.mp3",
+    "デ": "assets/audio/ja/e8a1f34a906b1840.mp3",
+    "てがみ": "assets/audio/ja/7b4a218ac8109ceb.mp3",
+    "てつどう": "assets/audio/ja/143184a6216f5e6f.mp3",
+    "テレビ": "assets/audio/ja/6db780ce1fe2605a.mp3",
+    "てんき": "assets/audio/ja/f5cc4f805b8df35c.mp3",
+    "てんぷら": "assets/audio/ja/e0901985ae91406d.mp3",
+    "でんわ": "assets/audio/ja/0f47614d7ac2c88c.mp3",
+    "と": "assets/audio/ja/c83b26ed8eeb982e.mp3",
+    "ト": "assets/audio/ja/c83b26ed8eeb982e.mp3",
+    "ド": "assets/audio/ja/16869425ede4cba3.mp3",
+    "ど": "assets/audio/ja/16869425ede4cba3.mp3",
+    "とうきょう": "assets/audio/ja/4c27128b2c0c8fb6.mp3",
+    "とけい": "assets/audio/ja/a736c861c5ebc016.mp3",
+    "ともだち": "assets/audio/ja/b95edd8a7846c641.mp3",
+    "どりょく": "assets/audio/ja/996acfa6b7ff5524.mp3",
+    "な": "assets/audio/ja/ca9e39de80bd89cb.mp3",
+    "ナ": "assets/audio/ja/ca9e39de80bd89cb.mp3",
+    "なつ": "assets/audio/ja/a8956eaffec66b27.mp3",
+    "なまえ": "assets/audio/ja/beb0a83cad77295a.mp3",
+    "なみだ": "assets/audio/ja/de81959019873fe6.mp3",
+    "に": "assets/audio/ja/1048957f687ee3dc.mp3",
+    "ニ": "assets/audio/ja/1048957f687ee3dc.mp3",
+    "にじ": "assets/audio/ja/b1df623a7e9eec42.mp3",
+    "にっぽん": "assets/audio/ja/df24410ad6bda31b.mp3",
+    "にほん": "assets/audio/ja/4036a2915803ade4.mp3",
+    "にほんご": "assets/audio/ja/c6a98cfbb2462c18.mp3",
+    "ニャ": "assets/audio/ja/b3c4cc75a7df002d.mp3",
+    "にゃ": "assets/audio/ja/b3c4cc75a7df002d.mp3",
+    "にゃんこ": "assets/audio/ja/cda3e7bb2d443818.mp3",
+    "ニュ": "assets/audio/ja/d1739781861ef81a.mp3",
+    "にゅ": "assets/audio/ja/d1739781861ef81a.mp3",
+    "にょ": "assets/audio/ja/c35999a2f876f938.mp3",
+    "ニョ": "assets/audio/ja/c35999a2f876f938.mp3",
+    "にょうぼう": "assets/audio/ja/7d4f2e3c06664308.mp3",
+    "にんげん": "assets/audio/ja/8279d6301b6d706e.mp3",
+    "ぬ": "assets/audio/ja/fb9c85ae9dc7510d.mp3",
+    "ヌ": "assets/audio/ja/fb9c85ae9dc7510d.mp3",
+    "ぬくもり": "assets/audio/ja/7b931507edda8cdd.mp3",
+    "ぬの": "assets/audio/ja/92ae0ebfdd6dc456.mp3",
+    "ネ": "assets/audio/ja/160380aa745abfd6.mp3",
+    "ね": "assets/audio/ja/160380aa745abfd6.mp3",
+    "ねがい": "assets/audio/ja/e30bb9fa3d4dd059.mp3",
+    "ねこ": "assets/audio/ja/c0195a97542ecdc1.mp3",
+    "ねつ": "assets/audio/ja/9d60c81fcc8b8cd3.mp3",
+    "の": "assets/audio/ja/b02dcfe6d1f97601.mp3",
+    "ノ": "assets/audio/ja/b02dcfe6d1f97601.mp3",
+    "のうりょく": "assets/audio/ja/22a62bc8637c786e.mp3",
+    "ハ": "assets/audio/ja/9ebc6318fcfe7c3b.mp3",
+    "は": "assets/audio/ja/9ebc6318fcfe7c3b.mp3",
+    "バ": "assets/audio/ja/5ff591e99e088372.mp3",
+    "ば": "assets/audio/ja/5ff591e99e088372.mp3",
+    "パ": "assets/audio/ja/b12aa4959f9e6eac.mp3",
+    "ぱ": "assets/audio/ja/b12aa4959f9e6eac.mp3",
+    "はし": "assets/audio/ja/7d9d47d68906587d.mp3",
+    "はし ① / ②": "assets/audio/ja/7d9d47d68906587d.mp3",
+    "はし ①": "assets/audio/ja/7d9d47d68906587d.mp3",
+    "ばしょ": "assets/audio/ja/85a5a3e853abaed0.mp3",
+    "はっぴょう": "assets/audio/ja/6fee87ed851f722e.mp3",
+    "はな": "assets/audio/ja/06cf6df6b53c07a0.mp3",
+    "はなぢ": "assets/audio/ja/4d7ee4b5d3a9105a.mp3",
+    "はは": "assets/audio/ja/2be00470e35f3d2d.mp3",
+    "はる": "assets/audio/ja/310911911e14eb8f.mp3",
+    "パン": "assets/audio/ja/3e3b44b2d12c5c21.mp3",
+    "はんたい": "assets/audio/ja/6b4df347cc113551.mp3",
+    "ヒ": "assets/audio/ja/db8a1fde78f7c14f.mp3",
+    "ひ": "assets/audio/ja/db8a1fde78f7c14f.mp3",
+    "び": "assets/audio/ja/c0e85206ef82033a.mp3",
+    "ビ": "assets/audio/ja/c0e85206ef82033a.mp3",
+    "ぴ": "assets/audio/ja/eee305188d00414d.mp3",
+    "ピ": "assets/audio/ja/eee305188d00414d.mp3",
+    "ひかく": "assets/audio/ja/da3607286dd482ff.mp3",
+    "ひかり": "assets/audio/ja/afc80cd333216b01.mp3",
+    "びじゅつ": "assets/audio/ja/4e14b8c0e59deeec.mp3",
+    "ひみつ": "assets/audio/ja/16ec0ae807dd6bc7.mp3",
+    "ひゃ": "assets/audio/ja/66e6d81671246f80.mp3",
+    "ヒャ": "assets/audio/ja/66e6d81671246f80.mp3",
+    "びゃ": "assets/audio/ja/e6f7f6f6cb54bef5.mp3",
+    "ビャ": "assets/audio/ja/e6f7f6f6cb54bef5.mp3",
+    "ぴゃ": "assets/audio/ja/ad445dccc2ac916e.mp3",
+    "ピャ": "assets/audio/ja/ad445dccc2ac916e.mp3",
+    "ひゃく": "assets/audio/ja/4ee8752571ca1128.mp3",
+    "ヒュ": "assets/audio/ja/f8efa3e7899a376d.mp3",
+    "ひゅ": "assets/audio/ja/f8efa3e7899a376d.mp3",
+    "びゅ": "assets/audio/ja/5351f40e9a40142d.mp3",
+    "ビュ": "assets/audio/ja/5351f40e9a40142d.mp3",
+    "ぴゅ": "assets/audio/ja/d45d52d0fe7ec3aa.mp3",
+    "ピュ": "assets/audio/ja/d45d52d0fe7ec3aa.mp3",
+    "ひゅうが": "assets/audio/ja/8442fe1e523a95cb.mp3",
+    "ヒョ": "assets/audio/ja/d98f090f3e1bd915.mp3",
+    "ひょ": "assets/audio/ja/d98f090f3e1bd915.mp3",
+    "びょ": "assets/audio/ja/6ce5985006f9eaa0.mp3",
+    "ビョ": "assets/audio/ja/6ce5985006f9eaa0.mp3",
+    "ぴょ": "assets/audio/ja/3a60708510015768.mp3",
+    "ピョ": "assets/audio/ja/3a60708510015768.mp3",
+    "びょういん": "assets/audio/ja/5e997d89d1b38254.mp3",
+    "ひょうげん": "assets/audio/ja/be8c7534a2de318d.mp3",
+    "ひる": "assets/audio/ja/e241708ae33713e4.mp3",
+    "フ": "assets/audio/ja/40e921412c910714.mp3",
+    "ふ": "assets/audio/ja/40e921412c910714.mp3",
+    "ブ": "assets/audio/ja/555ab3475f8471a9.mp3",
+    "ぶ": "assets/audio/ja/555ab3475f8471a9.mp3",
+    "プ": "assets/audio/ja/d84cbcd6e41c8bee.mp3",
+    "ぷ": "assets/audio/ja/d84cbcd6e41c8bee.mp3",
+    "ふじさん": "assets/audio/ja/9b766986d617d01b.mp3",
+    "ふつう": "assets/audio/ja/da74162987706634.mp3",
+    "ふゆ": "assets/audio/ja/89c5324eaa34f11e.mp3",
+    "ぶんか": "assets/audio/ja/180ad2a6680f3e2e.mp3",
+    "ヘ": "assets/audio/ja/242d5f4e5a66e999.mp3",
+    "へ": "assets/audio/ja/242d5f4e5a66e999.mp3",
+    "ベ": "assets/audio/ja/e3b2810cd234821e.mp3",
+    "べ": "assets/audio/ja/e3b2810cd234821e.mp3",
+    "ペ": "assets/audio/ja/be0d32a18ad19303.mp3",
+    "ぺ": "assets/audio/ja/be0d32a18ad19303.mp3",
+    "ページ": "assets/audio/ja/e10443cc8066e064.mp3",
+    "へいわ": "assets/audio/ja/99fe071ef7e12a70.mp3",
+    "へや": "assets/audio/ja/8be715a6ae87582a.mp3",
+    "へんか": "assets/audio/ja/1b5a25b185ae52a6.mp3",
+    "べんきょう": "assets/audio/ja/f65711e2fae205d8.mp3",
+    "ホ": "assets/audio/ja/91642cf333e192b9.mp3",
+    "ほ": "assets/audio/ja/91642cf333e192b9.mp3",
+    "ボ": "assets/audio/ja/b07ae79d6a2885a5.mp3",
+    "ぼ": "assets/audio/ja/b07ae79d6a2885a5.mp3",
+    "ぽ": "assets/audio/ja/751aa5da4516ecb8.mp3",
+    "ポ": "assets/audio/ja/751aa5da4516ecb8.mp3",
+    "ほし": "assets/audio/ja/32c323ce5a1fc8f4.mp3",
+    "ほしょう": "assets/audio/ja/67d659a7f8f1843a.mp3",
+    "ホテル": "assets/audio/ja/9272497f8f39dcf1.mp3",
+    "ほんとう": "assets/audio/ja/6d108737326de512.mp3",
+    "ほんをよむ": "assets/audio/ja/c2fa216852ebff99.mp3",
+    "ま": "assets/audio/ja/ef2ab4710f0d685f.mp3",
+    "マ": "assets/audio/ja/ef2ab4710f0d685f.mp3",
+    "まち": "assets/audio/ja/bd7a7a5a2c324343.mp3",
+    "まほう": "assets/audio/ja/88c848dc1b94e56f.mp3",
+    "まんが": "assets/audio/ja/e8d52403b447f111.mp3",
+    "み": "assets/audio/ja/d38e8b96388c54de.mp3",
+    "ミ": "assets/audio/ja/d38e8b96388c54de.mp3",
+    "みず": "assets/audio/ja/f939fb04cd9b234b.mp3",
+    "みゃ": "assets/audio/ja/4f3325fdf3584006.mp3",
+    "ミャ": "assets/audio/ja/4f3325fdf3584006.mp3",
+    "みゃく": "assets/audio/ja/31507bf2ca534e58.mp3",
+    "ミュ": "assets/audio/ja/c24867d158b2dcce.mp3",
+    "みゅ": "assets/audio/ja/c24867d158b2dcce.mp3",
+    "ミュージック": "assets/audio/ja/7f7612f073dac0ac.mp3",
+    "みょ": "assets/audio/ja/1bd65ff1a3820215.mp3",
+    "ミョ": "assets/audio/ja/1bd65ff1a3820215.mp3",
+    "みょうじ": "assets/audio/ja/4735d4ea53ff2e62.mp3",
+    "みらい": "assets/audio/ja/db28a5577fe6643a.mp3",
+    "みりょく": "assets/audio/ja/2622a7d380fda064.mp3",
+    "む": "assets/audio/ja/f732f18140444887.mp3",
+    "ム": "assets/audio/ja/f732f18140444887.mp3",
+    "むすめ": "assets/audio/ja/b966485dc2aed8f5.mp3",
+    "むね": "assets/audio/ja/3f7fc0d4b8db5f7b.mp3",
+    "むりょう": "assets/audio/ja/640d5c51d6bb470b.mp3",
+    "め": "assets/audio/ja/7439f6ea0e0993fc.mp3",
+    "メ": "assets/audio/ja/7439f6ea0e0993fc.mp3",
+    "めいれい": "assets/audio/ja/a14ac9f2a81343da.mp3",
+    "も": "assets/audio/ja/cab3902f2e6aa9a2.mp3",
+    "モ": "assets/audio/ja/cab3902f2e6aa9a2.mp3",
+    "もくてき": "assets/audio/ja/74c8359a784715e7.mp3",
+    "もも": "assets/audio/ja/86358c52476ed18e.mp3",
+    "もんだい": "assets/audio/ja/f6ff96dfd8850e59.mp3",
+    "ヤ": "assets/audio/ja/6427c9ec21edc6c1.mp3",
+    "や": "assets/audio/ja/6427c9ec21edc6c1.mp3",
+    "やくそく": "assets/audio/ja/ae852478559e6aab.mp3",
+    "やさしい": "assets/audio/ja/aaf1c7ded22e60b0.mp3",
+    "やま": "assets/audio/ja/b703ed921c5973e1.mp3",
+    "ユ": "assets/audio/ja/4b16a80a29790ee1.mp3",
+    "ゆ": "assets/audio/ja/4b16a80a29790ee1.mp3",
+    "ゆき": "assets/audio/ja/878ba6b095817831.mp3",
+    "ゆめ": "assets/audio/ja/14ff15f8b132d039.mp3",
+    "ゆめをみる": "assets/audio/ja/62b47ee6d2650db6.mp3",
+    "ヨ": "assets/audio/ja/f65ffc43be2c8917.mp3",
+    "よ": "assets/audio/ja/f65ffc43be2c8917.mp3",
+    "ようこそ": "assets/audio/ja/c73b02c3eb294563.mp3",
+    "よやく": "assets/audio/ja/5b60204a159c5ba6.mp3",
+    "よる": "assets/audio/ja/145f2faf8c22dc50.mp3",
+    "ら": "assets/audio/ja/0b9f5346bb00d6dd.mp3",
+    "ラ": "assets/audio/ja/0b9f5346bb00d6dd.mp3",
+    "らいねん": "assets/audio/ja/38c3ab99c3355b24.mp3",
+    "らく": "assets/audio/ja/98b51d6a3d8badc8.mp3",
+    "り": "assets/audio/ja/b9b855591d39a29d.mp3",
+    "リ": "assets/audio/ja/b9b855591d39a29d.mp3",
+    "リャ": "assets/audio/ja/607281d9dd74348d.mp3",
+    "りゃ": "assets/audio/ja/607281d9dd74348d.mp3",
+    "りゃくご": "assets/audio/ja/04a3fda84d78ce17.mp3",
+    "りゅ": "assets/audio/ja/00107f373d26e58d.mp3",
+    "リュ": "assets/audio/ja/00107f373d26e58d.mp3",
+    "りゅう": "assets/audio/ja/bdd52eb148a349c3.mp3",
+    "りゆう": "assets/audio/ja/886e1e2641035678.mp3",
+    "りょ": "assets/audio/ja/f244212833b90e9d.mp3",
+    "リョ": "assets/audio/ja/f244212833b90e9d.mp3",
+    "りよう": "assets/audio/ja/9869a387b7927898.mp3",
+    "りょうしん": "assets/audio/ja/26ee80ee8756d5e2.mp3",
+    "りょこう": "assets/audio/ja/41b1ee2f39f324ae.mp3",
+    "りんご": "assets/audio/ja/b211c12d6fb39fea.mp3",
+    "る": "assets/audio/ja/10230c78567d386d.mp3",
+    "ル": "assets/audio/ja/10230c78567d386d.mp3",
+    "るす": "assets/audio/ja/1638625170c170ed.mp3",
+    "レ": "assets/audio/ja/b7137290082d9ab3.mp3",
+    "れ": "assets/audio/ja/b7137290082d9ab3.mp3",
+    "れいぎ": "assets/audio/ja/508f6eadd7767f66.mp3",
+    "れきし": "assets/audio/ja/90e304ee10425db1.mp3",
+    "れんあい": "assets/audio/ja/e5c2624818514f20.mp3",
+    "ロ": "assets/audio/ja/4cfbe7407babedff.mp3",
+    "ろ": "assets/audio/ja/4cfbe7407babedff.mp3",
+    "ろく": "assets/audio/ja/a585e39926f77b88.mp3",
+    "ろっぴゃく": "assets/audio/ja/201e2a95ed6befb8.mp3",
+    "わ": "assets/audio/ja/7c4c3ad8faa1cf12.mp3",
+    "ワ": "assets/audio/ja/7c4c3ad8faa1cf12.mp3",
+    "わしょく": "assets/audio/ja/2c6a7c22f28d5dc2.mp3",
+    "わたし": "assets/audio/ja/3e5676b36e2edcaa.mp3",
+    "ヲ": "assets/audio/ja/51eeb7e487054b1b.mp3",
+    "を": "assets/audio/ja/51eeb7e487054b1b.mp3",
+    "ン": "assets/audio/ja/d424e99224403d16.mp3",
+    "ん": "assets/audio/ja/d424e99224403d16.mp3"
+  },
+  "chinese": {
+    "三": "assets/audio/zh/0dcce3d606e2b0cf.mp3",
+    "不": "assets/audio/zh/d0d02686cc0780b6.mp3",
+    "与": "assets/audio/zh/01540f35e5838a1d.mp3",
+    "世": "assets/audio/zh/7d16a39bcbc18312.mp3",
+    "乃": "assets/audio/zh/dc7f3b81f15e2879.mp3",
+    "久": "assets/audio/zh/c686218787a7d506.mp3",
+    "之": "assets/audio/zh/dbab8d528aa6e4c6.mp3",
+    "乎": "assets/audio/zh/35a2bbf180cffe1d.mp3",
+    "也": "assets/audio/zh/cf6deba7aec74a86.mp3",
+    "仁": "assets/audio/zh/64300ccd3f0400fe.mp3",
+    "介": "assets/audio/zh/a88f845dc1b35e0f.mp3",
+    "以": "assets/audio/zh/c7f78f4b99470505.mp3",
+    "伊": "assets/audio/zh/72722f35ccdbd318.mp3",
+    "保": "assets/audio/zh/79922a99aa3ddfa7.mp3",
+    "八": "assets/audio/zh/f2b0d56e39f66ada.mp3",
+    "利": "assets/audio/zh/5618091e677ba0e7.mp3",
+    "加": "assets/audio/zh/095299b57918d4a0.mp3",
+    "千": "assets/audio/zh/313d72cc0e60cd67.mp3",
+    "呂": "assets/audio/zh/c82dd769f611e05e.mp3",
+    "和": "assets/audio/zh/2687327b8315debb.mp3",
+    "多": "assets/audio/zh/0f780aea29669759.mp3",
+    "天": "assets/audio/zh/83298f90d500a92f.mp3",
+    "太": "assets/audio/zh/88850b55ac0f369f.mp3",
+    "奈": "assets/audio/zh/99f98b1028c3ac11.mp3",
+    "女": "assets/audio/zh/4c9d075a38c3e16d.mp3",
+    "奴": "assets/audio/zh/3e31e010d720192a.mp3",
+    "宇": "assets/audio/zh/8ec880633c5b7b06.mp3",
+    "安": "assets/audio/zh/aaa6deb1650da27a.mp3",
+    "寸": "assets/audio/zh/7b5b636b0610d497.mp3",
+    "川": "assets/audio/zh/642efa5d0a1d0397.mp3",
+    "左": "assets/audio/zh/10c2b578b9f52975.mp3",
+    "己": "assets/audio/zh/02eadc5ee6b56b10.mp3",
+    "幾": "assets/audio/zh/46ca396a39fcc74b.mp3",
+    "散": "assets/audio/zh/23715e7ac3094453.mp3",
+    "於": "assets/audio/zh/7e47a6be9caab766.mp3",
+    "无": "assets/audio/zh/dc2f9b6b6c58d5ba.mp3",
+    "曽": "assets/audio/zh/9fef9c84728cdde2.mp3",
+    "末": "assets/audio/zh/b1308dabb741fb76.mp3",
+    "止": "assets/audio/zh/80cf44098a149855.mp3",
+    "武": "assets/audio/zh/8662184c2af56262.mp3",
+    "比": "assets/audio/zh/1e01f1d2fe027d6a.mp3",
+    "毛": "assets/audio/zh/f186a73ab9f6d83f.mp3",
+    "江": "assets/audio/zh/c69853e196eb2fb4.mp3",
+    "波": "assets/audio/zh/55d1c89c246a1cd4.mp3",
+    "流": "assets/audio/zh/ecf20dfd4dcd3c90.mp3",
+    "爾": "assets/audio/zh/baf057783d3ae8a4.mp3",
+    "牟": "assets/audio/zh/cc6469321624fc3b.mp3",
+    "由": "assets/audio/zh/e028d73c43986984.mp3",
+    "留": "assets/audio/zh/75c119fd7bd4186d.mp3",
+    "知": "assets/audio/zh/a39de76968e360ae.mp3",
+    "礼": "assets/audio/zh/988b1fce0f6e7145.mp3",
+    "祢": "assets/audio/zh/e0961f849953480e.mp3",
+    "美": "assets/audio/zh/1ffe96cc12e1d51b.mp3",
+    "良": "assets/audio/zh/c5d7ade50e0fc0c3.mp3",
+    "衣": "assets/audio/zh/9052a05ef3cf927b.mp3",
+    "計": "assets/audio/zh/94856308ad3a027a.mp3",
+    "遠": "assets/audio/zh/1fae474e3304254a.mp3",
+    "部": "assets/audio/zh/8340ca03a0743d2e.mp3",
+    "阿": "assets/audio/zh/257d272912caf569.mp3",
+    "須": "assets/audio/zh/eb1c0c804c464c06.mp3"
+  },
+  "records": [
+    {
+      "lang": "ja",
+      "text": "あ",
+      "aliases": [
+        "あ",
+        "ア"
+      ],
+      "sources": [
+        "kana:a"
+      ],
+      "id": "cc0414683fcad294",
+      "path": "assets/audio/ja/cc0414683fcad294.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "c83b7f40e9c280eefba42167b3f2862ca99abe78c2a16178ebe2da5847214c44",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "あい",
+      "aliases": [
+        "あい"
+      ],
+      "sources": [
+        "word:a"
+      ],
+      "id": "bbb61e22a67034f6",
+      "path": "assets/audio/ja/bbb61e22a67034f6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "db65b5dd4c19a74f9c7f5ec3135bd474723e54d5976e8eff4a3abe81273aacd7",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "アイスクリーム",
+      "aliases": [
+        "アイスクリーム"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "50113536328307c6",
+      "path": "assets/audio/ja/50113536328307c6.mp3",
+      "duration": 2.28,
+      "bytes": 18860,
+      "sha256": "7f05f53c0277395ff9adc0250654bff8ce28a1b1d15767b804f8175f08f103c5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "あさ",
+      "aliases": [
+        "あさ"
+      ],
+      "sources": [
+        "word:a"
+      ],
+      "id": "42932e1253ae273a",
+      "path": "assets/audio/ja/42932e1253ae273a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "59c2695509f16a2c80c06aa28c2d7c30fd58269709f842ed88c4b452e4d7a1ec",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "アニメ",
+      "aliases": [
+        "アニメ"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "eebc9fa16e6564d9",
+      "path": "assets/audio/ja/eebc9fa16e6564d9.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ecd2a4cc675dafdb744f5169b7fbd380d3ee692e2c2ab84354df5fd0b95a5cb7",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "あめ",
+      "aliases": [
+        "あめ",
+        "あめ ① / ⓪",
+        "あめ ①"
+      ],
+      "sources": [
+        "word:me",
+        "special:高低声调（Pitch Accent）",
+        "special-example:高低声调（Pitch Accent）"
+      ],
+      "id": "17c614408eb82378",
+      "path": "assets/audio/ja/17c614408eb82378.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "73474556595028454b2ef72a5fe4de21aecd7bca2b89857c461fb60237ab1e57",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "あんぜん",
+      "aliases": [
+        "あんぜん"
+      ],
+      "sources": [
+        "word:a",
+        "special:拨音（ん / ン）",
+        "special-example:拨音（ん / ン）",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "e81001fcd1a43a07",
+      "path": "assets/audio/ja/e81001fcd1a43a07.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b391e3619460c82f0792e01052077583f2c30988751bb33a73af6f4afaa751b1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "い",
+      "aliases": [
+        "い",
+        "イ"
+      ],
+      "sources": [
+        "kana:i"
+      ],
+      "id": "fe2abbb065219374",
+      "path": "assets/audio/ja/fe2abbb065219374.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "95eef925b625ff81c1e3164b37e12ab81b5a6e46b55d3546c31913076f9a2e61",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "いちご",
+      "aliases": [
+        "いちご"
+      ],
+      "sources": [
+        "word:i"
+      ],
+      "id": "4e98d9c2560d114d",
+      "path": "assets/audio/ja/4e98d9c2560d114d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b0071181a18caae322e7952b1d75ecd70f2a59baae6883e8661878bf87aaa03e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "いぬ",
+      "aliases": [
+        "いぬ"
+      ],
+      "sources": [
+        "word:nu"
+      ],
+      "id": "342c16d79d5edf3d",
+      "path": "assets/audio/ja/342c16d79d5edf3d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "590103c6f279f5fb7dd16a9beb1f31f7218893ce963317a17d78ef9f170039b9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "いのち",
+      "aliases": [
+        "いのち"
+      ],
+      "sources": [
+        "word:i"
+      ],
+      "id": "1239627e267f6c59",
+      "path": "assets/audio/ja/1239627e267f6c59.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "55b66296284afe5904e840476c621fb881c661a7ae698b1b382fae9a8a032daa",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "いみ",
+      "aliases": [
+        "いみ"
+      ],
+      "sources": [
+        "word:i"
+      ],
+      "id": "fbf599b3e2d1698d",
+      "path": "assets/audio/ja/fbf599b3e2d1698d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "09a43ffdc42edcab1d0f3651155fced2b057f2a390776e1e753e792891d0a924",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "いろ",
+      "aliases": [
+        "いろ"
+      ],
+      "sources": [
+        "word:ro"
+      ],
+      "id": "76553685275d0fc5",
+      "path": "assets/audio/ja/76553685275d0fc5.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a95fbb27945dabb15768ec36f4a04e61b780a3178c29928c935fcfb73f303332",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "う",
+      "aliases": [
+        "う",
+        "ウ"
+      ],
+      "sources": [
+        "kana:u"
+      ],
+      "id": "a2c917ed47976070",
+      "path": "assets/audio/ja/a2c917ed47976070.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "427a8ff05b6407a2e3874c08a8b73b79a486402458731c2e26f7f12543c3bfbc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "うちゅう",
+      "aliases": [
+        "うちゅう"
+      ],
+      "sources": [
+        "word:u",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "000bcfe5993ef4c4",
+      "path": "assets/audio/ja/000bcfe5993ef4c4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7a215af00798723569fde8e33cddba5a9966b274a310987cee8a5d8131c7df1a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "うみ",
+      "aliases": [
+        "うみ"
+      ],
+      "sources": [
+        "word:u"
+      ],
+      "id": "ed7daf5417e88803",
+      "path": "assets/audio/ja/ed7daf5417e88803.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a47f4a3e6efb4eca7bc0c6f64f705067cb2f5e69d0ccc309055f0594df664d77",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "うんめい",
+      "aliases": [
+        "うんめい"
+      ],
+      "sources": [
+        "word:u"
+      ],
+      "id": "7c3a0264c9486c84",
+      "path": "assets/audio/ja/7c3a0264c9486c84.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e6998409af49d295249eb8dbab74e1fb3881a8ba3f3d13661d6fab39ad940bb9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "え",
+      "aliases": [
+        "え",
+        "エ"
+      ],
+      "sources": [
+        "kana:e"
+      ],
+      "id": "eecec31a107a7ebe",
+      "path": "assets/audio/ja/eecec31a107a7ebe.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "2048ed710126c1563a0c91b7c64da6e63fa67cfa4fe72f86948b1d78ed93176e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "えいえん",
+      "aliases": [
+        "えいえん"
+      ],
+      "sources": [
+        "word:e",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "46fb9743956829ab",
+      "path": "assets/audio/ja/46fb9743956829ab.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3073b145137a8d1175980a92c8419097480f5809cd72997ae66798406083c501",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "えがお",
+      "aliases": [
+        "えがお"
+      ],
+      "sources": [
+        "word:e"
+      ],
+      "id": "f52081cd8a8a96e6",
+      "path": "assets/audio/ja/f52081cd8a8a96e6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cc8e1ef62a1952c2759f0d35dac227b6fe39e886b9e2e38f35ca37014c4a303d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "えき",
+      "aliases": [
+        "えき"
+      ],
+      "sources": [
+        "word:e"
+      ],
+      "id": "95f4cef464655c1b",
+      "path": "assets/audio/ja/95f4cef464655c1b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "658576fc95f36db8a453f3f3be5f931657171867853b94299a8630403acdf590",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "えんぴつ",
+      "aliases": [
+        "えんぴつ"
+      ],
+      "sources": [
+        "dakuon-word:pi"
+      ],
+      "id": "567f3cb53acaa76b",
+      "path": "assets/audio/ja/567f3cb53acaa76b.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "af116fa9101904d46d325614d533246ec13d7dc5a28165ae40029e7d04a57e38",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "お",
+      "aliases": [
+        "お",
+        "オ"
+      ],
+      "sources": [
+        "kana:o"
+      ],
+      "id": "742a9775f938ecb8",
+      "path": "assets/audio/ja/742a9775f938ecb8.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "b24915300038fba8332d6bd4bcf6f5abed9035f1586e639acab0a7be1d9522e6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おうこく",
+      "aliases": [
+        "おうこく"
+      ],
+      "sources": [
+        "word:o"
+      ],
+      "id": "8860744dd35afa92",
+      "path": "assets/audio/ja/8860744dd35afa92.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "4083047eabde69fb2d60b5499ee298239a5c636c3593588ea143995796ae3aad",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おちゃ",
+      "aliases": [
+        "おちゃ"
+      ],
+      "sources": [
+        "word:o",
+        "yoon-word:cha"
+      ],
+      "id": "683f377fdcacf955",
+      "path": "assets/audio/ja/683f377fdcacf955.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6d77fd12110f344794bff74909acc46df7c6bc4c08b3bd2309327868b32cd48e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おちゃをのむ",
+      "aliases": [
+        "おちゃをのむ"
+      ],
+      "sources": [
+        "word:wo"
+      ],
+      "id": "91c6cf9a67f4c6d8",
+      "path": "assets/audio/ja/91c6cf9a67f4c6d8.mp3",
+      "duration": 2.16,
+      "bytes": 17900,
+      "sha256": "be41156dd8a9ba7c21096f5c7656d38b72236146a3250d862b038e2f8405a609",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おとめ",
+      "aliases": [
+        "おとめ"
+      ],
+      "sources": [
+        "word:me"
+      ],
+      "id": "fb41c08c8433c8ea",
+      "path": "assets/audio/ja/fb41c08c8433c8ea.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c698652eebcac3e3d4668937e3091e845153dc043d7762a7c5799e30d4fe9299",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おばあさん",
+      "aliases": [
+        "おばあさん"
+      ],
+      "sources": [
+        "special:长音（ー / 母音延展）",
+        "special-example:长音（ー / 母音延展）"
+      ],
+      "id": "7e2e41274a3ad967",
+      "path": "assets/audio/ja/7e2e41274a3ad967.mp3",
+      "duration": 2.088,
+      "bytes": 17324,
+      "sha256": "cd281ed5b2c5f6fbb970cb269f3222d1f8019cf895aa80bd785d8f53f6810d0d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "おんがく",
+      "aliases": [
+        "おんがく"
+      ],
+      "sources": [
+        "word:o",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "890b8df4dda81896",
+      "path": "assets/audio/ja/890b8df4dda81896.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "b4fd6a8cb36a09e88bedd64ba87262768f1258b2024b3b91501c245d3606bb0c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "か",
+      "aliases": [
+        "か",
+        "カ"
+      ],
+      "sources": [
+        "kana:ka"
+      ],
+      "id": "58b33ac0b714eb0c",
+      "path": "assets/audio/ja/58b33ac0b714eb0c.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "0fd4a513fd67433873ed9b771323556fc44fc14281e023dd6a91f935a21f0ebf",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "が",
+      "aliases": [
+        "が",
+        "ガ"
+      ],
+      "sources": [
+        "dakuon:ga"
+      ],
+      "id": "a6fdf6561ea5660d",
+      "path": "assets/audio/ja/a6fdf6561ea5660d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "14a8b65b767a7387594b99b4540016d3743ae5c3f16f26f7800ee12810249498",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "かがく",
+      "aliases": [
+        "かがく"
+      ],
+      "sources": [
+        "word:ka"
+      ],
+      "id": "d070f7274878cd50",
+      "path": "assets/audio/ja/d070f7274878cd50.mp3",
+      "duration": 1.896,
+      "bytes": 15788,
+      "sha256": "bc56539e1d38f307da63e48829a6a2fa49ce536b34b902cea7b29db753f99abd",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "かさ",
+      "aliases": [
+        "かさ"
+      ],
+      "sources": [
+        "word:ka"
+      ],
+      "id": "5019a816fe94f712",
+      "path": "assets/audio/ja/5019a816fe94f712.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "15691a8597827c8f4ce4a1de5e94f13c8f4d3c8dd76447f441f8d46b01685657",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "かぞく",
+      "aliases": [
+        "かぞく"
+      ],
+      "sources": [
+        "word:ka",
+        "dakuon-word:zo",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "e0db8983db649ea4",
+      "path": "assets/audio/ja/e0db8983db649ea4.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "0b17eb8fe63e04fe642f04c6e6accce83060e6241c68f838e1c9bdc513cf5324",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "がっこう",
+      "aliases": [
+        "がっこう"
+      ],
+      "sources": [
+        "dakuon-word:ga",
+        "special:促音（っ / ッ）",
+        "special-example:促音（っ / ッ）",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "a6468a711f97621e",
+      "path": "assets/audio/ja/a6468a711f97621e.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "b4588a62db3e4f16c7ed40800b99f1aaeca72b222d81671ab5105c34f148257a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "かんじ",
+      "aliases": [
+        "かんじ"
+      ],
+      "sources": [
+        "word:n"
+      ],
+      "id": "bb3c7b8377baa3c3",
+      "path": "assets/audio/ja/bb3c7b8377baa3c3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0389143ea3476301133d53ba2bd24126030f59fd0fad6318bababc5fb5d0f539",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "き",
+      "aliases": [
+        "き",
+        "キ"
+      ],
+      "sources": [
+        "kana:ki"
+      ],
+      "id": "ccfd059637c51571",
+      "path": "assets/audio/ja/ccfd059637c51571.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "cd7bc42eddba7ec8e812b9b1bf2555a8dcaeda76566b82973185b59eeeea6031",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎ",
+      "aliases": [
+        "ぎ",
+        "ギ"
+      ],
+      "sources": [
+        "dakuon:gi"
+      ],
+      "id": "707ac6a9274e1c27",
+      "path": "assets/audio/ja/707ac6a9274e1c27.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "19d697158a5769e3320867994289f3d148fa61907eb1379cd8c0ac461bb26c68",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きおく",
+      "aliases": [
+        "きおく"
+      ],
+      "sources": [
+        "word:ki"
+      ],
+      "id": "5a8f31413a6c44cc",
+      "path": "assets/audio/ja/5a8f31413a6c44cc.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b1ad7993eb3ab2946c6f1322dbcb04ac10e66751f4c87b3062651d75ffc2e879",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きせつ",
+      "aliases": [
+        "きせつ"
+      ],
+      "sources": [
+        "word:ki"
+      ],
+      "id": "0b125007c83893a2",
+      "path": "assets/audio/ja/0b125007c83893a2.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7b671651290cbefecf7b8450f9c23f7a0a5c08e497ef471807598cd4fa0d7988",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きって",
+      "aliases": [
+        "きって"
+      ],
+      "sources": [
+        "special:促音（っ / ッ）",
+        "special-example:促音（っ / ッ）"
+      ],
+      "id": "d24862c9b585266c",
+      "path": "assets/audio/ja/d24862c9b585266c.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b83400c1080aad92d87a635029eb305807baf7b384025c674d23a743aa45f63c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きのう",
+      "aliases": [
+        "きのう"
+      ],
+      "sources": [
+        "word:no"
+      ],
+      "id": "9be26851a23002cf",
+      "path": "assets/audio/ja/9be26851a23002cf.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0f71edaa7548cc4442e84e627c1d28c0e72037e5ac6cd8a31003a3e1610f51cf",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きぼう",
+      "aliases": [
+        "きぼう"
+      ],
+      "sources": [
+        "word:ki",
+        "dakuon-word:bo",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "e36924e66a9785e9",
+      "path": "assets/audio/ja/e36924e66a9785e9.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b1669bc85556e0a8f28d9b3b303cda8d9a88354a8d6e99d72ed1230b77255368",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きゃ",
+      "aliases": [
+        "きゃ",
+        "キャ"
+      ],
+      "sources": [
+        "yoon:kya"
+      ],
+      "id": "e1999a706ca58ac9",
+      "path": "assets/audio/ja/e1999a706ca58ac9.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "700ffce5b59ef59b64f2cbf635a2c4a0aa5317b430514d1974857d5480a96999",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎゃ",
+      "aliases": [
+        "ぎゃ",
+        "ギャ"
+      ],
+      "sources": [
+        "yoon:gya"
+      ],
+      "id": "44114f0c4627f990",
+      "path": "assets/audio/ja/44114f0c4627f990.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8df4d86175d3ec1c3054e9c5aff46de0515527ba3ea102cbd7ad75d3af3001c9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きゃく",
+      "aliases": [
+        "きゃく"
+      ],
+      "sources": [
+        "yoon-word:kya"
+      ],
+      "id": "fa2e2877cb08eeca",
+      "path": "assets/audio/ja/fa2e2877cb08eeca.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c7aa81339f650842d74282fc25054d4a87c6b83a673c2fe8b756549ae665b124",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎゃく",
+      "aliases": [
+        "ぎゃく"
+      ],
+      "sources": [
+        "yoon-word:gya"
+      ],
+      "id": "b662800c82d44e67",
+      "path": "assets/audio/ja/b662800c82d44e67.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b854a5cb4c3054567a603ba547290ad9cfbc0c13890863a4f5f3f1b58447933a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きゅ",
+      "aliases": [
+        "きゅ",
+        "キュ"
+      ],
+      "sources": [
+        "yoon:kyu"
+      ],
+      "id": "abdda5c8ae9cd4e8",
+      "path": "assets/audio/ja/abdda5c8ae9cd4e8.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e3de5f022fb581c81a0d28ff0762c78240992d67a8b4900d69042963f9ec144d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎゅ",
+      "aliases": [
+        "ぎゅ",
+        "ギュ"
+      ],
+      "sources": [
+        "yoon:gyu"
+      ],
+      "id": "f4c8496c1fbfd4e6",
+      "path": "assets/audio/ja/f4c8496c1fbfd4e6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "48f87e4d3003fbfa27124a9488992cfe06cc2265640648ab88dc064eaf893ed1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きゅう",
+      "aliases": [
+        "きゅう"
+      ],
+      "sources": [
+        "yoon-word:kyu"
+      ],
+      "id": "309d99239db889a6",
+      "path": "assets/audio/ja/309d99239db889a6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ef9b0e9978756075b53004606d7539b78e620a0d818091e17db114d064c8f85a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎゅうにく",
+      "aliases": [
+        "ぎゅうにく"
+      ],
+      "sources": [
+        "yoon-word:gyu"
+      ],
+      "id": "1dd75df1b37276ab",
+      "path": "assets/audio/ja/1dd75df1b37276ab.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "e88dd3617b20c9e9f473d58a655d27bbf794c748838eabe5beae40e9ad085126",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎゅうにゅう",
+      "aliases": [
+        "ぎゅうにゅう"
+      ],
+      "sources": [
+        "yoon-word:nyu"
+      ],
+      "id": "16e7a8e27a646312",
+      "path": "assets/audio/ja/16e7a8e27a646312.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "bb30b0437ccc6c750ceb1970d06fd43d16799450edff7dddf281bbded1971cab",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きょ",
+      "aliases": [
+        "きょ",
+        "キョ"
+      ],
+      "sources": [
+        "yoon:kyo"
+      ],
+      "id": "3c71124c12c8c2b3",
+      "path": "assets/audio/ja/3c71124c12c8c2b3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "195fbfa950683989bb346ddbd368092c1b18f47105b66f5c4acce5edc8fcf1ec",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎょ",
+      "aliases": [
+        "ぎょ",
+        "ギョ"
+      ],
+      "sources": [
+        "yoon:gyo"
+      ],
+      "id": "59ae509ed5dce283",
+      "path": "assets/audio/ja/59ae509ed5dce283.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0782b1364f4dfa4e38f06764a163fe6c7f1b7956a90ac707fdbb20dbf5bfbc4d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きょう",
+      "aliases": [
+        "きょう"
+      ],
+      "sources": [
+        "yoon-word:kyo"
+      ],
+      "id": "2003e37c9d80586f",
+      "path": "assets/audio/ja/2003e37c9d80586f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "50a68fe6d876ea99ecd77616b158349d4e7f85c194bdb3dddf232519429e49fe",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "きんぎょ",
+      "aliases": [
+        "きんぎょ"
+      ],
+      "sources": [
+        "yoon-word:gyo"
+      ],
+      "id": "d2707dae60ad81eb",
+      "path": "assets/audio/ja/d2707dae60ad81eb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e4f6fb8edc0922214292c38059b1622fceada0e07c92aaad2f8b0ce5bf505c0d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぎんこう",
+      "aliases": [
+        "ぎんこう"
+      ],
+      "sources": [
+        "dakuon-word:gi"
+      ],
+      "id": "cee10d0834462ecc",
+      "path": "assets/audio/ja/cee10d0834462ecc.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "577bb9728fbe3824218e09712f7b0b1f06cd1938fe5ed4848f3c66e2159165b7",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "く",
+      "aliases": [
+        "く",
+        "ク"
+      ],
+      "sources": [
+        "kana:ku"
+      ],
+      "id": "04e90214eb604b8b",
+      "path": "assets/audio/ja/04e90214eb604b8b.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "d2e2723b6aa48a99f9ee2ed232cdf9128152a14c03a6df4d89405c27efe83482",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぐ",
+      "aliases": [
+        "ぐ",
+        "グ"
+      ],
+      "sources": [
+        "dakuon:gu"
+      ],
+      "id": "45fafeaedb4a60ed",
+      "path": "assets/audio/ja/45fafeaedb4a60ed.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a943688609e1a8c396f1ac47719bc3b416959d0a44abfa6b7a1158ef8393cd6a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "くうき",
+      "aliases": [
+        "くうき"
+      ],
+      "sources": [
+        "word:ku"
+      ],
+      "id": "f05cf6520f0b619e",
+      "path": "assets/audio/ja/f05cf6520f0b619e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3eba1ddb01afecf4e5a2edf0034da7bc1d5629910a7e5668bd5bfa647365ada9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "くに",
+      "aliases": [
+        "くに"
+      ],
+      "sources": [
+        "word:ku"
+      ],
+      "id": "9071aa6aef1f93c0",
+      "path": "assets/audio/ja/9071aa6aef1f93c0.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "87074680117e60466f115ad5c0904a9fd7a13e57b71763e99ad6506d3fd2dba9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "くるま",
+      "aliases": [
+        "くるま"
+      ],
+      "sources": [
+        "word:ku"
+      ],
+      "id": "2cc9291c16e5865c",
+      "path": "assets/audio/ja/2cc9291c16e5865c.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c0a425e51d617cd5e07ae2402bc2834b8ae2626f92afc99b8fc4230e039e2df5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぐんたい",
+      "aliases": [
+        "ぐんたい"
+      ],
+      "sources": [
+        "dakuon-word:gu"
+      ],
+      "id": "662590e6d77bef36",
+      "path": "assets/audio/ja/662590e6d77bef36.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "d6657c2959f83a4de84ed69983d559ba561033959d3d52b380bd71a752ddd555",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "け",
+      "aliases": [
+        "け",
+        "ケ"
+      ],
+      "sources": [
+        "kana:ke"
+      ],
+      "id": "c0aa13d364e195c3",
+      "path": "assets/audio/ja/c0aa13d364e195c3.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "8705cd17d354bb8a02009b3d1c8a0f51b3b66b6d7640d3423f4fdd041ddb1620",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "げ",
+      "aliases": [
+        "げ",
+        "ゲ"
+      ],
+      "sources": [
+        "dakuon:ge"
+      ],
+      "id": "9ef5982a774b7357",
+      "path": "assets/audio/ja/9ef5982a774b7357.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b5da99276045d398211d429c34d52731ca94e0e844d51439c636fe791070e2ed",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "けいかく",
+      "aliases": [
+        "けいかく"
+      ],
+      "sources": [
+        "word:ke",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "1bc49b8c6b8d870c",
+      "path": "assets/audio/ja/1bc49b8c6b8d870c.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "f307a14171aabf7ee5f6acdeea0b6206534fcb23b7172e7d0fe8012fa25605e6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "けいざい",
+      "aliases": [
+        "けいざい"
+      ],
+      "sources": [
+        "word:ke"
+      ],
+      "id": "f0651c26d910be0f",
+      "path": "assets/audio/ja/f0651c26d910be0f.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "d2263f6ef21143bf79d2aa308c24e6f04197f90590ad2465ddbcf1ef1cb5af0a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "けしき",
+      "aliases": [
+        "けしき"
+      ],
+      "sources": [
+        "word:ke"
+      ],
+      "id": "f6a7b1e0a37ac0cb",
+      "path": "assets/audio/ja/f6a7b1e0a37ac0cb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "99b327c909bb60eb322962296ae63be972c00179d6c9bbc532a41d6bc539ab83",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "げんき",
+      "aliases": [
+        "げんき"
+      ],
+      "sources": [
+        "dakuon-word:ge"
+      ],
+      "id": "4a9fef1f41bf899a",
+      "path": "assets/audio/ja/4a9fef1f41bf899a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c3912538f1287dd0cf0ed533f4eae619536d644e1fd5b298406ae03923170a7d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "こ",
+      "aliases": [
+        "こ",
+        "コ"
+      ],
+      "sources": [
+        "kana:ko"
+      ],
+      "id": "264e8e6dc06294ec",
+      "path": "assets/audio/ja/264e8e6dc06294ec.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "39bd6dcf56c1b1d09a5d50e24e2ee8156a10ba3211b212f6037e84eb6521ae0f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ご",
+      "aliases": [
+        "ご",
+        "ゴ"
+      ],
+      "sources": [
+        "dakuon:go"
+      ],
+      "id": "0de6ac05494981a1",
+      "path": "assets/audio/ja/0de6ac05494981a1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "bf9a7fd87fd289445ff7dbd29cc84cfd57c86faeb40df9c43865a978c53b1c6b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "コーヒー",
+      "aliases": [
+        "コーヒー"
+      ],
+      "sources": [
+        "special:长音（ー / 母音延展）",
+        "special-example:长音（ー / 母音延展）",
+        "quiz-word:片假名外来语"
+      ],
+      "id": "9ed1427c6866455f",
+      "path": "assets/audio/ja/9ed1427c6866455f.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "c571018fcf6a15a0ed9b061d036df8d178b72d5843674358743e8f40c97b133e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "こころ",
+      "aliases": [
+        "こころ",
+        "こころ ②"
+      ],
+      "sources": [
+        "word:ko",
+        "word:ro",
+        "special:高低声调（Pitch Accent）",
+        "special-example:高低声调（Pitch Accent）"
+      ],
+      "id": "7b637f63835e3e3e",
+      "path": "assets/audio/ja/7b637f63835e3e3e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0e2591924e21001b48b94f6bf2559d0ba08d3e365322931c0fa3995aebfdcabb",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "こじん",
+      "aliases": [
+        "こじん"
+      ],
+      "sources": [
+        "word:ko"
+      ],
+      "id": "63cc1c69354c2336",
+      "path": "assets/audio/ja/63cc1c69354c2336.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8d2c61d70173bea9757d157906be34c17b87387ca1a79d795dff9e05010b2eec",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ことば",
+      "aliases": [
+        "ことば"
+      ],
+      "sources": [
+        "word:ko"
+      ],
+      "id": "fc4e77d42c478253",
+      "path": "assets/audio/ja/fc4e77d42c478253.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "35b58e94acec5b4ab5a3708710d30977699feacaa355833789b8a0a8f9ddbaac",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ごびゅう",
+      "aliases": [
+        "ごびゅう"
+      ],
+      "sources": [
+        "yoon-word:byu"
+      ],
+      "id": "e5565c1a94c7a5db",
+      "path": "assets/audio/ja/e5565c1a94c7a5db.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "06dc0e4b873ab3c4d3fe4e2b334f18e96f34a30e9e09de085ba0ce60fa75d757",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "コンビニ",
+      "aliases": [
+        "コンビニ"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "43b75c09df431659",
+      "path": "assets/audio/ja/43b75c09df431659.mp3",
+      "duration": 1.896,
+      "bytes": 15788,
+      "sha256": "e662fc9feb37ba2a0e8c1e44869c718c6f446708e5e44205a171c54c2b4fff2e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "コンピュータ",
+      "aliases": [
+        "コンピュータ"
+      ],
+      "sources": [
+        "yoon-word:pyu"
+      ],
+      "id": "58c38ed37a330abe",
+      "path": "assets/audio/ja/58c38ed37a330abe.mp3",
+      "duration": 2.184,
+      "bytes": 18092,
+      "sha256": "7e6406c616be0c7f6666eb630f04df64535c3dce28e8fa8b635a7e424354771a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "さ",
+      "aliases": [
+        "さ",
+        "サ"
+      ],
+      "sources": [
+        "kana:sa"
+      ],
+      "id": "d16bb75a1541ff4d",
+      "path": "assets/audio/ja/d16bb75a1541ff4d.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "796d76ddef3a0b181aa718059a5ac764ad544f00fb9d684e7543d48567b93b16",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ざ",
+      "aliases": [
+        "ざ",
+        "ザ"
+      ],
+      "sources": [
+        "dakuon:za"
+      ],
+      "id": "6e791c9917e91e21",
+      "path": "assets/audio/ja/6e791c9917e91e21.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1fd980dda66c6df4e9655b62f3adaa1ce1e4a7c514a66c8c03e18046c782bf1e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "さいご",
+      "aliases": [
+        "さいご"
+      ],
+      "sources": [
+        "word:sa"
+      ],
+      "id": "7faa4e8106466684",
+      "path": "assets/audio/ja/7faa4e8106466684.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ae262ce50f0d82714c87be92f41cdef75e34a030b7cafbf2cee98dd9934eddda",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "さくら",
+      "aliases": [
+        "さくら",
+        "さくら ⓪"
+      ],
+      "sources": [
+        "word:sa",
+        "special:高低声调（Pitch Accent）",
+        "special-example:高低声调（Pitch Accent）"
+      ],
+      "id": "4014ba3d0abc2574",
+      "path": "assets/audio/ja/4014ba3d0abc2574.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "46c4a23a2779e89fa88816e2cef2bfaa0c5871e629dce30e8fabff105877993f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ざっし",
+      "aliases": [
+        "ざっし"
+      ],
+      "sources": [
+        "dakuon-word:za",
+        "special:促音（っ / ッ）",
+        "special-example:促音（っ / ッ）",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "876c45620059ae51",
+      "path": "assets/audio/ja/876c45620059ae51.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "be3dbaa0e2bd97020e0411c3dc0c8d8785e00bcc250e4a9ae2a6a2140e89e152",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "さんびゃく",
+      "aliases": [
+        "さんびゃく"
+      ],
+      "sources": [
+        "yoon-word:bya"
+      ],
+      "id": "2542f82677b2f90c",
+      "path": "assets/audio/ja/2542f82677b2f90c.mp3",
+      "duration": 2.04,
+      "bytes": 16940,
+      "sha256": "e4dbdee82aa9fde06fee08947e67dfff89d305dd20b533eaecdb1d9cc814a568",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "さんぽ",
+      "aliases": [
+        "さんぽ"
+      ],
+      "sources": [
+        "word:sa",
+        "dakuon-word:po"
+      ],
+      "id": "08afcffbd3a97c61",
+      "path": "assets/audio/ja/08afcffbd3a97c61.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6f43224dafdf44a4d24b0913da35dfb44ba5d921bc87f7aa75bef9e75ae48d2e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "し",
+      "aliases": [
+        "し",
+        "シ"
+      ],
+      "sources": [
+        "kana:shi"
+      ],
+      "id": "b88b295dd12faf96",
+      "path": "assets/audio/ja/b88b295dd12faf96.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "c583a8874f92dfff5aafd1a0341a379b82547440ce320bc92955734ce3a11d6c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じ",
+      "aliases": [
+        "じ",
+        "ジ"
+      ],
+      "sources": [
+        "dakuon:ji"
+      ],
+      "id": "c3d0636c03373333",
+      "path": "assets/audio/ja/c3d0636c03373333.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8b62cd433b2513d7794cba39033d83c55ccd5105da4c308e425f263ebc0f4929",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しあわせ",
+      "aliases": [
+        "しあわせ"
+      ],
+      "sources": [
+        "word:shi"
+      ],
+      "id": "2227fa06db3fdf72",
+      "path": "assets/audio/ja/2227fa06db3fdf72.mp3",
+      "duration": 2.064,
+      "bytes": 17132,
+      "sha256": "919e2a5083da3022879db26160ce09f8e7ccb0a1b20f450c6d69be8aba042ae7",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じかん",
+      "aliases": [
+        "じかん"
+      ],
+      "sources": [
+        "dakuon-word:ji"
+      ],
+      "id": "dab975cb358e6f6f",
+      "path": "assets/audio/ja/dab975cb358e6f6f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8c440055ddfdaaadb70186bc063cd80529db28fb9b8bf2ff7ead80c7fad216e0",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しぜん",
+      "aliases": [
+        "しぜん"
+      ],
+      "sources": [
+        "word:shi"
+      ],
+      "id": "06dd66c01b9638c1",
+      "path": "assets/audio/ja/06dd66c01b9638c1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cb34197c614d8d47eb94126425efa6a1d3cbbc2f70f9386539288dcd3beeea20",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しゃ",
+      "aliases": [
+        "しゃ",
+        "シャ"
+      ],
+      "sources": [
+        "yoon:sha"
+      ],
+      "id": "cb604e4ebf74d304",
+      "path": "assets/audio/ja/cb604e4ebf74d304.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "891f74bbd112ef675a64e38c1efd6b4936fddc54a234295952cc692efdc26869",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じゃ",
+      "aliases": [
+        "じゃ",
+        "ジャ"
+      ],
+      "sources": [
+        "yoon:ja"
+      ],
+      "id": "e65ec13054bdc7fd",
+      "path": "assets/audio/ja/e65ec13054bdc7fd.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "16fcba52efb125873860de245df9e56bab74868e570ab124f7a54f6c23b94b4f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しゃしん",
+      "aliases": [
+        "しゃしん"
+      ],
+      "sources": [
+        "yoon-word:sha",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "a73d1faa43eb7531",
+      "path": "assets/audio/ja/a73d1faa43eb7531.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "553dea6459c14a1c1c8dffb8cdb0400716436e6c8a330247020d969583495e76",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じゃま",
+      "aliases": [
+        "じゃま"
+      ],
+      "sources": [
+        "yoon-word:ja"
+      ],
+      "id": "9708f2fa04db1e16",
+      "path": "assets/audio/ja/9708f2fa04db1e16.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "54c7e86925f08d2d44c1272997325d6055d1239306be70b642e4cacf43f950a1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しゅ",
+      "aliases": [
+        "しゅ",
+        "シュ"
+      ],
+      "sources": [
+        "yoon:shu"
+      ],
+      "id": "dab4a4fdb2f7b232",
+      "path": "assets/audio/ja/dab4a4fdb2f7b232.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "021db3074bce44bbf7fe19652c60a480f362dddad4a3fb2a43dc5a48ee499b89",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じゅ",
+      "aliases": [
+        "じゅ",
+        "ジュ"
+      ],
+      "sources": [
+        "yoon:ju"
+      ],
+      "id": "0243d0980cf1b252",
+      "path": "assets/audio/ja/0243d0980cf1b252.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "65ac2453b25df67d526e5131c52246b4f7e914df8c42eea6e36ad6be2e4a985f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じゅう",
+      "aliases": [
+        "じゅう"
+      ],
+      "sources": [
+        "yoon-word:ju"
+      ],
+      "id": "5b950b6562145944",
+      "path": "assets/audio/ja/5b950b6562145944.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "da499b58d33645e60c952a246092da9fe4bee9e9d6ba25cf11b7b28c33a6ae24",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じゆう",
+      "aliases": [
+        "じゆう"
+      ],
+      "sources": [
+        "word:yu"
+      ],
+      "id": "f40efc7b0b23ea4d",
+      "path": "assets/audio/ja/f40efc7b0b23ea4d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "fe90fb348ef9af35d79d67abea4c9a945fac22b026ef3d50dda872ea697f78af",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しゅみ",
+      "aliases": [
+        "しゅみ"
+      ],
+      "sources": [
+        "yoon-word:shu"
+      ],
+      "id": "e42d83dc7a743629",
+      "path": "assets/audio/ja/e42d83dc7a743629.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a86e802c3942bd66e800195d3443a0fdf3cac22d74b7fa4ade7d7dd8fe4aece6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しょ",
+      "aliases": [
+        "しょ",
+        "ショ"
+      ],
+      "sources": [
+        "yoon:sho"
+      ],
+      "id": "585135b6bc262857",
+      "path": "assets/audio/ja/585135b6bc262857.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "178e9b6c35fc8f4e16b1078d420b725a7c5d1eaf8b8148c2171d57c1baf25740",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じょ",
+      "aliases": [
+        "じょ",
+        "ジョ"
+      ],
+      "sources": [
+        "yoon:jo"
+      ],
+      "id": "b998712c882bbfa1",
+      "path": "assets/audio/ja/b998712c882bbfa1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3a076c6c40ec732bcb0ce90a1949e0fb20cbacadf404b443d4f9fd1dadd85f0a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しょくじ",
+      "aliases": [
+        "しょくじ"
+      ],
+      "sources": [
+        "yoon-word:sho"
+      ],
+      "id": "56e47db75fda898c",
+      "path": "assets/audio/ja/56e47db75fda898c.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "686e217015490939638905d6e8a26d60cd1ec1b83eafab3cccb1795a5112471f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "じょせい",
+      "aliases": [
+        "じょせい"
+      ],
+      "sources": [
+        "yoon-word:jo"
+      ],
+      "id": "fb67a51764c73da1",
+      "path": "assets/audio/ja/fb67a51764c73da1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "07bb4bfea34ad298b0840d07fcd26fef0b6b357ffb6dd01e3e3afa96db9c50f4",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しんぶん",
+      "aliases": [
+        "しんぶん"
+      ],
+      "sources": [
+        "word:n",
+        "special:拨音（ん / ン）",
+        "special-example:拨音（ん / ン）"
+      ],
+      "id": "6051409143eee204",
+      "path": "assets/audio/ja/6051409143eee204.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "dc0baeb0509b65aed12153b16c95c12eeda5ca29d23dde7407b2d11f5e2dd07f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "しんらい",
+      "aliases": [
+        "しんらい"
+      ],
+      "sources": [
+        "word:shi"
+      ],
+      "id": "fc9e4955663e5612",
+      "path": "assets/audio/ja/fc9e4955663e5612.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "cb4dcaef470477be4725e71b263bc21dc2fce466b06256f1c30cdee98ecc7748",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "す",
+      "aliases": [
+        "す",
+        "ス"
+      ],
+      "sources": [
+        "kana:su"
+      ],
+      "id": "203cbd3fa42b372e",
+      "path": "assets/audio/ja/203cbd3fa42b372e.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "7081d3df95039ea6f6142f899b226842eaea4a379bd0ca911355b559f01ff235",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ず",
+      "aliases": [
+        "ず",
+        "ズ"
+      ],
+      "sources": [
+        "dakuon:zu"
+      ],
+      "id": "7367e76f65dec510",
+      "path": "assets/audio/ja/7367e76f65dec510.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b0c0d6a8e972a813d6af96750149d1f06411eea39dc118f327664596c84f2c92",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "すいようび",
+      "aliases": [
+        "すいようび"
+      ],
+      "sources": [
+        "word:su"
+      ],
+      "id": "efc983faf717ebce",
+      "path": "assets/audio/ja/efc983faf717ebce.mp3",
+      "duration": 2.16,
+      "bytes": 17900,
+      "sha256": "6b4d43760f77c922254ba8aa0eac77d81d4c82ef749f8686054a61e38badf35a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "すき",
+      "aliases": [
+        "すき"
+      ],
+      "sources": [
+        "word:su"
+      ],
+      "id": "57b064f4d3ba1650",
+      "path": "assets/audio/ja/57b064f4d3ba1650.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1d0bd9c24647aac0eb90acbd42ae723740ac45a53d29fd25ac836e703a5c46c0",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "すし",
+      "aliases": [
+        "すし"
+      ],
+      "sources": [
+        "word:su"
+      ],
+      "id": "a3a8ae220a563ce9",
+      "path": "assets/audio/ja/a3a8ae220a563ce9.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cf41cc4ac40a03325663bc607dde17e47eeee2a3f697a85ec069487e9cf806d2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "スマホ",
+      "aliases": [
+        "スマホ"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "2ce5ff8c3c12707d",
+      "path": "assets/audio/ja/2ce5ff8c3c12707d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d30daa6e7722afc916954fe32f5422aa5cafc3ed7bf6663d84945ac2497f417a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "せ",
+      "aliases": [
+        "せ",
+        "セ"
+      ],
+      "sources": [
+        "kana:se"
+      ],
+      "id": "02e4f6c68222bcbe",
+      "path": "assets/audio/ja/02e4f6c68222bcbe.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "743294ca1f77c26663c86f6a037aebb59165e867abca00040ffe35993b5cd199",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぜ",
+      "aliases": [
+        "ぜ",
+        "ゼ"
+      ],
+      "sources": [
+        "dakuon:ze"
+      ],
+      "id": "74e5be0e35548ccf",
+      "path": "assets/audio/ja/74e5be0e35548ccf.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1fca3c56cf684bd8e574f6df4e714692b76a1da6c9381b56003212fb5916ac6a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "せいかつ",
+      "aliases": [
+        "せいかつ"
+      ],
+      "sources": [
+        "word:se"
+      ],
+      "id": "44393591513fc37f",
+      "path": "assets/audio/ja/44393591513fc37f.mp3",
+      "duration": 2.064,
+      "bytes": 17132,
+      "sha256": "d04ac59960ceb82baf1458578f7e23de17dd216d74f80f3243daf61b94f7a0e1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "せかい",
+      "aliases": [
+        "せかい"
+      ],
+      "sources": [
+        "word:se",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "51c7b6e9e2372cc5",
+      "path": "assets/audio/ja/51c7b6e9e2372cc5.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e55cc1c6c84e75b3a4441c5ae8cd6fc48de80eef918272938f70726c1a34bf55",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "せんせい",
+      "aliases": [
+        "せんせい"
+      ],
+      "sources": [
+        "word:se",
+        "special:长音（ー / 母音延展）",
+        "special-example:长音（ー / 母音延展）",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "56be8dd6d7947624",
+      "path": "assets/audio/ja/56be8dd6d7947624.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "452f0674dd51e3bf92f0b3b1a648c48353f91e5d8f6537aba89fd404c4c1b37d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぜんぶ",
+      "aliases": [
+        "ぜんぶ"
+      ],
+      "sources": [
+        "dakuon-word:ze"
+      ],
+      "id": "f70f058d37d354a6",
+      "path": "assets/audio/ja/f70f058d37d354a6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "50ae62fe5c71c6cdf11ef598122ec07f9340105bf883c68b58022b9ea206e676",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "そ",
+      "aliases": [
+        "そ",
+        "ソ"
+      ],
+      "sources": [
+        "kana:so"
+      ],
+      "id": "2d545f275700384d",
+      "path": "assets/audio/ja/2d545f275700384d.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "bb0023707f3f971d8832cd01a8eb25a683bd4b0e7bd65aa1c8e61ca86cd3c40c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぞ",
+      "aliases": [
+        "ぞ",
+        "ゾ"
+      ],
+      "sources": [
+        "dakuon:zo"
+      ],
+      "id": "620555a166b4e450",
+      "path": "assets/audio/ja/620555a166b4e450.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9549152d14828187df1bd574f8ab309af3cbb7fd6bdee5e6dfa157945b84e2c5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "そら",
+      "aliases": [
+        "そら"
+      ],
+      "sources": [
+        "word:so"
+      ],
+      "id": "833fc13f3a180a04",
+      "path": "assets/audio/ja/833fc13f3a180a04.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2cb5de964cb6327afcb1aa639035a869475384da059f83d08c3c62e1ad6c9408",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "そんざい",
+      "aliases": [
+        "そんざい"
+      ],
+      "sources": [
+        "word:so"
+      ],
+      "id": "84a6463b7dcb089d",
+      "path": "assets/audio/ja/84a6463b7dcb089d.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "ccd770360d603abc2434a07ae2f83c51495cde45067ea7255708dd859aba9e20",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "た",
+      "aliases": [
+        "た",
+        "タ"
+      ],
+      "sources": [
+        "kana:ta"
+      ],
+      "id": "e63b99ab88ba55f7",
+      "path": "assets/audio/ja/e63b99ab88ba55f7.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "63275b825440743edd565dfe5c9a8843470dd2916dc601da10769d420183a7b3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "だ",
+      "aliases": [
+        "だ",
+        "ダ"
+      ],
+      "sources": [
+        "dakuon:da"
+      ],
+      "id": "833f47c6c67de443",
+      "path": "assets/audio/ja/833f47c6c67de443.mp3",
+      "duration": 1.416,
+      "bytes": 11948,
+      "sha256": "4683ebbabb6cbf7337569f4cb9e2e28c6ca9fec57f89bd179a438d9b50872ac9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "だいがく",
+      "aliases": [
+        "だいがく"
+      ],
+      "sources": [
+        "dakuon-word:da"
+      ],
+      "id": "ff111aea7ef0a48a",
+      "path": "assets/audio/ja/ff111aea7ef0a48a.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "016cbd2903f740256e6569aba75848b6f2bee253d5a1d95f66590e04d085775b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "たいせつ",
+      "aliases": [
+        "たいせつ"
+      ],
+      "sources": [
+        "word:ta"
+      ],
+      "id": "82ad1f98f7707b80",
+      "path": "assets/audio/ja/82ad1f98f7707b80.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "a9b725baf3098ad02365874d16e4ddbed7fdf51ffae3f91c134227123778e09b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "たいよう",
+      "aliases": [
+        "たいよう"
+      ],
+      "sources": [
+        "word:ta",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "c7470edfda4a4275",
+      "path": "assets/audio/ja/c7470edfda4a4275.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "2a30652f173a077c7c488ecd5c8aa49295613eb87d587cd48a4545dd9a7acae8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "タクシー",
+      "aliases": [
+        "タクシー"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "9a5271d850ac41e1",
+      "path": "assets/audio/ja/9a5271d850ac41e1.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "467c71d7dc2c27411d774aba400950154c81d79c7553d08c1c769e66243b18a9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "たのしい",
+      "aliases": [
+        "たのしい"
+      ],
+      "sources": [
+        "word:no"
+      ],
+      "id": "3cebcd06916e6c65",
+      "path": "assets/audio/ja/3cebcd06916e6c65.mp3",
+      "duration": 2.016,
+      "bytes": 16748,
+      "sha256": "9b83019bbcf19b5d221e50f68b883009c09cd23395c89d40b8897060fc0a5009",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "たべもの",
+      "aliases": [
+        "たべもの"
+      ],
+      "sources": [
+        "word:ta"
+      ],
+      "id": "2dd54a6dc9049411",
+      "path": "assets/audio/ja/2dd54a6dc9049411.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "acfed6baeecb5c9f3afdd5dc69a4ed401d804b3590c45339b0cb8292f24c00f1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ち",
+      "aliases": [
+        "ち",
+        "チ"
+      ],
+      "sources": [
+        "kana:chi"
+      ],
+      "id": "9f5bc4ec96d00707",
+      "path": "assets/audio/ja/9f5bc4ec96d00707.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "fb07f846f84193a4b861a5baa0eddff7dfe3fc94efc0f75aebe0038fd04902f5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぢ",
+      "aliases": [
+        "ぢ",
+        "ヂ"
+      ],
+      "sources": [
+        "dakuon:dji"
+      ],
+      "id": "8fb9199ec2f5ed95",
+      "path": "assets/audio/ja/8fb9199ec2f5ed95.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9e44689ffd369faf253f96f787e30bf336ee157b8377a20e77a72ee35655ad83",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちから",
+      "aliases": [
+        "ちから"
+      ],
+      "sources": [
+        "word:chi"
+      ],
+      "id": "8205c6c1282bd557",
+      "path": "assets/audio/ja/8205c6c1282bd557.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "17a2978ae5ba43c68bcd093e0b6fbc028a72db9360031306b9e6a141f46d08cd",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちきゅう",
+      "aliases": [
+        "ちきゅう"
+      ],
+      "sources": [
+        "word:chi"
+      ],
+      "id": "1ea4fa4a4ad44acf",
+      "path": "assets/audio/ja/1ea4fa4a4ad44acf.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3afc219c833599436615a6dc7c6699120c1a806ee3a6db6cb74f031be7db7008",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちしき",
+      "aliases": [
+        "ちしき"
+      ],
+      "sources": [
+        "word:chi",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "4c0bb3ff2bca4ab6",
+      "path": "assets/audio/ja/4c0bb3ff2bca4ab6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d31e1c0e20fe732a6a5d358c8e3416fa83f2408342485ddda058ce0f668e9048",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちず",
+      "aliases": [
+        "ちず"
+      ],
+      "sources": [
+        "dakuon-word:zu"
+      ],
+      "id": "9a140d604a22f561",
+      "path": "assets/audio/ja/9a140d604a22f561.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "75031ca1ee9c1f94352241c772533ca2a1229660f9dd11f88ad23af28ced9ca3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちゃ",
+      "aliases": [
+        "ちゃ",
+        "チャ"
+      ],
+      "sources": [
+        "yoon:cha"
+      ],
+      "id": "ffcfce1b16f542fb",
+      "path": "assets/audio/ja/ffcfce1b16f542fb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d366ee031e590a41c736314f7f786b799783078d12b61e68118add98cade1415",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちゅ",
+      "aliases": [
+        "ちゅ",
+        "チュ"
+      ],
+      "sources": [
+        "yoon:chu"
+      ],
+      "id": "12c51c4f5abcf579",
+      "path": "assets/audio/ja/12c51c4f5abcf579.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "bedefae7c452f46fa7acc0862bae707c34da6b56f99b05fc18e20b068e8eff90",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちゅうごく",
+      "aliases": [
+        "ちゅうごく"
+      ],
+      "sources": [
+        "yoon-word:chu",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "5baf8b6423866345",
+      "path": "assets/audio/ja/5baf8b6423866345.mp3",
+      "duration": 2.016,
+      "bytes": 16748,
+      "sha256": "1bd211b3a42635b029a9de9676fc1806f7ef8e26ca76872aecba034039aaad65",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちょ",
+      "aliases": [
+        "ちょ",
+        "チョ"
+      ],
+      "sources": [
+        "yoon:cho"
+      ],
+      "id": "7cb03c7868dc6c80",
+      "path": "assets/audio/ja/7cb03c7868dc6c80.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e5e5a4aec50518b9f7f2d17b80a6c13c03ec44c2783ee30f0e7ddc92f195a1e0",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ちょうせん",
+      "aliases": [
+        "ちょうせん"
+      ],
+      "sources": [
+        "yoon-word:cho"
+      ],
+      "id": "523b94c01b7c9a1f",
+      "path": "assets/audio/ja/523b94c01b7c9a1f.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "fc65c1c4aab1e5b2c7c077786aae1f6bbd7e77df3d55a130aaa732dc7fbe64cc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "つ",
+      "aliases": [
+        "つ",
+        "ツ"
+      ],
+      "sources": [
+        "kana:tsu"
+      ],
+      "id": "330cc7cd72b22e56",
+      "path": "assets/audio/ja/330cc7cd72b22e56.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "61e1f41be139b9431d246e61e0e1a1da32af4269861959505b1264af42030551",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "づ",
+      "aliases": [
+        "づ",
+        "ヅ"
+      ],
+      "sources": [
+        "dakuon:dzu"
+      ],
+      "id": "70097980c0403488",
+      "path": "assets/audio/ja/70097980c0403488.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6e1ca1ff2df9ecd18ff83b50c878bf42ad078a83f8b2219aa10cf2f2c74e13ac",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "つうしん",
+      "aliases": [
+        "つうしん"
+      ],
+      "sources": [
+        "word:tsu"
+      ],
+      "id": "a7ef2f9abc3edc20",
+      "path": "assets/audio/ja/a7ef2f9abc3edc20.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "e829dba27683aa919ff4395d0d6bb7c9009989d3c0e676ca508f997c3059fa68",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "つき",
+      "aliases": [
+        "つき"
+      ],
+      "sources": [
+        "word:tsu"
+      ],
+      "id": "864e368ca502a824",
+      "path": "assets/audio/ja/864e368ca502a824.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3b66fcd14e9986d7eae4b9204d4da9ecdacce826a771fd734e167e135d619ee5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "つづく",
+      "aliases": [
+        "つづく"
+      ],
+      "sources": [
+        "dakuon-word:dzu"
+      ],
+      "id": "bb9f403149c45f45",
+      "path": "assets/audio/ja/bb9f403149c45f45.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cd400a6a28f0cd598b6967abdc0977150a23b16fd10fe19463a93e2126bf85c4",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "つよい",
+      "aliases": [
+        "つよい"
+      ],
+      "sources": [
+        "word:tsu"
+      ],
+      "id": "dedb454e5d7d9649",
+      "path": "assets/audio/ja/dedb454e5d7d9649.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "debef43970e334f28e2afd4d80400af2e22d97fb2890ba8a1241a70af8028747",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "て",
+      "aliases": [
+        "て",
+        "テ"
+      ],
+      "sources": [
+        "kana:te"
+      ],
+      "id": "855fe7c3feb08830",
+      "path": "assets/audio/ja/855fe7c3feb08830.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "f05ed3a4f052801b5edcba70a0cab61a7621a95efab19180c4691979da3e28c9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "で",
+      "aliases": [
+        "で",
+        "デ"
+      ],
+      "sources": [
+        "dakuon:de"
+      ],
+      "id": "e8a1f34a906b1840",
+      "path": "assets/audio/ja/e8a1f34a906b1840.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f8bfedf3e99a67bd3d918fb13d14513284083810504a0f5cdfc5a5b0c3497130",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "てがみ",
+      "aliases": [
+        "てがみ"
+      ],
+      "sources": [
+        "word:te"
+      ],
+      "id": "7b4a218ac8109ceb",
+      "path": "assets/audio/ja/7b4a218ac8109ceb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9e195cabb5c382c9f0924dbde9226d1c5cefe60f7a65cbee9eaec199635ff09f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "てつどう",
+      "aliases": [
+        "てつどう"
+      ],
+      "sources": [
+        "word:te"
+      ],
+      "id": "143184a6216f5e6f",
+      "path": "assets/audio/ja/143184a6216f5e6f.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "52300af76261a7aecffd2f4f182afb1f9f2f36cecd4eb93a79ba4702a4bce37b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "テレビ",
+      "aliases": [
+        "テレビ"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "6db780ce1fe2605a",
+      "path": "assets/audio/ja/6db780ce1fe2605a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2b212fcb41781b631030fdd1ac28ffdfb3cb9272cf9461b99a2c8f6024dee3f2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "てんき",
+      "aliases": [
+        "てんき"
+      ],
+      "sources": [
+        "word:te",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "f5cc4f805b8df35c",
+      "path": "assets/audio/ja/f5cc4f805b8df35c.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "13d079d9d2c7ddf8312d66fb1c2026a2ce291870870d678bc974ca5d401b3f80",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "てんぷら",
+      "aliases": [
+        "てんぷら"
+      ],
+      "sources": [
+        "dakuon-word:pu"
+      ],
+      "id": "e0901985ae91406d",
+      "path": "assets/audio/ja/e0901985ae91406d.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "d39bbf5df879a79a17b5b83c657020362c101c72391b4734711c11a3f8b7a2d4",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "でんわ",
+      "aliases": [
+        "でんわ"
+      ],
+      "sources": [
+        "dakuon-word:de"
+      ],
+      "id": "0f47614d7ac2c88c",
+      "path": "assets/audio/ja/0f47614d7ac2c88c.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ebaa7eae915f350a771d4918ad098672862cca3e0b37acf537229302a00b0a74",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "と",
+      "aliases": [
+        "と",
+        "ト"
+      ],
+      "sources": [
+        "kana:to"
+      ],
+      "id": "c83b26ed8eeb982e",
+      "path": "assets/audio/ja/c83b26ed8eeb982e.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "b0160fbd475ac8f35ba5359f3ac3dc2a97ea7243525efc58c492f6c2acf08169",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ど",
+      "aliases": [
+        "ど",
+        "ド"
+      ],
+      "sources": [
+        "dakuon:do"
+      ],
+      "id": "16869425ede4cba3",
+      "path": "assets/audio/ja/16869425ede4cba3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "de44724df19af6445d73191019cebea47d9f91a207eeaf22be6212f12a8a954e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "とうきょう",
+      "aliases": [
+        "とうきょう"
+      ],
+      "sources": [
+        "word:to",
+        "special:长音（ー / 母音延展）",
+        "special-example:长音（ー / 母音延展）",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "4c27128b2c0c8fb6",
+      "path": "assets/audio/ja/4c27128b2c0c8fb6.mp3",
+      "duration": 2.04,
+      "bytes": 16940,
+      "sha256": "0007678b6738f1b66025b510c5aeed44f7832b11232e86f769169f5f937f4c22",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "とけい",
+      "aliases": [
+        "とけい"
+      ],
+      "sources": [
+        "word:to"
+      ],
+      "id": "a736c861c5ebc016",
+      "path": "assets/audio/ja/a736c861c5ebc016.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "4970d4fe2e211243f7061ed4260d5dd3ec6c6a035a96b3a4016cb6b18fd0ed93",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ともだち",
+      "aliases": [
+        "ともだち"
+      ],
+      "sources": [
+        "word:to"
+      ],
+      "id": "b95edd8a7846c641",
+      "path": "assets/audio/ja/b95edd8a7846c641.mp3",
+      "duration": 2.016,
+      "bytes": 16748,
+      "sha256": "22dbd95cc2ca31cca6ae18ef6d20a303ad312a514f9b92eb3140527f06586a01",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "どりょく",
+      "aliases": [
+        "どりょく"
+      ],
+      "sources": [
+        "dakuon-word:do"
+      ],
+      "id": "996acfa6b7ff5524",
+      "path": "assets/audio/ja/996acfa6b7ff5524.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3c19eb2094a09ed9fc054898f117abdd97da42bcbb0f6d140e4d6284bc77ad87",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "な",
+      "aliases": [
+        "な",
+        "ナ"
+      ],
+      "sources": [
+        "kana:na"
+      ],
+      "id": "ca9e39de80bd89cb",
+      "path": "assets/audio/ja/ca9e39de80bd89cb.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "a6bbd5b8bbb5057d1fe497c3a56ea557089f0d15d1bd6776d8545c5f660754f9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "なつ",
+      "aliases": [
+        "なつ"
+      ],
+      "sources": [
+        "word:na"
+      ],
+      "id": "a8956eaffec66b27",
+      "path": "assets/audio/ja/a8956eaffec66b27.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "443940d0f1f154fb032c568617df5c9a58a3e78cf91eaec344ad94388a436f3f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "なまえ",
+      "aliases": [
+        "なまえ"
+      ],
+      "sources": [
+        "word:na"
+      ],
+      "id": "beb0a83cad77295a",
+      "path": "assets/audio/ja/beb0a83cad77295a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "4f6f39a8a5485cd7bf1c868609468f43dfbe389142ea714b94a136fc6be32d7e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "なみだ",
+      "aliases": [
+        "なみだ"
+      ],
+      "sources": [
+        "word:na"
+      ],
+      "id": "de81959019873fe6",
+      "path": "assets/audio/ja/de81959019873fe6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "370b2b636ba65e48067dc6f96483695f689f1660fcc6c6bd2a1f6ed5f59ea63c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "に",
+      "aliases": [
+        "に",
+        "ニ"
+      ],
+      "sources": [
+        "kana:ni"
+      ],
+      "id": "1048957f687ee3dc",
+      "path": "assets/audio/ja/1048957f687ee3dc.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "a57712aa3cd12858c7e02cca01c0ea9ecb25d67f05b8511edda225cb0eaab762",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にじ",
+      "aliases": [
+        "にじ"
+      ],
+      "sources": [
+        "word:ni"
+      ],
+      "id": "b1df623a7e9eec42",
+      "path": "assets/audio/ja/b1df623a7e9eec42.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "eba48fc4ed6dd5624048bdf227fef3be4279ce0bb4a511dc8d61401c5fc609ab",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にっぽん",
+      "aliases": [
+        "にっぽん"
+      ],
+      "sources": [
+        "special:促音（っ / ッ）",
+        "special-example:促音（っ / ッ）"
+      ],
+      "id": "df24410ad6bda31b",
+      "path": "assets/audio/ja/df24410ad6bda31b.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "c8972e80e21ec49fabf23013b70948d4ad35f29ebd3af0f98958f6d4e6686027",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にほん",
+      "aliases": [
+        "にほん"
+      ],
+      "sources": [
+        "word:ni",
+        "word:n",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "4036a2915803ade4",
+      "path": "assets/audio/ja/4036a2915803ade4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "53d149a44e9b5b36165d6dff79aff0325f6bd11eeecba57dd753730783901b9d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にほんご",
+      "aliases": [
+        "にほんご"
+      ],
+      "sources": [
+        "dakuon-word:go"
+      ],
+      "id": "c6a98cfbb2462c18",
+      "path": "assets/audio/ja/c6a98cfbb2462c18.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "c8b80a72f1bd6b1dee15a4c0c0871dfc1763d0e08529b7bb597be260742c2e6a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にゃ",
+      "aliases": [
+        "にゃ",
+        "ニャ"
+      ],
+      "sources": [
+        "yoon:nya"
+      ],
+      "id": "b3c4cc75a7df002d",
+      "path": "assets/audio/ja/b3c4cc75a7df002d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "efc51b7b97a511badebb53aa3820b70d13ae4e0a78b17f621c5f69ae0b0cf7ee",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にゃんこ",
+      "aliases": [
+        "にゃんこ"
+      ],
+      "sources": [
+        "yoon-word:nya"
+      ],
+      "id": "cda3e7bb2d443818",
+      "path": "assets/audio/ja/cda3e7bb2d443818.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b953588eec7c96ed48a78530abd0b909c18850b8351dad7d66346628e9cebac0",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にゅ",
+      "aliases": [
+        "にゅ",
+        "ニュ"
+      ],
+      "sources": [
+        "yoon:nyu"
+      ],
+      "id": "d1739781861ef81a",
+      "path": "assets/audio/ja/d1739781861ef81a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "795a59df36bdb92f5f69caed9fba3d93d153444ac7f1bb213de16e1b90ce9c8f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にょ",
+      "aliases": [
+        "にょ",
+        "ニョ"
+      ],
+      "sources": [
+        "yoon:nyo"
+      ],
+      "id": "c35999a2f876f938",
+      "path": "assets/audio/ja/c35999a2f876f938.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2a5ffe504acf38ddf17d122f0d03d1906b5805332a117cf0f1e530f1448c8f41",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にょうぼう",
+      "aliases": [
+        "にょうぼう"
+      ],
+      "sources": [
+        "yoon-word:nyo"
+      ],
+      "id": "7d4f2e3c06664308",
+      "path": "assets/audio/ja/7d4f2e3c06664308.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "6c3ba8fc7d0f4792804320ab1c5ecde5adab0c643b403a6cb07b8740287fed08",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "にんげん",
+      "aliases": [
+        "にんげん"
+      ],
+      "sources": [
+        "word:ni"
+      ],
+      "id": "8279d6301b6d706e",
+      "path": "assets/audio/ja/8279d6301b6d706e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8769663f556a4c94f590ea9e3374e1cedd5e93452e1c3c26e059b23d24221dbf",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぬ",
+      "aliases": [
+        "ぬ",
+        "ヌ"
+      ],
+      "sources": [
+        "kana:nu"
+      ],
+      "id": "fb9c85ae9dc7510d",
+      "path": "assets/audio/ja/fb9c85ae9dc7510d.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "27be8354c8ac4e295edff955f8d33bf396b82e8c40737d823dbbcd3f50f4d3ce",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぬくもり",
+      "aliases": [
+        "ぬくもり"
+      ],
+      "sources": [
+        "word:nu"
+      ],
+      "id": "7b931507edda8cdd",
+      "path": "assets/audio/ja/7b931507edda8cdd.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "d3ef5f2503e362e94bd6fa680ec035fae7db8b426b4bd1283899302181024387",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぬの",
+      "aliases": [
+        "ぬの"
+      ],
+      "sources": [
+        "word:nu"
+      ],
+      "id": "92ae0ebfdd6dc456",
+      "path": "assets/audio/ja/92ae0ebfdd6dc456.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "4ff1c9badd92f945bcd21dd92ed1de1d183dcaa709bc3b2b1a14a1e43a673808",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ね",
+      "aliases": [
+        "ね",
+        "ネ"
+      ],
+      "sources": [
+        "kana:ne"
+      ],
+      "id": "160380aa745abfd6",
+      "path": "assets/audio/ja/160380aa745abfd6.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "d975a0e1b0bcccc50a550e1b95538dac6bc890c88d68428bc050c8dba286d367",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ねがい",
+      "aliases": [
+        "ねがい"
+      ],
+      "sources": [
+        "word:ne"
+      ],
+      "id": "e30bb9fa3d4dd059",
+      "path": "assets/audio/ja/e30bb9fa3d4dd059.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5e0675be2f7d9c9a6d0ae5231ed5ee49be9a9e548096142e5797b74a4ae879ed",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ねこ",
+      "aliases": [
+        "ねこ"
+      ],
+      "sources": [
+        "word:ne"
+      ],
+      "id": "c0195a97542ecdc1",
+      "path": "assets/audio/ja/c0195a97542ecdc1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9250e1f3e11d69d2e85316f109cb20a5e6be4736a337b402c99303dce1d8c617",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ねつ",
+      "aliases": [
+        "ねつ"
+      ],
+      "sources": [
+        "word:ne"
+      ],
+      "id": "9d60c81fcc8b8cd3",
+      "path": "assets/audio/ja/9d60c81fcc8b8cd3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "45b753f14a18f6e62f46e5a6747ad2853be7b806065328539b93e3cc8e21b1e9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "の",
+      "aliases": [
+        "の",
+        "ノ"
+      ],
+      "sources": [
+        "kana:no"
+      ],
+      "id": "b02dcfe6d1f97601",
+      "path": "assets/audio/ja/b02dcfe6d1f97601.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "089e694f6ab3c998d6c02f57db5eef9dbbe951b6ee32d3595ff73d199999d543",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "のうりょく",
+      "aliases": [
+        "のうりょく"
+      ],
+      "sources": [
+        "word:no"
+      ],
+      "id": "22a62bc8637c786e",
+      "path": "assets/audio/ja/22a62bc8637c786e.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "021979497c5a29d93dd988852591076be68a0c87fbe7f9af034ca73a6d286357",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "は",
+      "aliases": [
+        "は",
+        "ハ"
+      ],
+      "sources": [
+        "kana:ha"
+      ],
+      "id": "9ebc6318fcfe7c3b",
+      "path": "assets/audio/ja/9ebc6318fcfe7c3b.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "a219f93da579353eba34b1718b75bdbb09c63c4a734d5d351d29c4fcc81a343e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ば",
+      "aliases": [
+        "ば",
+        "バ"
+      ],
+      "sources": [
+        "dakuon:ba"
+      ],
+      "id": "5ff591e99e088372",
+      "path": "assets/audio/ja/5ff591e99e088372.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d1c5dffc1c28e1ee7759631b3b895f7dcd8c953f29b8de13b373e7753a0649db",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぱ",
+      "aliases": [
+        "ぱ",
+        "パ"
+      ],
+      "sources": [
+        "dakuon:pa"
+      ],
+      "id": "b12aa4959f9e6eac",
+      "path": "assets/audio/ja/b12aa4959f9e6eac.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "357f39234c395827fc66b8d7ef7103ee32ce65226fb182389da28d33ab201dab",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はし",
+      "aliases": [
+        "はし",
+        "はし ① / ②",
+        "はし ①"
+      ],
+      "sources": [
+        "special:高低声调（Pitch Accent）",
+        "special-example:高低声调（Pitch Accent）"
+      ],
+      "id": "7d9d47d68906587d",
+      "path": "assets/audio/ja/7d9d47d68906587d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6d77e573bb802f9bc93d37f35a788e132b1c3d9a4758f9310ffc1536484dd8df",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ばしょ",
+      "aliases": [
+        "ばしょ"
+      ],
+      "sources": [
+        "dakuon-word:ba"
+      ],
+      "id": "85a5a3e853abaed0",
+      "path": "assets/audio/ja/85a5a3e853abaed0.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ebf673ac36746a70672878698e9a52bc3dc59ae4120f6265e5be8b98e2d7f6df",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はっぴょう",
+      "aliases": [
+        "はっぴょう"
+      ],
+      "sources": [
+        "yoon-word:pyo",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "6fee87ed851f722e",
+      "path": "assets/audio/ja/6fee87ed851f722e.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "c9a454ff39db8b57a8781a8341f9c8e8f603e4de54829e7d67c23fc80dba1626",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はな",
+      "aliases": [
+        "はな"
+      ],
+      "sources": [
+        "word:ha"
+      ],
+      "id": "06cf6df6b53c07a0",
+      "path": "assets/audio/ja/06cf6df6b53c07a0.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "314b64154f21baf5642f79ca678e372ac02915454e5d6319fd70a4602140942a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はなぢ",
+      "aliases": [
+        "はなぢ"
+      ],
+      "sources": [
+        "dakuon-word:dji"
+      ],
+      "id": "4d7ee4b5d3a9105a",
+      "path": "assets/audio/ja/4d7ee4b5d3a9105a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "04e461426791aae95f705313cd9076226f34c849380848dc1f219d3bae611850",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はは",
+      "aliases": [
+        "はは"
+      ],
+      "sources": [
+        "word:ha"
+      ],
+      "id": "2be00470e35f3d2d",
+      "path": "assets/audio/ja/2be00470e35f3d2d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d690ce4aafbc2dad3c979de5b21c240f82585e09a5fe57f4a5986d84a5562ae8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はる",
+      "aliases": [
+        "はる"
+      ],
+      "sources": [
+        "word:ru"
+      ],
+      "id": "310911911e14eb8f",
+      "path": "assets/audio/ja/310911911e14eb8f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "334b9e33abdc9c0b3cf424bab1c796529bd6767c3294f6d3472c917232c6692f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "パン",
+      "aliases": [
+        "パン"
+      ],
+      "sources": [
+        "dakuon-word:pa"
+      ],
+      "id": "3e3b44b2d12c5c21",
+      "path": "assets/audio/ja/3e3b44b2d12c5c21.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "10d724673c42bc373163861cb770b2f8b39025b624415e2acd3f52aee6399ffd",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "はんたい",
+      "aliases": [
+        "はんたい"
+      ],
+      "sources": [
+        "word:ha"
+      ],
+      "id": "6b4df347cc113551",
+      "path": "assets/audio/ja/6b4df347cc113551.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f91b974d8da1e3bd53abe24ec610b5a1c34a7020a1f47b2c6010461d53b7b833",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひ",
+      "aliases": [
+        "ひ",
+        "ヒ"
+      ],
+      "sources": [
+        "kana:hi"
+      ],
+      "id": "db8a1fde78f7c14f",
+      "path": "assets/audio/ja/db8a1fde78f7c14f.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "7b946518099710c733653003d78349c8152226ef0b1c4c10061077cbdeb8b803",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "び",
+      "aliases": [
+        "び",
+        "ビ"
+      ],
+      "sources": [
+        "dakuon:bi"
+      ],
+      "id": "c0e85206ef82033a",
+      "path": "assets/audio/ja/c0e85206ef82033a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "08e688267c2175b8e8781fcdbd2ac4a3a44f782fe68538384ae4b8e42753cb8a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぴ",
+      "aliases": [
+        "ぴ",
+        "ピ"
+      ],
+      "sources": [
+        "dakuon:pi"
+      ],
+      "id": "eee305188d00414d",
+      "path": "assets/audio/ja/eee305188d00414d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "66af35f92826871f335d9350b0387a0f39b51e75673672b5daea5ee6043a87bc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひかく",
+      "aliases": [
+        "ひかく"
+      ],
+      "sources": [
+        "word:hi"
+      ],
+      "id": "da3607286dd482ff",
+      "path": "assets/audio/ja/da3607286dd482ff.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ea72e7ff8994395509710c33559e67c4a2577d5d0502859c61d62cc1e16709cb",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひかり",
+      "aliases": [
+        "ひかり"
+      ],
+      "sources": [
+        "word:hi"
+      ],
+      "id": "afc80cd333216b01",
+      "path": "assets/audio/ja/afc80cd333216b01.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "063c47cbc3a511401359ff710e9effa291f9bebf561f639da9dd7edde6d2a492",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "びじゅつ",
+      "aliases": [
+        "びじゅつ"
+      ],
+      "sources": [
+        "dakuon-word:bi"
+      ],
+      "id": "4e14b8c0e59deeec",
+      "path": "assets/audio/ja/4e14b8c0e59deeec.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "ece3bc8ca1582a33b33765c8c96572725a3164d6e47cab05362161622bda769a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひみつ",
+      "aliases": [
+        "ひみつ"
+      ],
+      "sources": [
+        "word:hi",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "16ec0ae807dd6bc7",
+      "path": "assets/audio/ja/16ec0ae807dd6bc7.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "104cffba03172bbb819161b7a1f02a836d7d7b13621c7b14d171c68ffda82872",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひゃ",
+      "aliases": [
+        "ひゃ",
+        "ヒャ"
+      ],
+      "sources": [
+        "yoon:hya"
+      ],
+      "id": "66e6d81671246f80",
+      "path": "assets/audio/ja/66e6d81671246f80.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "238348c7fc23a3d974e43c605033fafc958dc78447f636f85a94774ddfbadbfe",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "びゃ",
+      "aliases": [
+        "びゃ",
+        "ビャ"
+      ],
+      "sources": [
+        "yoon:bya"
+      ],
+      "id": "e6f7f6f6cb54bef5",
+      "path": "assets/audio/ja/e6f7f6f6cb54bef5.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "4eaee655b55e80ddc00af0c9141d6d94929ebc59dc5e2193cbc4a8a9a1965302",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぴゃ",
+      "aliases": [
+        "ぴゃ",
+        "ピャ"
+      ],
+      "sources": [
+        "yoon:pya"
+      ],
+      "id": "ad445dccc2ac916e",
+      "path": "assets/audio/ja/ad445dccc2ac916e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c425108dd120942dd93afcadc9f8c7c73bfda16f069bb7a149746d0199070334",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひゃく",
+      "aliases": [
+        "ひゃく"
+      ],
+      "sources": [
+        "yoon-word:hya"
+      ],
+      "id": "4ee8752571ca1128",
+      "path": "assets/audio/ja/4ee8752571ca1128.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5d37532c58f2009704cf21e801605c5b9f7bf7b944a4b4f677f6ad4fc51c037a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひゅ",
+      "aliases": [
+        "ひゅ",
+        "ヒュ"
+      ],
+      "sources": [
+        "yoon:hyu"
+      ],
+      "id": "f8efa3e7899a376d",
+      "path": "assets/audio/ja/f8efa3e7899a376d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "356a092b72327a57d0c921146b241f85e7d53ee91dfa76b25b3b55bbbd0f4704",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "びゅ",
+      "aliases": [
+        "びゅ",
+        "ビュ"
+      ],
+      "sources": [
+        "yoon:byu"
+      ],
+      "id": "5351f40e9a40142d",
+      "path": "assets/audio/ja/5351f40e9a40142d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "fa777ac2ba3cb472c4fe399113a3d7b21346a117c28aea1a9c1f2f0d360cfa70",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぴゅ",
+      "aliases": [
+        "ぴゅ",
+        "ピュ"
+      ],
+      "sources": [
+        "yoon:pyu"
+      ],
+      "id": "d45d52d0fe7ec3aa",
+      "path": "assets/audio/ja/d45d52d0fe7ec3aa.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c388107a4d93f4b6791182dd04902f5ac34f63685c51253968c9f7322b789ea0",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひゅうが",
+      "aliases": [
+        "ひゅうが"
+      ],
+      "sources": [
+        "yoon-word:hyu"
+      ],
+      "id": "8442fe1e523a95cb",
+      "path": "assets/audio/ja/8442fe1e523a95cb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9a466fcf1a465650d014dada0858227295bca8df88a07e7ecc4b7d3e23fcd97d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひょ",
+      "aliases": [
+        "ひょ",
+        "ヒョ"
+      ],
+      "sources": [
+        "yoon:hyo"
+      ],
+      "id": "d98f090f3e1bd915",
+      "path": "assets/audio/ja/d98f090f3e1bd915.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "fbbb142c76003869780949e73db569a341c060213d039a1ee6c278c8e6b2a8d3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "びょ",
+      "aliases": [
+        "びょ",
+        "ビョ"
+      ],
+      "sources": [
+        "yoon:byo"
+      ],
+      "id": "6ce5985006f9eaa0",
+      "path": "assets/audio/ja/6ce5985006f9eaa0.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b485c67089b11ec9ce438f18df7678f9e2788318e78265e13db69faff6be7bfc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぴょ",
+      "aliases": [
+        "ぴょ",
+        "ピョ"
+      ],
+      "sources": [
+        "yoon:pyo"
+      ],
+      "id": "3a60708510015768",
+      "path": "assets/audio/ja/3a60708510015768.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "94d2b5cf29dab5c0cdc0702f2fd57c7f197cf90879ff107e015fc9e0af51e985",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "びょういん",
+      "aliases": [
+        "びょういん"
+      ],
+      "sources": [
+        "yoon-word:byo",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "5e997d89d1b38254",
+      "path": "assets/audio/ja/5e997d89d1b38254.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "125a92761dec10cd7bb7ec1af259127389a6c25469721018879898dd16a89987",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひょうげん",
+      "aliases": [
+        "ひょうげん"
+      ],
+      "sources": [
+        "yoon-word:hyo"
+      ],
+      "id": "be8c7534a2de318d",
+      "path": "assets/audio/ja/be8c7534a2de318d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f53c9abe83cc50bb7bb9dd6ad6f81bf40e8c6be5fef75c563b26717140a2c3b9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ひる",
+      "aliases": [
+        "ひる"
+      ],
+      "sources": [
+        "word:ru"
+      ],
+      "id": "e241708ae33713e4",
+      "path": "assets/audio/ja/e241708ae33713e4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a7976f41b058929501df9bbc034f7224bb134cdd9835dd762b56f777e7bc7227",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ふ",
+      "aliases": [
+        "ふ",
+        "フ"
+      ],
+      "sources": [
+        "kana:fu"
+      ],
+      "id": "40e921412c910714",
+      "path": "assets/audio/ja/40e921412c910714.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "e0bfd4be4d005f372c16a49091f452660a4e61b38ea87a354eae01449e2c9fc7",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぶ",
+      "aliases": [
+        "ぶ",
+        "ブ"
+      ],
+      "sources": [
+        "dakuon:bu"
+      ],
+      "id": "555ab3475f8471a9",
+      "path": "assets/audio/ja/555ab3475f8471a9.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "409f2579bdecd2be94f806d294cfd0d8dfdd72a39470eb4bdc2503316ad1512c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぷ",
+      "aliases": [
+        "ぷ",
+        "プ"
+      ],
+      "sources": [
+        "dakuon:pu"
+      ],
+      "id": "d84cbcd6e41c8bee",
+      "path": "assets/audio/ja/d84cbcd6e41c8bee.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3ba4fcef99003b85342c2256820e951b37218fc7ca5779b37cf089117aa78003",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ふじさん",
+      "aliases": [
+        "ふじさん"
+      ],
+      "sources": [
+        "word:fu"
+      ],
+      "id": "9b766986d617d01b",
+      "path": "assets/audio/ja/9b766986d617d01b.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "cad6f491dc218c83aa0d297230bad6abdddb959b03bb860dbd4e751a4aa25d8e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ふつう",
+      "aliases": [
+        "ふつう"
+      ],
+      "sources": [
+        "word:fu"
+      ],
+      "id": "da74162987706634",
+      "path": "assets/audio/ja/da74162987706634.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e90c4c6706c2e32a0767d7110d9fd73f407172dcc256a248babb523385841ab6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ふゆ",
+      "aliases": [
+        "ふゆ"
+      ],
+      "sources": [
+        "word:fu"
+      ],
+      "id": "89c5324eaa34f11e",
+      "path": "assets/audio/ja/89c5324eaa34f11e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7a491afd0cbd9b304532c79673e4fa625e831c2c6a2fdbb52038684512292283",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぶんか",
+      "aliases": [
+        "ぶんか"
+      ],
+      "sources": [
+        "dakuon-word:bu"
+      ],
+      "id": "180ad2a6680f3e2e",
+      "path": "assets/audio/ja/180ad2a6680f3e2e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "ce74681ed62a1bfb872b8f6b520551d34d64361fbeec46bc6d8f970e010728c2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "へ",
+      "aliases": [
+        "へ",
+        "ヘ"
+      ],
+      "sources": [
+        "kana:he"
+      ],
+      "id": "242d5f4e5a66e999",
+      "path": "assets/audio/ja/242d5f4e5a66e999.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "1c26f0e3e42c76edd20efde62edaa67b3a443186058a4071d3d50e0772ded4aa",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "べ",
+      "aliases": [
+        "べ",
+        "ベ"
+      ],
+      "sources": [
+        "dakuon:be"
+      ],
+      "id": "e3b2810cd234821e",
+      "path": "assets/audio/ja/e3b2810cd234821e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "805a9aa69f26fc5bdf6d471c80b9f53113ec56ea92c573a58c60ae885dff2576",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぺ",
+      "aliases": [
+        "ぺ",
+        "ペ"
+      ],
+      "sources": [
+        "dakuon:pe"
+      ],
+      "id": "be0d32a18ad19303",
+      "path": "assets/audio/ja/be0d32a18ad19303.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8d5bbecfa8efcc3692a0a7572d6892fca22d64e0329bd35b5410a74c3c0e77c6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ページ",
+      "aliases": [
+        "ページ"
+      ],
+      "sources": [
+        "dakuon-word:pe"
+      ],
+      "id": "e10443cc8066e064",
+      "path": "assets/audio/ja/e10443cc8066e064.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3ff57e787daf6cefc6881129181ae55ad7cbd1b840e4271b2cf6f24f802e19f3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "へいわ",
+      "aliases": [
+        "へいわ"
+      ],
+      "sources": [
+        "word:he",
+        "word:wa",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "99fe071ef7e12a70",
+      "path": "assets/audio/ja/99fe071ef7e12a70.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "521061c9064a19b1b9c0bc081e4d664390f5dc3ac7adcf4e41039379b71a67d8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "へや",
+      "aliases": [
+        "へや"
+      ],
+      "sources": [
+        "word:he"
+      ],
+      "id": "8be715a6ae87582a",
+      "path": "assets/audio/ja/8be715a6ae87582a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "37e18a0aa417a176c13a5d4f24ffa495d8bcc98524966dc4953cb0879b450a23",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "へんか",
+      "aliases": [
+        "へんか"
+      ],
+      "sources": [
+        "word:he"
+      ],
+      "id": "1b5a25b185ae52a6",
+      "path": "assets/audio/ja/1b5a25b185ae52a6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e5ba06ca659c4010f27139c7614293bd7e707be9f93a21b151535492f6920112",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "べんきょう",
+      "aliases": [
+        "べんきょう"
+      ],
+      "sources": [
+        "dakuon-word:be"
+      ],
+      "id": "f65711e2fae205d8",
+      "path": "assets/audio/ja/f65711e2fae205d8.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "60a4a343667d320970b62d6d24f9d6e1eef93581083dd8c1c04ef3d057de0ca8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ほ",
+      "aliases": [
+        "ほ",
+        "ホ"
+      ],
+      "sources": [
+        "kana:ho"
+      ],
+      "id": "91642cf333e192b9",
+      "path": "assets/audio/ja/91642cf333e192b9.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "a4e5088ccf0f32da774df9a4a54b23d90c50330e8efe97a228c91965c5bb1c53",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぼ",
+      "aliases": [
+        "ぼ",
+        "ボ"
+      ],
+      "sources": [
+        "dakuon:bo"
+      ],
+      "id": "b07ae79d6a2885a5",
+      "path": "assets/audio/ja/b07ae79d6a2885a5.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cb0b681649612f89b626a00ac75660f498e274b68f89a55b593ab83971fd098e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ぽ",
+      "aliases": [
+        "ぽ",
+        "ポ"
+      ],
+      "sources": [
+        "dakuon:po"
+      ],
+      "id": "751aa5da4516ecb8",
+      "path": "assets/audio/ja/751aa5da4516ecb8.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2b8346e5cac8a6274ebbfc1925b90507776e0df08d7a0672d737b279b455d657",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ほし",
+      "aliases": [
+        "ほし"
+      ],
+      "sources": [
+        "word:ho"
+      ],
+      "id": "32c323ce5a1fc8f4",
+      "path": "assets/audio/ja/32c323ce5a1fc8f4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f22e50757e960646be6b92c0050b285005a2fbcfd6d014cced9c60b2d796a63a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ほしょう",
+      "aliases": [
+        "ほしょう"
+      ],
+      "sources": [
+        "word:ho"
+      ],
+      "id": "67d659a7f8f1843a",
+      "path": "assets/audio/ja/67d659a7f8f1843a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6eb24fe3014ec31ce9dde2113f6d3fa7322724dcbc64766874f7183183fe24d6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ホテル",
+      "aliases": [
+        "ホテル"
+      ],
+      "sources": [
+        "quiz-word:片假名外来语"
+      ],
+      "id": "9272497f8f39dcf1",
+      "path": "assets/audio/ja/9272497f8f39dcf1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b421210898ad67dfa6c97b317431df05dc1cac97640732cb0a7e55825958a983",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ほんとう",
+      "aliases": [
+        "ほんとう"
+      ],
+      "sources": [
+        "word:ho"
+      ],
+      "id": "6d108737326de512",
+      "path": "assets/audio/ja/6d108737326de512.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "9e806ef92eefd08ce05c96f89be64bff63657b9747f161a9bfe12ea4fdcb853e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ほんをよむ",
+      "aliases": [
+        "ほんをよむ"
+      ],
+      "sources": [
+        "word:wo"
+      ],
+      "id": "c2fa216852ebff99",
+      "path": "assets/audio/ja/c2fa216852ebff99.mp3",
+      "duration": 2.064,
+      "bytes": 17132,
+      "sha256": "785fa60db420b7158096cdd4194b6bca5fa5ec19b2efa6a92dd25b24fca721d8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ま",
+      "aliases": [
+        "ま",
+        "マ"
+      ],
+      "sources": [
+        "kana:ma"
+      ],
+      "id": "ef2ab4710f0d685f",
+      "path": "assets/audio/ja/ef2ab4710f0d685f.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "bc7082121287d068d09a80a4d8a7907d8ffc407efb01b2ce2193e06f1a5ff717",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "まち",
+      "aliases": [
+        "まち"
+      ],
+      "sources": [
+        "word:ma"
+      ],
+      "id": "bd7a7a5a2c324343",
+      "path": "assets/audio/ja/bd7a7a5a2c324343.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e7053591df7b9c354875629abe07ab4a9ef571b5b0cf392125abf54e0fd1ff0e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "まほう",
+      "aliases": [
+        "まほう"
+      ],
+      "sources": [
+        "word:ma",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "88c848dc1b94e56f",
+      "path": "assets/audio/ja/88c848dc1b94e56f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "207c9d19615aeddb0d039c8893d95fd87e61fec3701d6b7fa917a03ea6842c5e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "まんが",
+      "aliases": [
+        "まんが"
+      ],
+      "sources": [
+        "word:ma",
+        "special:拨音（ん / ン）",
+        "special-example:拨音（ん / ン）"
+      ],
+      "id": "e8d52403b447f111",
+      "path": "assets/audio/ja/e8d52403b447f111.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b00162517defd990e6975cc891c855efce99d421f6a02d6a28df1208cdf071fe",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "み",
+      "aliases": [
+        "み",
+        "ミ"
+      ],
+      "sources": [
+        "kana:mi"
+      ],
+      "id": "d38e8b96388c54de",
+      "path": "assets/audio/ja/d38e8b96388c54de.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "deadb80242a19bdc425361973cc30f9c57b32980ae3e1713cf6c2e983038ed3b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みず",
+      "aliases": [
+        "みず"
+      ],
+      "sources": [
+        "word:mi"
+      ],
+      "id": "f939fb04cd9b234b",
+      "path": "assets/audio/ja/f939fb04cd9b234b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "31550999ffd739ceb611c34fc8771b3b7a543b834d86c7568bc30cd22e08181d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みゃ",
+      "aliases": [
+        "みゃ",
+        "ミャ"
+      ],
+      "sources": [
+        "yoon:mya"
+      ],
+      "id": "4f3325fdf3584006",
+      "path": "assets/audio/ja/4f3325fdf3584006.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0cf4a875b454e4d43ab93ffdc747d7d4cadc45c8fadfbcf8371d19ef588832fc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みゃく",
+      "aliases": [
+        "みゃく"
+      ],
+      "sources": [
+        "yoon-word:mya"
+      ],
+      "id": "31507bf2ca534e58",
+      "path": "assets/audio/ja/31507bf2ca534e58.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3e7596f7a34247785998b272e429575bfaf711dfec49203e772c3ec7751c7df6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みゅ",
+      "aliases": [
+        "みゅ",
+        "ミュ"
+      ],
+      "sources": [
+        "yoon:myu"
+      ],
+      "id": "c24867d158b2dcce",
+      "path": "assets/audio/ja/c24867d158b2dcce.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3b77ba7d81de0a8370a6c2b7196f96245931d80bd067df761fe7510de7c19ce8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ミュージック",
+      "aliases": [
+        "ミュージック"
+      ],
+      "sources": [
+        "yoon-word:myu"
+      ],
+      "id": "7f7612f073dac0ac",
+      "path": "assets/audio/ja/7f7612f073dac0ac.mp3",
+      "duration": 2.04,
+      "bytes": 16940,
+      "sha256": "3fb980e8fe0b6be35f26dd1e21f655d37d01cf5f08b357e304b443e153746a14",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みょ",
+      "aliases": [
+        "みょ",
+        "ミョ"
+      ],
+      "sources": [
+        "yoon:myo"
+      ],
+      "id": "1bd65ff1a3820215",
+      "path": "assets/audio/ja/1bd65ff1a3820215.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "29e12ea2adfb4f820a08249247c35532820349c7193779395ea0a3588b2d4ae6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みょうじ",
+      "aliases": [
+        "みょうじ"
+      ],
+      "sources": [
+        "yoon-word:myo"
+      ],
+      "id": "4735d4ea53ff2e62",
+      "path": "assets/audio/ja/4735d4ea53ff2e62.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "53794aa2d048de7e44fbf247f3c2672c3bc7e6ab0c80f9b022836b72655cf811",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みらい",
+      "aliases": [
+        "みらい"
+      ],
+      "sources": [
+        "word:mi",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "db28a5577fe6643a",
+      "path": "assets/audio/ja/db28a5577fe6643a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a4a4d1f5abe35d39961e1194149a360faf338fc2b729cb435aa1ab845c8ba503",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "みりょく",
+      "aliases": [
+        "みりょく"
+      ],
+      "sources": [
+        "word:mi"
+      ],
+      "id": "2622a7d380fda064",
+      "path": "assets/audio/ja/2622a7d380fda064.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "8779d49954a56d5dc721e68e720ea1ae3bd74419a2495ab938dd3d1311951181",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "む",
+      "aliases": [
+        "む",
+        "ム"
+      ],
+      "sources": [
+        "kana:mu"
+      ],
+      "id": "f732f18140444887",
+      "path": "assets/audio/ja/f732f18140444887.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "4799ce8ecaa37a3d9b63d5e4d6a0f5ae15abf1fcfd8a5754024781ff9dde3b14",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "むすめ",
+      "aliases": [
+        "むすめ"
+      ],
+      "sources": [
+        "word:mu"
+      ],
+      "id": "b966485dc2aed8f5",
+      "path": "assets/audio/ja/b966485dc2aed8f5.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e59709f6818954a75dc4d0852522bb8d0a12215a155e36097cd78c4051fa2a37",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "むね",
+      "aliases": [
+        "むね"
+      ],
+      "sources": [
+        "word:mu"
+      ],
+      "id": "3f7fc0d4b8db5f7b",
+      "path": "assets/audio/ja/3f7fc0d4b8db5f7b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1f965376d52287e41d8b0d3e850294e18216a60ff38825c56b037ef689bda282",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "むりょう",
+      "aliases": [
+        "むりょう"
+      ],
+      "sources": [
+        "word:mu"
+      ],
+      "id": "640d5c51d6bb470b",
+      "path": "assets/audio/ja/640d5c51d6bb470b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5d50431ecfcb96e3e46beb141f936bfcfcac8ce133261e98e2b12daa8d2b81e2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "め",
+      "aliases": [
+        "め",
+        "メ"
+      ],
+      "sources": [
+        "kana:me"
+      ],
+      "id": "7439f6ea0e0993fc",
+      "path": "assets/audio/ja/7439f6ea0e0993fc.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "e71bba3c82628b0e21b697c028fa766d66ebf1be2f34ce57e412c7c41478fac5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "めいれい",
+      "aliases": [
+        "めいれい"
+      ],
+      "sources": [
+        "word:me"
+      ],
+      "id": "a14ac9f2a81343da",
+      "path": "assets/audio/ja/a14ac9f2a81343da.mp3",
+      "duration": 1.944,
+      "bytes": 16172,
+      "sha256": "1fd2428111425ac9eae9873f4fc74f267b41ad86029aa4142ff8a97d35d43786",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "も",
+      "aliases": [
+        "も",
+        "モ"
+      ],
+      "sources": [
+        "kana:mo"
+      ],
+      "id": "cab3902f2e6aa9a2",
+      "path": "assets/audio/ja/cab3902f2e6aa9a2.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "72e9393e2d52f19917b60c5d0543bb70867a0f7bf3590bde0c91494a3a290c38",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "もくてき",
+      "aliases": [
+        "もくてき"
+      ],
+      "sources": [
+        "word:mo"
+      ],
+      "id": "74c8359a784715e7",
+      "path": "assets/audio/ja/74c8359a784715e7.mp3",
+      "duration": 1.968,
+      "bytes": 16364,
+      "sha256": "4fb8e873fabaacddff9ccb3529d972263148fa6769ecff2d13e8ef91cd39d57d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "もも",
+      "aliases": [
+        "もも"
+      ],
+      "sources": [
+        "word:mo"
+      ],
+      "id": "86358c52476ed18e",
+      "path": "assets/audio/ja/86358c52476ed18e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0c41828c9e72d839361816dabde22e396466671da8b9ec35ab144eda0f7afb0c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "もんだい",
+      "aliases": [
+        "もんだい"
+      ],
+      "sources": [
+        "word:mo"
+      ],
+      "id": "f6ff96dfd8850e59",
+      "path": "assets/audio/ja/f6ff96dfd8850e59.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "afbdcb24cac12927907bec7ee9fcfc5c51cd3b392fd151693621833d2977679e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "や",
+      "aliases": [
+        "や",
+        "ヤ"
+      ],
+      "sources": [
+        "kana:ya"
+      ],
+      "id": "6427c9ec21edc6c1",
+      "path": "assets/audio/ja/6427c9ec21edc6c1.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "763f3e561da57f8b4b720d70c30b52f0d17e52bbf03803b3f17c6aeb3726b714",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "やくそく",
+      "aliases": [
+        "やくそく"
+      ],
+      "sources": [
+        "word:so",
+        "word:ya",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "ae852478559e6aab",
+      "path": "assets/audio/ja/ae852478559e6aab.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "523442ea728122040cd7b2f4b7080501d629571d81507720de54eda2f39ee1a1",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "やさしい",
+      "aliases": [
+        "やさしい"
+      ],
+      "sources": [
+        "word:ya"
+      ],
+      "id": "aaf1c7ded22e60b0",
+      "path": "assets/audio/ja/aaf1c7ded22e60b0.mp3",
+      "duration": 2.04,
+      "bytes": 16940,
+      "sha256": "3c03eec8795376d91a3e05f2d830f51d05e7a2f85c1d3e95e56386f7f60b8be8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "やま",
+      "aliases": [
+        "やま"
+      ],
+      "sources": [
+        "word:ya"
+      ],
+      "id": "b703ed921c5973e1",
+      "path": "assets/audio/ja/b703ed921c5973e1.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "08bd2f23acec97a0e7321764792454b4886c71e2733a49da64ccb17b5e8ea7d9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ゆ",
+      "aliases": [
+        "ゆ",
+        "ユ"
+      ],
+      "sources": [
+        "kana:yu"
+      ],
+      "id": "4b16a80a29790ee1",
+      "path": "assets/audio/ja/4b16a80a29790ee1.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "ee07ed03cf2960e3412b76a8dd1f8001338de55d712c2ac8617064db26f1acf9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ゆき",
+      "aliases": [
+        "ゆき"
+      ],
+      "sources": [
+        "word:yu"
+      ],
+      "id": "878ba6b095817831",
+      "path": "assets/audio/ja/878ba6b095817831.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e563dd7929398394e7eef922774141aa6fe76ae3dbe2e8b04e31cbf72df9b3e4",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ゆめ",
+      "aliases": [
+        "ゆめ"
+      ],
+      "sources": [
+        "word:yu"
+      ],
+      "id": "14ff15f8b132d039",
+      "path": "assets/audio/ja/14ff15f8b132d039.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3a7e7d4b8da7176c3161ff95bf906bf29e791835428944fe07e22467228054a9",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ゆめをみる",
+      "aliases": [
+        "ゆめをみる"
+      ],
+      "sources": [
+        "word:wo"
+      ],
+      "id": "62b47ee6d2650db6",
+      "path": "assets/audio/ja/62b47ee6d2650db6.mp3",
+      "duration": 2.112,
+      "bytes": 17516,
+      "sha256": "5fce03b9bb3c471efc8293edc1d1c75116c3d6e7fe99961a4b931d98f63d3f2e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "よ",
+      "aliases": [
+        "よ",
+        "ヨ"
+      ],
+      "sources": [
+        "kana:yo"
+      ],
+      "id": "f65ffc43be2c8917",
+      "path": "assets/audio/ja/f65ffc43be2c8917.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "4104283b592dbaccc65a589bbd8c1e1728a4e007439c5c70878a43f9855e465c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ようこそ",
+      "aliases": [
+        "ようこそ"
+      ],
+      "sources": [
+        "word:yo"
+      ],
+      "id": "c73b02c3eb294563",
+      "path": "assets/audio/ja/c73b02c3eb294563.mp3",
+      "duration": 1.992,
+      "bytes": 16556,
+      "sha256": "3ac2685f9a84a4c7bff4c83c9b9b4e11005a0cf040e632564f178a4d42ceae8e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "よやく",
+      "aliases": [
+        "よやく"
+      ],
+      "sources": [
+        "word:yo"
+      ],
+      "id": "5b60204a159c5ba6",
+      "path": "assets/audio/ja/5b60204a159c5ba6.mp3",
+      "duration": 1.896,
+      "bytes": 15788,
+      "sha256": "2959851fab01597d00345131e09de726cd9ae5a78477be375b27d9a0bed22035",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "よる",
+      "aliases": [
+        "よる"
+      ],
+      "sources": [
+        "word:yo"
+      ],
+      "id": "145f2faf8c22dc50",
+      "path": "assets/audio/ja/145f2faf8c22dc50.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5bd9890c493bb7244b20ad9c7f9a376a9460e99f6d3dadee68c954a844bc106f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ら",
+      "aliases": [
+        "ら",
+        "ラ"
+      ],
+      "sources": [
+        "kana:ra"
+      ],
+      "id": "0b9f5346bb00d6dd",
+      "path": "assets/audio/ja/0b9f5346bb00d6dd.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "6e3a31af246f2ce4dc6c932b2f5f25a9e78e29b0dda7a2567de197a48bf6c69c",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "らいねん",
+      "aliases": [
+        "らいねん"
+      ],
+      "sources": [
+        "word:ra"
+      ],
+      "id": "38c3ab99c3355b24",
+      "path": "assets/audio/ja/38c3ab99c3355b24.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f6ecdd18e6718fc3aa89777b004bbdc7948f8185045a4105600b1e88fab7695e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "らく",
+      "aliases": [
+        "らく"
+      ],
+      "sources": [
+        "word:ra"
+      ],
+      "id": "98b51d6a3d8badc8",
+      "path": "assets/audio/ja/98b51d6a3d8badc8.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "bb93c106d28def96f963312e4bcd184f25b9a49503c14ebc12cff1b25daa007d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "り",
+      "aliases": [
+        "り",
+        "リ"
+      ],
+      "sources": [
+        "kana:ri"
+      ],
+      "id": "b9b855591d39a29d",
+      "path": "assets/audio/ja/b9b855591d39a29d.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "b97d62ebb3dd1dbbef9f3f2917df3e55a79c66492ba39c74d4fa34e18ced330f",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りゃ",
+      "aliases": [
+        "りゃ",
+        "リャ"
+      ],
+      "sources": [
+        "yoon:rya"
+      ],
+      "id": "607281d9dd74348d",
+      "path": "assets/audio/ja/607281d9dd74348d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3fe8022cedb59dca0146ad45ec7fc437fbbdd88e36bb19c34540ada139185a39",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りゃくご",
+      "aliases": [
+        "りゃくご"
+      ],
+      "sources": [
+        "yoon-word:rya"
+      ],
+      "id": "04a3fda84d78ce17",
+      "path": "assets/audio/ja/04a3fda84d78ce17.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "bdff16a75bdca95682ef61cad109755703628928246489784fe6c4ca2dffd155",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りゅ",
+      "aliases": [
+        "りゅ",
+        "リュ"
+      ],
+      "sources": [
+        "yoon:ryu"
+      ],
+      "id": "00107f373d26e58d",
+      "path": "assets/audio/ja/00107f373d26e58d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "10ff961b50f64d87f2d2927511946d68078aeef0463a5ecf1f436d8424ca27b5",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りゅう",
+      "aliases": [
+        "りゅう"
+      ],
+      "sources": [
+        "yoon-word:ryu"
+      ],
+      "id": "bdd52eb148a349c3",
+      "path": "assets/audio/ja/bdd52eb148a349c3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "fad8139578085b045ee3e55fd0c963e5cf0a454eb50e8c2e6f462bd890ae1888",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りゆう",
+      "aliases": [
+        "りゆう"
+      ],
+      "sources": [
+        "word:ri",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "886e1e2641035678",
+      "path": "assets/audio/ja/886e1e2641035678.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "497b267530b99ccce5da25bc6e667b9400ce610ee6c02e78bd12b0d120e562c6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りょ",
+      "aliases": [
+        "りょ",
+        "リョ"
+      ],
+      "sources": [
+        "yoon:ryo"
+      ],
+      "id": "f244212833b90e9d",
+      "path": "assets/audio/ja/f244212833b90e9d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "10dbc409f625954a61e542dbe4b6d7f01f7ba7c846cb52c68c711098f98b718e",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りよう",
+      "aliases": [
+        "りよう"
+      ],
+      "sources": [
+        "word:ri"
+      ],
+      "id": "9869a387b7927898",
+      "path": "assets/audio/ja/9869a387b7927898.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "27c27c8e69b2f82d67ea3e8d13e0743a0db4a07ec7b74bf3b72aaaeadd18cfc2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りょうしん",
+      "aliases": [
+        "りょうしん"
+      ],
+      "sources": [
+        "word:ra"
+      ],
+      "id": "26ee80ee8756d5e2",
+      "path": "assets/audio/ja/26ee80ee8756d5e2.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "51245bf9ff4e111d98090b6eb8c0ccebd9e93d38d2554c70287b71615450f38a",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りょこう",
+      "aliases": [
+        "りょこう"
+      ],
+      "sources": [
+        "yoon-word:ryo",
+        "quiz-word:促音与拗音"
+      ],
+      "id": "41b1ee2f39f324ae",
+      "path": "assets/audio/ja/41b1ee2f39f324ae.mp3",
+      "duration": 1.848,
+      "bytes": 15404,
+      "sha256": "1b75ecb2f63068860c35fad2308d6c2322cbebfc5d90e09b44ede75cd5832eb3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "りんご",
+      "aliases": [
+        "りんご"
+      ],
+      "sources": [
+        "word:ri"
+      ],
+      "id": "b211c12d6fb39fea",
+      "path": "assets/audio/ja/b211c12d6fb39fea.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7e8a130874a6e06490f871d76b5c68300b9d0430c11005a701af366fb85f11ad",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "る",
+      "aliases": [
+        "る",
+        "ル"
+      ],
+      "sources": [
+        "kana:ru"
+      ],
+      "id": "10230c78567d386d",
+      "path": "assets/audio/ja/10230c78567d386d.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "32e49f1cab1778665cdd9b3af417e0db55d3c5e8f3e1df753970476b1e62e036",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "るす",
+      "aliases": [
+        "るす"
+      ],
+      "sources": [
+        "word:ru"
+      ],
+      "id": "1638625170c170ed",
+      "path": "assets/audio/ja/1638625170c170ed.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "6dc3822f42f505cc9c6db9492219b681d492cb6be4023a8fc7f7cc700b2378d6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "れ",
+      "aliases": [
+        "れ",
+        "レ"
+      ],
+      "sources": [
+        "kana:re"
+      ],
+      "id": "b7137290082d9ab3",
+      "path": "assets/audio/ja/b7137290082d9ab3.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "05619b4dc0dc39e3a25b094a2e074e11947461b47fedfa7669ba562595dd3d01",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "れいぎ",
+      "aliases": [
+        "れいぎ"
+      ],
+      "sources": [
+        "word:re"
+      ],
+      "id": "508f6eadd7767f66",
+      "path": "assets/audio/ja/508f6eadd7767f66.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d2c35cd204d5f2ec28a4140e84bb72a8bdfb2a5d9f12093dc5ff01763735fa1d",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "れきし",
+      "aliases": [
+        "れきし"
+      ],
+      "sources": [
+        "word:re",
+        "quiz-word:汉字同源词"
+      ],
+      "id": "90e304ee10425db1",
+      "path": "assets/audio/ja/90e304ee10425db1.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "df87f63f2acd788634aab283aa6908fc795372ea8f578fc7689ad2d4cfa530f2",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "れんあい",
+      "aliases": [
+        "れんあい"
+      ],
+      "sources": [
+        "word:re",
+        "special:拨音（ん / ン）",
+        "special-example:拨音（ん / ン）"
+      ],
+      "id": "e5c2624818514f20",
+      "path": "assets/audio/ja/e5c2624818514f20.mp3",
+      "duration": 1.92,
+      "bytes": 15980,
+      "sha256": "04f2da70eb5470ad438c3e45db2f036bef82be3511337fcda7aaaef482a527ea",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ろ",
+      "aliases": [
+        "ろ",
+        "ロ"
+      ],
+      "sources": [
+        "kana:ro"
+      ],
+      "id": "4cfbe7407babedff",
+      "path": "assets/audio/ja/4cfbe7407babedff.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "7bb4fc636c85d7bc1c24ade43fc9c3af35061209a5949309faa123bf810d5eac",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ろく",
+      "aliases": [
+        "ろく"
+      ],
+      "sources": [
+        "word:ro"
+      ],
+      "id": "a585e39926f77b88",
+      "path": "assets/audio/ja/a585e39926f77b88.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a6b667b48b46a6cd038d9b4e821d294254b7e3268ab8effcf117df1fd4146225",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ろっぴゃく",
+      "aliases": [
+        "ろっぴゃく"
+      ],
+      "sources": [
+        "yoon-word:pya"
+      ],
+      "id": "201e2a95ed6befb8",
+      "path": "assets/audio/ja/201e2a95ed6befb8.mp3",
+      "duration": 2.064,
+      "bytes": 17132,
+      "sha256": "cf6935891a921f62bf06c2f4088f5281bf56258975496cbaa882081e9b12c91b",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "わ",
+      "aliases": [
+        "わ",
+        "ワ"
+      ],
+      "sources": [
+        "kana:wa"
+      ],
+      "id": "7c4c3ad8faa1cf12",
+      "path": "assets/audio/ja/7c4c3ad8faa1cf12.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "d1729cdac66f290ddb8d583c39e0f897cdcceeb91d9a370efac233b588c812a8",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "わしょく",
+      "aliases": [
+        "わしょく"
+      ],
+      "sources": [
+        "word:wa"
+      ],
+      "id": "2c6a7c22f28d5dc2",
+      "path": "assets/audio/ja/2c6a7c22f28d5dc2.mp3",
+      "duration": 1.896,
+      "bytes": 15788,
+      "sha256": "03ebeaf785ba6fb171dc5c5b393179efae7a3eef9e5b87c53a782117a3b738bc",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "わたし",
+      "aliases": [
+        "わたし"
+      ],
+      "sources": [
+        "word:wa"
+      ],
+      "id": "3e5676b36e2edcaa",
+      "path": "assets/audio/ja/3e5676b36e2edcaa.mp3",
+      "duration": 1.896,
+      "bytes": 15788,
+      "sha256": "1ede95901335279e07710c412d086fa3355faf6e2000106c90c75575214eb4a6",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "を",
+      "aliases": [
+        "を",
+        "ヲ"
+      ],
+      "sources": [
+        "kana:wo"
+      ],
+      "id": "51eeb7e487054b1b",
+      "path": "assets/audio/ja/51eeb7e487054b1b.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "d11530554d804d37e52ed1ed50a61d63c47a0cf9d904c1d9e1c63ea86e8dc796",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "ja",
+      "text": "ん",
+      "aliases": [
+        "ん",
+        "ン"
+      ],
+      "sources": [
+        "kana:n"
+      ],
+      "id": "d424e99224403d16",
+      "path": "assets/audio/ja/d424e99224403d16.mp3",
+      "duration": 1.872,
+      "bytes": 11232,
+      "sha256": "b63e5a467010f709dc73330974d6cc3b0a7def2306f2d2729a208ca6ea9749c3",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-15%"
+    },
+    {
+      "lang": "zh",
+      "text": "三",
+      "aliases": [
+        "三"
+      ],
+      "sources": [
+        "origin-katakana:mi"
+      ],
+      "id": "0dcce3d606e2b0cf",
+      "path": "assets/audio/zh/0dcce3d606e2b0cf.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cd82460ae0de4651e585f429bdeb7415e47febaa8061563645ea2ebe59d89199",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "不",
+      "aliases": [
+        "不"
+      ],
+      "sources": [
+        "origin:fu",
+        "origin-katakana:fu"
+      ],
+      "id": "d0d02686cc0780b6",
+      "path": "assets/audio/zh/d0d02686cc0780b6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2cb40fe02b0ac561d4cbeb283d0019be2bd478c6c37cbc4b19815f01a8777ddd",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "与",
+      "aliases": [
+        "与"
+      ],
+      "sources": [
+        "origin:yo",
+        "origin-katakana:yo"
+      ],
+      "id": "01540f35e5838a1d",
+      "path": "assets/audio/zh/01540f35e5838a1d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "0ab5766ba957b1e3472524c0320026490b739152373b03f7ac62403bd8302f30",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "世",
+      "aliases": [
+        "世"
+      ],
+      "sources": [
+        "origin:se",
+        "origin-katakana:se"
+      ],
+      "id": "7d16a39bcbc18312",
+      "path": "assets/audio/zh/7d16a39bcbc18312.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "426a7a51d94bfe55f3a5f743f709933e87b5ddcfbe7fd2fab810aa8fe772208f",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "乃",
+      "aliases": [
+        "乃"
+      ],
+      "sources": [
+        "origin:no",
+        "origin-katakana:no"
+      ],
+      "id": "dc7f3b81f15e2879",
+      "path": "assets/audio/zh/dc7f3b81f15e2879.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e58aff847e904402d3835e7f471224e1660e9a469caa3a895a39a88460767484",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "久",
+      "aliases": [
+        "久"
+      ],
+      "sources": [
+        "origin:ku",
+        "origin-katakana:ku"
+      ],
+      "id": "c686218787a7d506",
+      "path": "assets/audio/zh/c686218787a7d506.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "809c8f5084cf34f4d6e33ff45d4cad50badf2c0dc3592e32759cfc8a4898daf1",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "之",
+      "aliases": [
+        "之"
+      ],
+      "sources": [
+        "origin:shi",
+        "origin-katakana:shi"
+      ],
+      "id": "dbab8d528aa6e4c6",
+      "path": "assets/audio/zh/dbab8d528aa6e4c6.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "026e6a4d701bc69131d7f4cc982eae55766425fccb25882680cf63f5b24e1558",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "乎",
+      "aliases": [
+        "乎"
+      ],
+      "sources": [
+        "origin-katakana:wo"
+      ],
+      "id": "35a2bbf180cffe1d",
+      "path": "assets/audio/zh/35a2bbf180cffe1d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7d0df6f5672950180d62ec84593fea84086e6339304fa31e5be95749521a04f5",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "也",
+      "aliases": [
+        "也"
+      ],
+      "sources": [
+        "origin:ya",
+        "origin-katakana:ya"
+      ],
+      "id": "cf6deba7aec74a86",
+      "path": "assets/audio/zh/cf6deba7aec74a86.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c2c1f2e21c65677222b71a0910f074acd4efd2320ef693869c4b192141d1e3b7",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "仁",
+      "aliases": [
+        "仁"
+      ],
+      "sources": [
+        "origin:ni",
+        "origin-katakana:ni"
+      ],
+      "id": "64300ccd3f0400fe",
+      "path": "assets/audio/zh/64300ccd3f0400fe.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7d238c6245ddd373d76cba8b91241ed75230ace3fe6cf5356dd06626c1623645",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "介",
+      "aliases": [
+        "介"
+      ],
+      "sources": [
+        "origin-katakana:ke"
+      ],
+      "id": "a88f845dc1b35e0f",
+      "path": "assets/audio/zh/a88f845dc1b35e0f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "db0094af9d60fd536af083154cc275f2bed9a851dae475b8760b590c41ecdcf2",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "以",
+      "aliases": [
+        "以"
+      ],
+      "sources": [
+        "origin:i"
+      ],
+      "id": "c7f78f4b99470505",
+      "path": "assets/audio/zh/c7f78f4b99470505.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b28ec1427204aa1bee38cee26e665383e0824d529346549d5a40f4d423c6d15f",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "伊",
+      "aliases": [
+        "伊"
+      ],
+      "sources": [
+        "origin-katakana:i"
+      ],
+      "id": "72722f35ccdbd318",
+      "path": "assets/audio/zh/72722f35ccdbd318.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "90cbafb8dbbdc8b1cf2118c1aadd7fb1cac7d72e0db44515f7a18d21d124cdd3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "保",
+      "aliases": [
+        "保"
+      ],
+      "sources": [
+        "origin:ho",
+        "origin-katakana:ho"
+      ],
+      "id": "79922a99aa3ddfa7",
+      "path": "assets/audio/zh/79922a99aa3ddfa7.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c49ea17b7e407998b9a94388291002795c71152a2764bed95992c5f0a123e649",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "八",
+      "aliases": [
+        "八"
+      ],
+      "sources": [
+        "origin-katakana:ha"
+      ],
+      "id": "f2b0d56e39f66ada",
+      "path": "assets/audio/zh/f2b0d56e39f66ada.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "16e17c75a47704a9f207f05af2e1abd63d7c27ecff08f7429ef9312a3320be6e",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "利",
+      "aliases": [
+        "利"
+      ],
+      "sources": [
+        "origin:ri",
+        "origin-katakana:ri"
+      ],
+      "id": "5618091e677ba0e7",
+      "path": "assets/audio/zh/5618091e677ba0e7.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b925bf91a0acf728146bef5daa33db54fde140097870babdb1fe8ba8c16623a0",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "加",
+      "aliases": [
+        "加"
+      ],
+      "sources": [
+        "origin:ka",
+        "origin-katakana:ka"
+      ],
+      "id": "095299b57918d4a0",
+      "path": "assets/audio/zh/095299b57918d4a0.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f47e6cf04d8bed34072a82e426b7b0eeedcf00c08abe0ebac108e49451fac321",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "千",
+      "aliases": [
+        "千"
+      ],
+      "sources": [
+        "origin-katakana:chi"
+      ],
+      "id": "313d72cc0e60cd67",
+      "path": "assets/audio/zh/313d72cc0e60cd67.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cb9a39623ded2f655f46e69c7398e64bf65f7360201d6a746dde943afda6da3d",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "呂",
+      "aliases": [
+        "呂"
+      ],
+      "sources": [
+        "origin:ro",
+        "origin-katakana:ro"
+      ],
+      "id": "c82dd769f611e05e",
+      "path": "assets/audio/zh/c82dd769f611e05e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5bf37fee8a975cd05ccad029f32196efb0ecdd01e98a5058e2acdfea948469f1",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "和",
+      "aliases": [
+        "和"
+      ],
+      "sources": [
+        "origin:wa",
+        "origin-katakana:wa"
+      ],
+      "id": "2687327b8315debb",
+      "path": "assets/audio/zh/2687327b8315debb.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e7c2a7ddde93753241cd3f22d5b8d4feaead5adc0a4ad0187737bc1706328eb6",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "多",
+      "aliases": [
+        "多"
+      ],
+      "sources": [
+        "origin-katakana:ta"
+      ],
+      "id": "0f780aea29669759",
+      "path": "assets/audio/zh/0f780aea29669759.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "507dd18cedbc30def99fc7341d748084396bb8962c8b1030a830f387c68f4a9e",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "天",
+      "aliases": [
+        "天"
+      ],
+      "sources": [
+        "origin:te",
+        "origin-katakana:te"
+      ],
+      "id": "83298f90d500a92f",
+      "path": "assets/audio/zh/83298f90d500a92f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e268e9a4c2406c592704d632b96e9c30ae5896a5263810b9ac4a51812e4de35a",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "太",
+      "aliases": [
+        "太"
+      ],
+      "sources": [
+        "origin:ta"
+      ],
+      "id": "88850b55ac0f369f",
+      "path": "assets/audio/zh/88850b55ac0f369f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c7dfdac3ca8460b2284032598a3caecd5067e86118cc3d985428e0497bb600bb",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "奈",
+      "aliases": [
+        "奈"
+      ],
+      "sources": [
+        "origin:na",
+        "origin-katakana:na"
+      ],
+      "id": "99f98b1028c3ac11",
+      "path": "assets/audio/zh/99f98b1028c3ac11.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "31c7f864a38a5d227367424598d3d3fd19d6f5cd333e54caaeaffc89ffdc4ea5",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "女",
+      "aliases": [
+        "女"
+      ],
+      "sources": [
+        "origin:me",
+        "origin-katakana:me"
+      ],
+      "id": "4c9d075a38c3e16d",
+      "path": "assets/audio/zh/4c9d075a38c3e16d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "5d053d09699e605c3619d7d304e9d708a235f005d3f351849408412026405537",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "奴",
+      "aliases": [
+        "奴"
+      ],
+      "sources": [
+        "origin:nu",
+        "origin-katakana:nu"
+      ],
+      "id": "3e31e010d720192a",
+      "path": "assets/audio/zh/3e31e010d720192a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "93635fc947cd9843af52f9a7f02154060064575b3a7e77969fe89a2d04bbb6ca",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "宇",
+      "aliases": [
+        "宇"
+      ],
+      "sources": [
+        "origin:u",
+        "origin-katakana:u"
+      ],
+      "id": "8ec880633c5b7b06",
+      "path": "assets/audio/zh/8ec880633c5b7b06.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "a35e7d8ac9b669be9c5aebea0af87593ce358320b3771dfc7323ecd437856482",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "安",
+      "aliases": [
+        "安"
+      ],
+      "sources": [
+        "origin:a"
+      ],
+      "id": "aaa6deb1650da27a",
+      "path": "assets/audio/zh/aaa6deb1650da27a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "947c7db10dd995ee21cf16b25c23073230098c06b8d41b242b4b1f5afd2f33c4",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "寸",
+      "aliases": [
+        "寸"
+      ],
+      "sources": [
+        "origin:su"
+      ],
+      "id": "7b5b636b0610d497",
+      "path": "assets/audio/zh/7b5b636b0610d497.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f8fe9bd359ee7973ae366ebb07030964edef9f10b9354f098f3cdb212a370ffa",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "川",
+      "aliases": [
+        "川"
+      ],
+      "sources": [
+        "origin:tsu",
+        "origin-katakana:tsu"
+      ],
+      "id": "642efa5d0a1d0397",
+      "path": "assets/audio/zh/642efa5d0a1d0397.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cb2dbae79199db357cebaa2bfd076a53f26cef384352ba5697d2a1d74dc8d806",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "左",
+      "aliases": [
+        "左"
+      ],
+      "sources": [
+        "origin:sa"
+      ],
+      "id": "10c2b578b9f52975",
+      "path": "assets/audio/zh/10c2b578b9f52975.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "aaf413944ef04ae27db0c642078b36a6502821d40e0836baacb58672db6eb83b",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "己",
+      "aliases": [
+        "己"
+      ],
+      "sources": [
+        "origin:ko",
+        "origin-katakana:ko"
+      ],
+      "id": "02eadc5ee6b56b10",
+      "path": "assets/audio/zh/02eadc5ee6b56b10.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d1c843833653e138be17b10d644f6583e5c8fe77bca58ea7ea8845cd9edbd1f1",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "幾",
+      "aliases": [
+        "幾"
+      ],
+      "sources": [
+        "origin:ki",
+        "origin-katakana:ki"
+      ],
+      "id": "46ca396a39fcc74b",
+      "path": "assets/audio/zh/46ca396a39fcc74b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e7428935a9b0c57055eca958c1cd67c9a3bba7c816acae18940ca57eb942a719",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "散",
+      "aliases": [
+        "散"
+      ],
+      "sources": [
+        "origin-katakana:sa"
+      ],
+      "id": "23715e7ac3094453",
+      "path": "assets/audio/zh/23715e7ac3094453.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7a8f3a32eae0859a71d1d9a8a31693298ff69ed9e13ce59ff175c9bc2f4c8e08",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "於",
+      "aliases": [
+        "於"
+      ],
+      "sources": [
+        "origin:o",
+        "origin-katakana:o"
+      ],
+      "id": "7e47a6be9caab766",
+      "path": "assets/audio/zh/7e47a6be9caab766.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "16423cac5fb02c188a42a894fc0a21d39a75f51b4f5e5278a23933475c9a59e0",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "无",
+      "aliases": [
+        "无"
+      ],
+      "sources": [
+        "origin:n"
+      ],
+      "id": "dc2f9b6b6c58d5ba",
+      "path": "assets/audio/zh/dc2f9b6b6c58d5ba.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "08ed1e0886f41bbf97ccdb1b06927e18d9fad70443d66456920653fc901c87ef",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "曽",
+      "aliases": [
+        "曽"
+      ],
+      "sources": [
+        "origin:so",
+        "origin-katakana:so"
+      ],
+      "id": "9fef9c84728cdde2",
+      "path": "assets/audio/zh/9fef9c84728cdde2.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1f36b67bba8ea3340b203535e1679c46504abb3dffbb6cb40247b352efb0e8d1",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "末",
+      "aliases": [
+        "末"
+      ],
+      "sources": [
+        "origin:ma",
+        "origin-katakana:ma"
+      ],
+      "id": "b1308dabb741fb76",
+      "path": "assets/audio/zh/b1308dabb741fb76.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f816e61b076191717f34c8f4aba1cfbfb4bdba7419ab27d87ed8ac4b2dad0556",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "止",
+      "aliases": [
+        "止"
+      ],
+      "sources": [
+        "origin:to",
+        "origin-katakana:to"
+      ],
+      "id": "80cf44098a149855",
+      "path": "assets/audio/zh/80cf44098a149855.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c1c6e1be9bb4c60ac1b955f3c05f89e3558ebe260bc848568257a8da04681549",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "武",
+      "aliases": [
+        "武"
+      ],
+      "sources": [
+        "origin:mu"
+      ],
+      "id": "8662184c2af56262",
+      "path": "assets/audio/zh/8662184c2af56262.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d505cdd1854f76d41c3bf4b43f684ffe5bc01c8361d2bb357aee9a314739e052",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "比",
+      "aliases": [
+        "比"
+      ],
+      "sources": [
+        "origin:hi",
+        "origin-katakana:hi"
+      ],
+      "id": "1e01f1d2fe027d6a",
+      "path": "assets/audio/zh/1e01f1d2fe027d6a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "57569c94f31c0614026e8b52941c525a97ce3f0500f10ad89f360f7a0d4b544b",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "毛",
+      "aliases": [
+        "毛"
+      ],
+      "sources": [
+        "origin:mo",
+        "origin-katakana:mo"
+      ],
+      "id": "f186a73ab9f6d83f",
+      "path": "assets/audio/zh/f186a73ab9f6d83f.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "f7fe2ffe3af7d34af037827bb13ef58fe1cb9a9ba7639bcee2e188f4358e684f",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "江",
+      "aliases": [
+        "江"
+      ],
+      "sources": [
+        "origin-katakana:e"
+      ],
+      "id": "c69853e196eb2fb4",
+      "path": "assets/audio/zh/c69853e196eb2fb4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e1655186c694bdb7655c938c720f953c95dcaf29aa8b71e344fe4f6cfe6b6c4f",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "波",
+      "aliases": [
+        "波"
+      ],
+      "sources": [
+        "origin:ha"
+      ],
+      "id": "55d1c89c246a1cd4",
+      "path": "assets/audio/zh/55d1c89c246a1cd4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e61aaddda1f776241ebcdfb570f437f0f6f7f805364909469ca1339d54f4b111",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "流",
+      "aliases": [
+        "流"
+      ],
+      "sources": [
+        "origin-katakana:ru"
+      ],
+      "id": "ecf20dfd4dcd3c90",
+      "path": "assets/audio/zh/ecf20dfd4dcd3c90.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "898ad6d857d916e44b9bb9bc793f4028cbdeaab4b19c2acca38a6fe1a2b6192d",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "爾",
+      "aliases": [
+        "爾"
+      ],
+      "sources": [
+        "origin-katakana:n"
+      ],
+      "id": "baf057783d3ae8a4",
+      "path": "assets/audio/zh/baf057783d3ae8a4.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "b2b543110382f46505a08a03c34ccd0f47e4fec53ad2c7cab599fe64f27df681",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "牟",
+      "aliases": [
+        "牟"
+      ],
+      "sources": [
+        "origin-katakana:mu"
+      ],
+      "id": "cc6469321624fc3b",
+      "path": "assets/audio/zh/cc6469321624fc3b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "dc5c235ac5ac837961829cf4e5cfc001e2b9956313febe078a4cf0bf813b8245",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "由",
+      "aliases": [
+        "由"
+      ],
+      "sources": [
+        "origin:yu",
+        "origin-katakana:yu"
+      ],
+      "id": "e028d73c43986984",
+      "path": "assets/audio/zh/e028d73c43986984.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "d4912848bf5f508a6b8f17c29dcb9351d06331d8ffb39610bc1c36c61d7b995f",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "留",
+      "aliases": [
+        "留"
+      ],
+      "sources": [
+        "origin:ru"
+      ],
+      "id": "75c119fd7bd4186d",
+      "path": "assets/audio/zh/75c119fd7bd4186d.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "1c13aa91999da565012b5ad3c7022a96011204fe7d97f5d58d01bd903f1f34ff",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "知",
+      "aliases": [
+        "知"
+      ],
+      "sources": [
+        "origin:chi"
+      ],
+      "id": "a39de76968e360ae",
+      "path": "assets/audio/zh/a39de76968e360ae.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "c8836e75d02edcae6389eb9f761e49000d4cc76a75a709320857ae14c6cbbf9b",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "礼",
+      "aliases": [
+        "礼"
+      ],
+      "sources": [
+        "origin:re",
+        "origin-katakana:re"
+      ],
+      "id": "988b1fce0f6e7145",
+      "path": "assets/audio/zh/988b1fce0f6e7145.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "e5c0a05df01e0bd8a7f689e7fdfe0feaaf35017d7e902697107c60c11bc2220d",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "祢",
+      "aliases": [
+        "祢"
+      ],
+      "sources": [
+        "origin:ne",
+        "origin-katakana:ne"
+      ],
+      "id": "e0961f849953480e",
+      "path": "assets/audio/zh/e0961f849953480e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "3f3b99e62968f98d595f8f3c4c18b779a01f9714e42f14280935c674d15d9f12",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "美",
+      "aliases": [
+        "美"
+      ],
+      "sources": [
+        "origin:mi"
+      ],
+      "id": "1ffe96cc12e1d51b",
+      "path": "assets/audio/zh/1ffe96cc12e1d51b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "2fbb455564ce79e9ce69cccf8282280ff32726f3e9379bcb792a11dee9479067",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "良",
+      "aliases": [
+        "良"
+      ],
+      "sources": [
+        "origin:ra",
+        "origin-katakana:ra"
+      ],
+      "id": "c5d7ade50e0fc0c3",
+      "path": "assets/audio/zh/c5d7ade50e0fc0c3.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "586f489cd278ebf2b4c34a2c02f2f7f04c4c76a5fbc175b10b945e0b111f6762",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "衣",
+      "aliases": [
+        "衣"
+      ],
+      "sources": [
+        "origin:e"
+      ],
+      "id": "9052a05ef3cf927b",
+      "path": "assets/audio/zh/9052a05ef3cf927b.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7795329e7d19ba4d3e93503aba212da0107bc049af9e99c8439a818cb7f34105",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "計",
+      "aliases": [
+        "計"
+      ],
+      "sources": [
+        "origin:ke"
+      ],
+      "id": "94856308ad3a027a",
+      "path": "assets/audio/zh/94856308ad3a027a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "9c9396f02c41c633981aa17988250d705477aec04dad8dbefd574f4ef61fa936",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "遠",
+      "aliases": [
+        "遠"
+      ],
+      "sources": [
+        "origin:wo"
+      ],
+      "id": "1fae474e3304254a",
+      "path": "assets/audio/zh/1fae474e3304254a.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "cd1c8ac5ef1912d61648ad46cb288353ffef1e71a6c14a3deb219fafaaa0d427",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "部",
+      "aliases": [
+        "部"
+      ],
+      "sources": [
+        "origin:he",
+        "origin-katakana:he"
+      ],
+      "id": "8340ca03a0743d2e",
+      "path": "assets/audio/zh/8340ca03a0743d2e.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "7d41cd0288181eedec37740ce4287b4fbd01f7cb4e387a9da8b93168cdff66b3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "阿",
+      "aliases": [
+        "阿"
+      ],
+      "sources": [
+        "origin-katakana:a"
+      ],
+      "id": "257d272912caf569",
+      "path": "assets/audio/zh/257d272912caf569.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "bdd179c4a2e4de269cb7f4f89c83c717053f98d5110c7693fad6a46f23d38095",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    },
+    {
+      "lang": "zh",
+      "text": "須",
+      "aliases": [
+        "須"
+      ],
+      "sources": [
+        "origin-katakana:su"
+      ],
+      "id": "eb1c0c804c464c06",
+      "path": "assets/audio/zh/eb1c0c804c464c06.mp3",
+      "duration": 1.872,
+      "bytes": 15596,
+      "sha256": "4369eac860b58db73b71ffbb020f023ead71c4b901dc9885bd38920bd7b041ab",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%"
+    }
+  ]
+}

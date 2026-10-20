@@ -1,0 +1,24 @@
+Genyin Gojuon / 源音·五十音
+Copyright (c) 2026 Genyin Gojuon contributors.
+
+The initial application and learning data were supplied by the project owner
+as a Gemini-assisted project. The Android integration, mobile interaction,
+offline-resource pipeline and demonstration tooling were subsequently
+refactored with Codex assistance. Neither Google nor OpenAI endorses this app.
+
+The bundled Source Kana font is a renamed, subsetted derivative of Noto
+Serif CJK JP. Copyright (c) 2017-2024 Adobe (http://www.adobe.com/).
+Original copyright notices are retained in the font metadata.
+The font is licensed under the SIL Open Font License 1.1, reproduced at
+assets/fonts/OFL.txt. It is not relicensed under the project's MIT license.
+
+The Android lesson recordings use Microsoft Edge TTS, with Nanami for
+Japanese and Xiaoxiao for Chinese. The public source contains the text
+catalog and generation tools, but excludes those service-generated MP3s.
+No MIT or CC license over those recordings is claimed by this project.
+
+Qwen3-TTS is used only for the introduction video's Serena narration.
+The upstream Qwen model weights and code retain Apache-2.0; weights are not
+included in this repository. See assets/audio/LICENSE and THIRD_PARTY.md.
+
+See THIRD_PARTY.md for component origins, public-source exclusions and links.

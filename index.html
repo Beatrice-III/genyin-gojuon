@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#F7F5EF" />
+  <title>源音 · 五十音 —— 万叶书源与汉日音韵习得</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link rel="stylesheet" href="css/native-mobile.css" />
+</head>
+<body>
+  <!-- ==================== 顶部书卷导航栏 ==================== -->
+  <header class="app-header"><div class="header-inner">
+  <div class="brand-group"><div class="brand-seal" aria-hidden="true">源</div><div><div class="brand-title">源音<span>五十音</span></div><div class="brand-subtitle">从熟悉的汉字出发</div></div></div>
+  <div class="header-actions"><span class="edition-label">汉语母语者的假名手帖</span><button class="icon-btn" id="btn-open-settings" aria-label="打开学习记录与设置"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg></button></div>
+</div><nav class="main-nav" role="tablist" aria-label="学习模块"><button class="nav-tab active" data-tab="tab-gojuon" role="tab" aria-selected="true" aria-controls="tab-gojuon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>字表</span></button><button class="nav-tab " data-tab="tab-origins" role="tab" aria-selected="false" aria-controls="tab-origins"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15"/></svg><span>书源</span></button><button class="nav-tab " data-tab="tab-confusable" role="tab" aria-selected="false" aria-controls="tab-confusable"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7M7.5 4v4c0 5-2 8-5 10m1-7 7 7m3-1 4-11 4 11m-6-4h5"/></svg><span>辨形</span></button><button class="nav-tab " data-tab="tab-writing" role="tab" aria-selected="false" aria-controls="tab-writing"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14v6Zm0 0 5-1-5-5"/></svg><span>临写</span></button><button class="nav-tab " data-tab="tab-stages" role="tab" aria-selected="false" aria-controls="tab-stages"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h6v-6h6V8h6V3M6 6h4M6 10h2"/></svg><span>课程</span><span id="nav-stage-badge" class="nav-badge">0/10</span></button><button class="nav-tab " data-tab="tab-arena" role="tab" aria-selected="false" aria-controls="tab-arena"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-9 12h7l-1 8 10-13h-8l1-7Z"/></svg><span>演练</span></button></nav></header>
+
+  <!-- ==================== 主体内容区 ==================== -->
+  <main class="main-container">
+
+    <!-- ==================== 卷一：五十音图 ==================== -->
+    <section id="tab-gojuon" class="tab-panel active">
+      <div class="home-hero">
+        <div class="hero-copy"><div class="chapter-kicker">源音手帖 / 01</div><h1>从汉字，<br/>读懂假名<span>。</span></h1><p>循字形记忆，听声音辨认。<br/>把熟悉的汉字，变成新的起点。</p></div>
+        <div class="hero-art" aria-hidden="true"><span class="hero-kanji">安</span><span class="hero-art-line"></span><span class="hero-kana">あ</span><span class="hero-seal">字有来处</span></div>
+      </div>
+      <div class="study-overview"><div><strong id="stat-mastered-count">0/46</strong><span>综合达标</span></div><div><strong id="stat-cleared-stages">0/10</strong><span>课程完成</span></div><button id="btn-quick-weak-drill"><strong id="stat-weak-count">0</strong><span>待温习 <b>↗</b></span></button></div>
+      <div class="continue-card"><div><span class="tiny-label">循序修习</span><strong id="next-stage-label">第一阶 · 从元音开始</strong></div><button class="round-next" id="btn-start-recommended-stage" aria-label="进入当前课程">↗</button></div>
+      <div class="section-heading"><h2>五十音字表</h2><span>点字详读 · 点音聆听</span></div>
+      <!-- 音韵子卷与视图控制条 -->
+      <div class="control-strip">
+        <div class="segmented-control" id="gojuon-subview-group">
+          <button class="seg-btn active" data-subview="seion">清音</button>
+          <button class="seg-btn" data-subview="dakuon">浊音</button>
+          <button class="seg-btn" data-subview="yoon">拗音</button>
+          <button class="seg-btn" data-subview="special">特殊音</button>
+        </div>
+
+        <div class="btn-group" id="seion-display-controls">
+          <div class="segmented-control">
+            <button class="seg-btn active" data-cardmode="all">平片对照</button>
+            <button class="seg-btn" data-cardmode="hira-blind">平假自测</button>
+            <button class="seg-btn" data-cardmode="kata-blind">片假自测</button>
+            <button class="seg-btn" data-cardmode="kanji-matrix">汉字本源</button>
+          </div>
+          <button class="outline-btn" id="btn-highlight-hard" title="标出母语者需重点留意的发音（う、ふ、ら行、つ等）">
+            发音难点
+          </button>
+          <button class="outline-btn" id="btn-highlight-sameorigin" title="标出平假名与片假名源于同一汉字的二十九个音节">
+            平片同源
+          </button>
+        </div>
+      </div>
+
+      <!-- 1A: 清音 5x11 矩阵 -->
+      <div id="subview-seion" class="gojuon-subview">
+        <div class="gojuon-board">
+          <div class="gojuon-col-header">
+            <div class="col-label" style="text-align:left;">五段</div>
+            <div class="col-label">a <small>あ段</small></div>
+            <div class="col-label">i <small>い段</small></div>
+            <div class="col-label">u <small>う段</small></div>
+            <div class="col-label">e <small>え段</small></div>
+            <div class="col-label">o <small>お段</small></div>
+          </div>
+          <div id="gojuon-matrix-rows" class="gojuon-board"></div>
+        </div>
+      </div>
+
+      <!-- 1B: 浊音与半浊音 -->
+      <div id="subview-dakuon" class="gojuon-subview" style="display:none;">
+        <div id="dakuon-container"></div>
+      </div>
+
+      <!-- 1C: 拗音 -->
+      <div id="subview-yoon" class="gojuon-subview" style="display:none;">
+        <div id="yoon-container"></div>
+      </div>
+
+      <!-- 1D: 特殊音拍与高低声调 -->
+      <div id="subview-special" class="gojuon-subview" style="display:none;">
+        <div id="special-sounds-container"></div>
+      </div>
+    </section>
+
+    <!-- ==================== 卷二：万叶书源 ==================== -->
+    <section id="tab-origins" class="tab-panel">
+      <div class="chapter-intro">
+        <div>
+          <div class="chapter-kicker">卷二 · 书体源流</div>
+          <h2 id="origin-history-title">汉字书源与汉日音韵：母语者的天然习得路径</h2>
+          <p id="origin-history-subtitle"></p>
+        </div>
+        <div class="btn-group">
+          <button class="primary-btn" id="btn-start-origin-quiz">
+            书源配对演练（30题）
+          </button>
+        </div>
+      </div>
+
+      <!-- 四阶段历史源流 -->
+      <div class="timeline-grid" id="origin-timeline-grid"></div>
+
+      <!-- 三大习得脉络 -->
+      <div class="advantage-cards" id="origin-advantages-grid"></div>
+
+      <!-- 行筛选条 -->
+      <div class="control-strip">
+        <div class="segmented-control" id="origin-row-filter">
+          <button class="seg-btn active" data-row="all">全部四十六音</button>
+          <button class="seg-btn" data-row="same">平片同源（二十九字）</button>
+          <button class="seg-btn" data-row="a">あ行</button>
+          <button class="seg-btn" data-row="ka">か行</button>
+          <button class="seg-btn" data-row="sa">さ行</button>
+          <button class="seg-btn" data-row="ta">た行</button>
+          <button class="seg-btn" data-row="na">な行</button>
+          <button class="seg-btn" data-row="ha">は行</button>
+          <button class="seg-btn" data-row="ma">ま行</button>
+          <button class="seg-btn" data-row="ya">や行</button>
+          <button class="seg-btn" data-row="ra">ら行</button>
+          <button class="seg-btn" data-row="wa">わ行·ん</button>
+        </div>
+      </div>
+
+      <!-- 46假名草书与楷书偏旁演变图鉴 -->
+      <div class="origin-gallery-grid" id="origin-gallery-container"></div>
+    </section>
+
+    <!-- ==================== 卷三：字形辨微 ==================== -->
+    <section id="tab-confusable" class="tab-panel">
+      <div class="chapter-intro">
+        <div>
+          <div class="chapter-kicker">卷三 · 形近考辨</div>
+          <h2>相似的字，各有线索</h2>
+          <p>
+            把「シ・ツ」和「ソ・ン」放在一起，比较起笔、方向与收笔，再用专项练习检验。
+          </p>
+        </div>
+        <div class="btn-group">
+          <button class="primary-btn" id="btn-start-all-confusable-quiz">
+            形近综合练习 · 40题
+          </button>
+        </div>
+      </div>
+
+      <div class="confusable-grid" id="confusable-groups-container"></div>
+    </section>
+
+    <!-- ==================== 卷四：书道临池 ==================== -->
+    <section id="tab-writing" class="tab-panel">
+      <div class="chapter-intro">
+        <div>
+          <div class="chapter-kicker">卷四 · 笔顺与结体</div>
+          <h2>让记忆，留在笔尖</h2>
+          <p>
+            先跟随底稿临摹，再隐去字形默写。写毕显示范字，自己比较结体与笔画；记录次数，不自动评判书写对错。
+          </p>
+        </div>
+      </div>
+
+      <div class="writing-dojo-layout">
+        <!-- 左侧米字格画板 -->
+        <div class="dojo-canvas-panel">
+          <div class="segmented-control" style="margin-bottom:10px;">
+            <button class="seg-btn active" id="dojo-mode-trace">临摹</button>
+            <button class="seg-btn" id="dojo-mode-memory">默写</button>
+          </div>
+
+          <div class="btn-group" style="justify-content:center;margin-bottom:8px;">
+            <div class="segmented-control">
+              <button class="seg-btn active" id="dojo-script-hira">平假名</button>
+              <button class="seg-btn" id="dojo-script-kata">片假名</button>
+            </div>
+            <label style="font-size:12px;color:var(--ink-700);display:inline-flex;align-items:center;gap:4px;cursor:pointer;">
+              <input type="checkbox" id="dojo-toggle-origin-ghost" checked />
+              叠印本字
+            </label>
+          </div>
+
+          <canvas id="calligraphy-canvas" width="320" height="320"></canvas>
+
+          <div id="dojo-memory-prompt" style="display:none;margin:8px 0;padding:8px;background:var(--vermilion-soft);border:1px solid var(--vermilion-line);border-radius:6px;font-size:12.5px;color:var(--vermilion);">
+            请于米字格内默写当前假名，写毕可点击「显示朱砂范字」比对结体。
+          </div>
+
+          <div class="btn-group" style="justify-content:center;margin-top:10px;">
+            <button class="outline-btn" id="dojo-btn-undo">撤销</button>
+            <button class="outline-btn" id="dojo-btn-clear">清空</button>
+            <button class="secondary-btn" id="dojo-btn-reveal" style="display:none;">显示朱砂范字</button>
+            <button class="primary-btn" id="dojo-btn-complete">记下这一笔 →</button>
+          </div>
+
+          <div class="btn-group" style="justify-content:center;margin-top:10px;">
+            <button class="outline-btn" id="dojo-btn-prev">上一字</button>
+            <button class="outline-btn" id="dojo-btn-speak">聆听发音</button>
+            <button class="outline-btn" id="dojo-btn-next">下一字</button>
+          </div>
+        </div>
+
+        <!-- 右侧书源与笔顺详解 -->
+        <div class="dojo-info-panel">
+          <div id="dojo-char-detail-box"></div>
+
+          <div>
+            <h4 style="margin-bottom:8px;font-size:13px;color:var(--ink-500);font-weight:500;">
+              点选切换临池假名（青色边框表已临写）：
+            </h4>
+            <div class="kana-Quick-selector" id="dojo-kana-selector"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 卷五：十阶修习 ==================== -->
+    <section id="tab-stages" class="tab-panel">
+      <div class="chapter-intro">
+        <div>
+          <div class="chapter-kicker">卷五 · 循序渐进</div>
+          <h2>一步一阶，慢慢熟悉</h2>
+          <p>
+            从元音起步，逐步加入各行、片假名与词汇。每阶 30–60 题，正确率达到 90% 记为通过；错题穿插重练，之后仍需定期温习。
+          </p>
+        </div>
+      </div>
+
+      <div class="stages-grid" id="stages-grid-container"></div>
+    </section>
+
+    <!-- ==================== 卷六：练一次，多记住一点 ==================== -->
+    <section id="tab-arena" class="tab-panel">
+      <!-- 实时作答区 -->
+      <div id="quiz-live-wrapper" style="display:none;">
+        <div class="quiz-active-stage">
+          <div class="quiz-top-hud">
+            <div>
+              <strong id="quiz-session-title" style="font-family:var(--font-serif);font-size:16.5px;color:var(--ink-900);">演练进行中</strong>
+              <span id="quiz-retry-badge" style="display:none;margin-left:8px;background:var(--vermilion-soft);color:var(--vermilion);border:1px solid var(--vermilion-line);font-size:11px;padding:1px 7px;border-radius:4px;">
+                错题复考
+              </span>
+            </div>
+            <div class="btn-group">
+              <div class="meta-capsule">
+                <span class="meta-item">进度 <strong id="quiz-progress-text">1/30</strong></span>
+                <span class="meta-divider"></span>
+                <span class="meta-item">正确率 <strong id="quiz-accuracy-text">100%</strong></span>
+                <span class="meta-divider"></span>
+                <span class="meta-item">连中 <strong id="quiz-combo-text">0</strong></span>
+              </div>
+              <button class="outline-btn" id="btn-quit-quiz">暂离</button>
+            </div>
+          </div>
+
+          <div class="quiz-progress-bar">
+            <div class="quiz-progress-fill" id="quiz-progress-bar-fill" style="width:0%;"></div>
+          </div>
+
+          <div class="quiz-question-box">
+            <div class="quiz-tag-pill" id="quiz-q-tag">题型</div>
+            <div class="quiz-prompt-title" id="quiz-q-title">题目说明</div>
+            <div class="quiz-prompt-main" id="quiz-q-main">あ</div>
+            <div class="btn-group" style="justify-content:center;margin:8px 0;">
+              <button class="outline-btn" id="btn-quiz-replay-audio">重听发音</button>
+              <button class="outline-btn" id="btn-quiz-replay-slow">慢速发音</button>
+            </div>
+            <div class="quiz-prompt-sub" id="quiz-q-sub">提示</div>
+          </div>
+
+          <!-- 选择题四选项 -->
+          <div class="quiz-choices-grid" id="quiz-choices-container"></div>
+
+          <!-- 拼写输入区 -->
+          <div class="quiz-typing-area" id="quiz-typing-container" style="display:none;">
+            <input type="text" id="quiz-typing-input" class="quiz-typing-input" placeholder="输入罗马字…" autocomplete="off" autocapitalize="none" maxlength="128" spellcheck="false" aria-label="罗马字答案" />
+            <button class="primary-btn" id="btn-submit-typing">提交答案</button>
+          </div>
+
+          <!-- 解析反馈区 -->
+          <div id="quiz-feedback-container" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- 演练结算单 -->
+      <div id="quiz-result-wrapper" style="display:none;"></div>
+
+      <!-- 演练定制面板 -->
+      <div id="arena-setup-wrapper">
+        <div class="editorial-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;padding-bottom:16px;border-bottom:1px solid var(--line-hair);">
+            <div>
+              <div class="chapter-kicker">卷六 · 演练定制</div>
+              <h2 style="font-family:var(--font-serif);font-size:20px;">练一次，多记住一点</h2>
+              <p style="font-size:13px;color:var(--ink-500);margin-top:4px;">
+                选择题型、范围和题量。答后看解析，错题会穿插重现，也会记入温故录。
+              </p>
+            </div>
+            <button class="primary-btn" id="btn-launch-custom-quiz" style="padding:11px 24px;font-size:14.5px;">
+              开始演练
+            </button>
+          </div>
+
+          <!-- 一：题型选择 -->
+          <h3 style="margin-top:18px;font-size:14px;color:var(--ink-700);">一、选择演练题型</h3>
+          <div class="mode-cards-grid" id="arena-mode-selector">
+            <div class="mode-select-card selected" data-mode="mixed">
+              <h4>综合演练（八式混测）</h4>
+              <p>穿插书源、平假、片假、听辨、形近、拼写与词汇，全面检验掌握程度</p>
+            </div>
+            <div class="mode-select-card" data-mode="origin-match">
+              <h4>第一式 · 万叶书源配对</h4>
+              <p>草书本字 ↔ 平假名、楷书偏旁 ↔ 片假名双向考辨，巩固汉字本源记忆</p>
+            </div>
+            <div class="mode-select-card" data-mode="hira-romaji">
+              <h4>第二式 · 平假名认读</h4>
+              <p>平假名与罗马字双向辨识，选项均取自形近或同行假名</p>
+            </div>
+            <div class="mode-select-card" data-mode="kata-romaji">
+              <h4>第三式 · 片假名专修</h4>
+              <p>片假名与罗马字双向辨识，结合楷书偏旁强化片假名熟练度</p>
+            </div>
+            <div class="mode-select-card" data-mode="hira-kata-cross">
+              <h4>第四式 · 平片假名对照</h4>
+              <p>平假名与片假名直接互转，贯通二十九组平片同源字</p>
+            </div>
+            <div class="mode-select-card" data-mode="audio-dictation">
+              <h4>第五式 · 听音辨字</h4>
+              <p>隐去罗马字，纯凭日语标准读音辨识对应的平假名或片假名</p>
+            </div>
+            <div class="mode-select-card" data-mode="confusable-sniper">
+              <h4>第六式 · 字形辨微</h4>
+              <p>集中抽取 ソ·ン·シ·ツ、ね·れ·わ、ぬ·め、る·ろ 等十二组形近假名</p>
+            </div>
+            <div class="mode-select-card" data-mode="typing-blitz">
+              <h4>第七式 · 罗马字盲打</h4>
+              <p>无选项提示，审视假名直接键入对应罗马字，锤炼直觉反应</p>
+            </div>
+            <div class="mode-select-card" data-mode="word-combat">
+              <h4>第八式 · 同源词汇与外来语</h4>
+              <p>拼读汉日同源音读词、含促音/长音/拗音词汇及片假名常用外来语</p>
+            </div>
+          </div>
+
+          <!-- 二：考察范围 -->
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px;">
+            <h3 style="font-size:14px;color:var(--ink-700);margin:0;">二、设定考察行范围</h3>
+            <div class="btn-group">
+              <button class="outline-btn" id="arena-scope-all">全选五十音</button>
+              <button class="outline-btn" id="arena-scope-weak">温故演练（薄弱项）</button>
+              <button class="outline-btn" id="arena-scope-firsthalf">前四行 (あ~た)</button>
+              <button class="outline-btn" id="arena-scope-secondhalf">后七行 (な~ん)</button>
+            </div>
+          </div>
+          <div class="btn-group" id="arena-row-checkboxes" style="margin-bottom:20px;">
+            <button class="outline-btn active" data-rowscope="a">あ行</button>
+            <button class="outline-btn active" data-rowscope="ka">か行</button>
+            <button class="outline-btn active" data-rowscope="sa">さ行</button>
+            <button class="outline-btn active" data-rowscope="ta">た行</button>
+            <button class="outline-btn active" data-rowscope="na">な行</button>
+            <button class="outline-btn active" data-rowscope="ha">は行</button>
+            <button class="outline-btn active" data-rowscope="ma">ま行</button>
+            <button class="outline-btn active" data-rowscope="ya">や行</button>
+            <button class="outline-btn active" data-rowscope="ra">ら行</button>
+            <button class="outline-btn active" data-rowscope="wa">わ行</button>
+            <button class="outline-btn active" data-rowscope="n">拨音ん</button>
+          </div>
+
+          <!-- 三：题量设定 -->
+          <h3 style="font-size:14px;color:var(--ink-700);margin-bottom:10px;">三、设定单次演练题量</h3>
+          <div class="segmented-control" id="arena-count-selector">
+            <button class="seg-btn" data-count="15">15 题（小试）</button>
+            <button class="seg-btn active" data-count="30">30 题（标准）</button>
+            <button class="seg-btn" data-count="50">50 题（周密）</button>
+            <button class="seg-btn" data-count="80">80 题（通盘）</button>
+          </div>
+        </div>
+
+        <!-- 温故录（错题与待复习集） -->
+        <div class="editorial-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+            <div>
+              <h3 style="margin-bottom:2px;">温故录 · 薄弱假名与错题集</h3>
+              <p style="font-size:12.5px;color:var(--ink-500);">
+                自动记录演练中答错或反应迟疑的假名，依间隔重复规律安排温习。
+              </p>
+            </div>
+            <div class="btn-group">
+              <button class="secondary-btn" id="btn-drill-mistakes-now">专项温习（25题）</button>
+              <button class="outline-btn" id="btn-reset-progress" title="清空所有修习记录">重置记录</button>
+            </div>
+          </div>
+          <div id="mistake-notebook-container"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 假名详考模态窗 ==================== -->
+  <div class="modal-backdrop" id="kana-detail-modal" role="dialog" aria-modal="true" aria-label="假名详解">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="btn-close-modal" title="关闭 (Esc)">✕</button>
+      <div id="kana-modal-body"></div>
+    </div>
+  </div>
+
+
+  <div class="modal-backdrop settings-backdrop" id="settings-modal" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+    <div class="modal-card settings-card"><button class="modal-close-btn" id="btn-close-settings" aria-label="关闭设置">×</button>
+      <div class="chapter-kicker">我的源音</div><h2 id="settings-title">每一笔，都有记录。</h2>
+      <div class="settings-stats"><div><strong id="stat-total-questions">0题</strong><span>累计演练</span></div><div><strong id="stat-avg-mastery">0%</strong><span>平均熟练度</span></div></div>
+      <button class="settings-row" id="btn-toggle-theme"><span>切换夜间模式</span><span>◐</span></button>
+      <button class="settings-row" id="btn-export-progress"><span>导出学习记录</span><span>↗</span></button>
+      <button class="settings-row" id="btn-import-progress"><span>导入学习记录</span><span>↙</span></button>
+      <button class="settings-row" id="btn-tts-settings" hidden><span>系统语音设置</span><span>↗</span></button>
+      <input type="file" id="progress-file" accept=".json,application/json" hidden />
+      <div id="import-preview" class="import-preview" hidden><strong>准备恢复学习记录</strong><p id="import-summary"></p><div class="btn-group"><button class="primary-btn" id="btn-confirm-import">备份当前记录并导入</button><button class="outline-btn" id="btn-cancel-import">取消</button></div></div>
+      <p class="settings-note">学习记录保存在本机。换手机前请导出 JSON 备份；导入会替换当前记录，并保留一份导入前备份。</p>
+      <button class="settings-row" id="btn-export-before-import" hidden><span>导出上次导入前的记录</span><span>↗</span></button>
+      <div class="about-note"><span class="tiny-label">关于这本手帖</span><p>源音 · 五十音 3.0<br/>认字、听音、书写，随时接着练。</p><p>字源演变使用字体示意，非古代原迹。现代汉语读音用于记忆参照，不能等同历史音韵。熟练度是练习记录指标。</p><p id="audio-status">课程日语与汉语读音随安装包提供，离线即可播放。</p></div>
+    </div>
+  </div><div id="app-toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data-kana.js"></script>
+  <script src="js/data-extensions.js"></script>
+  <script src="js/audio-engine.js"></script>
+  <script src="js/storage-srs.js"></script>
+  <script src="js/calligraphy-canvas.js"></script>
+  <script src="js/quiz-generator.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/mobile-shell.js"></script>
+  <script src="js/mobile-practice.js"></script>
+</body>
+</html>

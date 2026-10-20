@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6092,
-      "sha256": "c84f1516352e861d9255f36983fe8f662a46b18a942202de788c03506e9ce943"
+      "bytes": 6993,
+      "sha256": "e14385eaf0205e9cd9cc870c52715ef4d19a59cc540015218f2616173719f35c"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -100,6 +100,11 @@
       "path": "css/style.css",
       "bytes": 29695,
       "sha256": "6dd47d6e4e27a1390da7405d8ec8a2987e67d88df88defd8bc1c5986a592c385"
+    },
+    {
+      "path": "docs/images/demo-cover.png",
+      "bytes": 175479,
+      "sha256": "e6b6a0358d458a4b92d5763171cd2c23a0b7839b99e31f53a48aaee8c8aaafd2"
     },
     {
       "path": "docs/images/home.png",
@@ -298,8 +303,8 @@
     },
     {
       "path": "tools/verify_product_video.py",
-      "bytes": 3409,
-      "sha256": "e7ed177dff8b2e2b0dea8439a0c8103d7c8a862bed648db83cc45bd4ea5a55f2"
+      "bytes": 3491,
+      "sha256": "4da9742097dfaa2dc97c83d91d5b929bf1d7209019f56977064ae915ab01c25e"
     },
     {
       "path": "启动应用.bat",

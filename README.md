@@ -2,7 +2,7 @@
 
 **从熟悉的汉字出发，听、认、写日语假名。**
 
-### [下载 APK · v3.0.0](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)　[全部发布文件](https://github.com/Beatrice-III/genyin-gojuon/releases/latest)　[下载源码包](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0-source.zip)
+### [下载 APK · v3.0.0](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)　[观看上手介绍](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-introduction-1080p.mp4)　[全部发布文件](https://github.com/Beatrice-III/genyin-gojuon/releases/latest)　[下载源码包](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0-source.zip)
 
 Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · 无需另装日语引擎 · 不注册
 
@@ -16,6 +16,12 @@ Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · �
     <td><img src="docs/images/writing.png" width="250" alt="手机上的假名书写练习与画布"></td>
   </tr>
 </table>
+
+### 看一遍怎么用
+
+一位介绍者按操作顺序演示音图查字、辨形、作答与错题重练、听音、罗马字输入、临摹默写和进度备份。点击封面观看约三分钟的普通上手介绍。
+
+[![源音·五十音上手介绍](docs/images/demo-cover.png)](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-introduction-1080p.mp4)
 
 ## 想练什么，就从这里开始
 
@@ -49,6 +55,8 @@ Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · �
 <summary><strong>给开发者：源码、构建、验证与许可</strong></summary>
 
 ### 源码和运行方式
+
+Release 的 `Genyin-Gojuon-3.0.0-source.zip` 对应正式 `v3.0.0` 应用标签。当前 main 分支另外包含更新后的普通上手视频工程、18 段旁白和复现说明；需要全部现行工程时，可[下载当前完整源码](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-current-source.zip)，或使用 main 分支。
 
 应用使用本地 HTML/CSS/JavaScript，Android Java 宿主负责系统后退、窗口适配、文件备份与本地资源桥接。支持 Android 7.0（API 24）及以上，目标 API 36。
 

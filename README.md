@@ -2,7 +2,7 @@
 
 **从熟悉的汉字出发，听、认、写日语假名。**
 
-### [下载 APK · v3.0.0](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)　[观看上手介绍](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-introduction-1080p.mp4)　[全部发布文件](https://github.com/Beatrice-III/genyin-gojuon/releases/latest)　[下载源码包](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0-source.zip)
+### [下载 APK · v3.0.0](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)　[观看上手介绍](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-introduction-1080p.mp4)　[全部发布文件](https://github.com/Beatrice-III/genyin-gojuon/releases/latest)　[下载源码包](https://github.com/Beatrice-III/genyin-gojuon/archive/refs/heads/main.zip)
 
 Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · 无需另装日语引擎 · 不注册
 
@@ -56,7 +56,7 @@ Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · �
 
 ### 源码和运行方式
 
-Release 的 `Genyin-Gojuon-3.0.0-source.zip` 对应正式 `v3.0.0` 应用标签。当前 main 分支另外包含更新后的普通上手视频工程、18 段旁白和复现说明；需要全部现行工程时，可[下载当前完整源码](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-current-source.zip)，或使用 main 分支。
+顶部源码下载对应最新 main 分支，包含应用和当前的普通上手视频工程、18 段旁白及复现说明。Release 中的 `Genyin-Gojuon-3.0.0-source.zip` 则对应该 APK 的正式 `v3.0.0` 标签快照。
 
 应用使用本地 HTML/CSS/JavaScript，Android Java 宿主负责系统后退、窗口适配、文件备份与本地资源桥接。支持 Android 7.0（API 24）及以上，目标 API 36。
 

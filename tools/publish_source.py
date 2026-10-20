@@ -29,10 +29,11 @@ GLOBS = (
     'android/res/**/*.png', 'tools/*.py', 'tools/*.cjs', 'tools/*.ps1',
     'tools/*.json', 'tools/*.md', 'tools/*requirements.txt', 'tools/*runtime_lock.txt',
     'assets/audio/*.json', 'assets/audio/*.md',
+    'docs/images/*.png', 'docs/images/*.webp', 'docs/images/*.jpg', 'docs/images/*.jpeg',
 )
 FORBIDDEN_SUFFIXES = {'.jks', '.keystore', '.p12', '.pfx', '.pem', '.key',
                       '.apk', '.aab', '.mp4', '.wav', '.mp3', '.safetensors'}
-EXCLUDED_SOURCES = {'tools/pack_course_audio.py'}
+EXCLUDED_SOURCES = {'tools/pack_course_audio.py', 'docs/images/intro-cover.png'}
 TOKEN_PATTERN = re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 SECRET_NAME = re.compile(r'PASSWORD|PASSWD|TOKEN|SECRET', re.I)
 
@@ -100,7 +101,7 @@ def check_sources(files: list[Path]) -> None:
             continue
         if source.stat().st_size > 20 * 1024 * 1024:
             failures.append(relative + ': unexpected source file larger than 20 MiB')
-        if source.suffix.lower() in {'.woff2', '.png'}:
+        if source.suffix.lower() in {'.woff2', '.png', '.webp', '.jpg', '.jpeg'}:
             continue
         content = source.read_text(encoding='utf-8-sig')
         if TOKEN_PATTERN.search(content):

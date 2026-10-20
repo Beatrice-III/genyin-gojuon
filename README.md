@@ -1,88 +1,94 @@
 # 源音·五十音
 
-面向汉语母语者的日语假名入门练习应用。把五十音表、汉字字源提示、形近字对照、听辨、输入和书写放在一起，练完一轮再回头处理错题。
+**从熟悉的汉字出发，听、认、写日语假名。**
 
-这个仓库公开 3.0 版 Android 宿主、界面与学习逻辑、完整课程语音清单，以及资源生成、验证和视频制作脚本。项目从 Gemini 辅助制作的初版继续重构，由项目所有者授权开源。
+### [下载 APK · v3.0.0](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)　[全部发布文件](https://github.com/Beatrice-III/genyin-gojuon/releases/latest)　[下载源码包](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0-source.zip)
 
-## 可以怎么练
+Android 7.0 及以上 · 安装包约 6.2 MiB · 364 条内置离线发音 · 无需另装日语引擎 · 不注册
 
-- 点开假名字卡，听读音、看平片假名及字形来源。
-- 从形近组入手，分清 `シ / ツ / ソ / ン` 等容易混淆的字。
-- 做认读、平片对应、听音选字、字源对应和罗马字输入练习；答错后查看解释并重新练习。
-- 临摹后关掉底稿，凭记忆默写，再揭晓范字进行对照。
-- 按十阶课程学习，或自选范围、题型和题量；在本机保存记录，并通过 JSON 备份迁移。
+下载 APK 就能安装使用；下面折叠的开发步骤只给需要修改源码的人。
 
-手机以音图、辨形、书写、练习四个入口组织内容。查字后能直接练或写，返回时接续原来的内容；做题与书写尽量在当前页面完成。
+<table>
+  <tr><th>点字听音</th><th>动手练习</th><th>临摹与默写</th></tr>
+  <tr>
+    <td><img src="docs/images/home.png" width="250" alt="五十音表、假名字卡与发音入口"></td>
+    <td><img src="docs/images/practice.png" width="250" alt="手机上的假名选择练习与答案区域"></td>
+    <td><img src="docs/images/writing.png" width="250" alt="手机上的假名书写练习与画布"></td>
+  </tr>
+</table>
 
-## 运行与构建
+## 想练什么，就从这里开始
 
-### 浏览器预览
+| 想练什么 | 怎么操作 |
+| --- | --- |
+| 看懂并记住一个假名 | 打开「音图」，点假名看字卡，对照平假名、片假名和汉字字源；点喇叭听音，没听清可以慢速重听。 |
+| 分清长得像的字 | 打开「辨形」，选一组易混假名，比较关键笔画，再进入专项练习。 |
+| 听声音选出假名 | 打开「练习」，选听音辨字，听正常或慢速发音后作答。 |
+| 认平片假名、自己写读音 | 在「练习」里选择认读、平片对应或罗马字输入；也可以用综合练习换着练。 |
+| 把错题真正练回来 | 答错先看解释，错题会穿插重现；一轮结束后重新练错题，也能从薄弱项开始。 |
+| 从照着写到独立写 | 打开「书写」，先跟底稿临摹，再藏起底稿默写，最后揭晓范字进行对照。 |
+| 按顺序学，或只练不熟的部分 | 从「练习」进入十阶课程；需要自己安排时，选择题型、范围和题量。 |
 
-安装 Python 3 后，在仓库根目录执行：
+查字后可以直接去练或写，返回时接着看原来的位置。练习中途退出会先暂停，回来可以继续原题。
 
-```powershell
-python -m http.server 8766
-```
+## 安装只需三步
 
-浏览器打开 `http://127.0.0.1:8766`。页面使用本地 HTML、CSS 和 JavaScript；Android 的系统后退、文件备份与窗口适配由 Java 宿主提供，浏览器预览无法代替 APK 测试。
+1. 在安卓手机上[下载 APK](https://github.com/Beatrice-III/genyin-gojuon/releases/download/v3.0.0/Genyin-Gojuon-3.0.0.apk)。
+2. 点开下载的文件，按系统提示允许当前浏览器或文件管理器安装应用。
+3. 安装后打开「源音·五十音」，直接开始听、认、写和练习。
 
-### Android APK
+**已经装过旧版：直接覆盖安装，不要先卸载。** 正式版沿用原包名和签名，保留本机学习记录。
 
-需要 Python 3、JDK 17、Android SDK Platform 36 与 Build Tools 36.0.0。Android 最低版本为 7.0（API 24）。无需 Gradle；脚本直接调用 Android 官方构建工具。
+## 备份与换手机
 
-先按下节生成课程音频，再执行开发构建：
+点右上角设置 →「导出学习记录」，把 JSON 文件保存好。新手机安装 App 后，在同一处点「导入学习记录」，选中备份并确认。导入会替换当前进度，App 会保留一份导入前的本机备份。
 
-```powershell
-python android/build_apk.py --debug
-```
+学习记录保存在本机，不用注册账号。换手机或卸载前记得先导出。
 
-脚本生成独立的 `com.genyin.gojuon.dev` 开发包与临时签名，可和正式版并存。构建参数和正式签名说明见 [android/README.md](android/README.md) 或 `--help`。公开仓库不含发布签名密钥或密码；要覆盖安装既有正式版，必须持有原签名密钥。生成目录为 `outputs/`，临时构建资料放在 `work/`。
+<details>
+<summary><strong>给开发者：源码、构建、验证与许可</strong></summary>
 
-### 音频资源
+### 源码和运行方式
 
-交付 APK 内置清音、浊音、拗音、示例词与汉字来源的 364 条固定读音，安装后可直接离线播放，无需另装日语语音引擎。日语使用 Microsoft Edge TTS Nanami，汉字来源普通话使用 Xiaoxiao。Qwen3-TTS 只用于介绍视频旁白。
+应用使用本地 HTML/CSS/JavaScript，Android Java 宿主负责系统后退、窗口适配、文件备份与本地资源桥接。支持 Android 7.0（API 24）及以上，目标 API 36。
 
-公开仓库包含 `assets/audio/manifest.json` 中的完整文字、别名、参数与文件映射，以及可复现的生成工具；不分发 Microsoft 服务生成的 MP3。克隆后需联网生成一次音频，再离线构建与播放。生成工具需要 Node.js、Python 3、`edge-tts` 与 FFmpeg（含 ffprobe）；FFmpeg 路径可以通过 `FFMPEG` 环境变量指定。
+| 路径 | 内容 |
+| --- | --- |
+| `index.html`、`css/`、`js/` | 界面、教学数据、题目、书写、音频、进度与复习逻辑 |
+| `android/src/`、`android/res/` | Android 宿主和原生资源；桥接 API 见 [android/README.md](android/README.md) |
+| `assets/audio/` | 完整语料清单、文件映射与本地录音生成位置 |
+| `assets/fonts/` | OFL 字体子集与许可 |
+| `tools/` | 音频生成、验证、录制及视频制作工具 |
+| `docs/images/` | README 中的界面截图 |
+
+### 从源码构建 APK
+
+**只想安装使用，请下载上面的正式 APK，无需运行这些命令。**
+
+构建环境：Python 3、Node.js、JDK 17、Android SDK Platform 36、Build Tools 36.0.0，以及 FFmpeg（含 ffprobe）。脚本直接使用 Android 官方构建工具，无需 Gradle。
+
+公开源码包含完整语音清单和生成脚本，不包含 Microsoft 服务生成的 MP3。开发构建先联网生成一次课程录音：
 
 ```powershell
 node tools/audio_inventory.cjs
 python -m pip install edge-tts
-# 如FFmpeg未安装在脚本默认位置，设置到本机ffmpeg.exe完整路径：
+# 如果 FFmpeg 不在脚本默认位置，请设置本机路径：
 # $env:FFMPEG = 'D:/tools/ffmpeg/bin/ffmpeg.exe'
 python tools/prepare_course_audio.py
 python tools/publish_source.py --check --require-audio
 python android/build_apk.py --debug
 ```
 
-Qwen 旁白的下载与合成脚本是 `tools/qwen_download.py`、`tools/qwen_synthesize.py`，配置见 [tools/qwen_README.md](tools/qwen_README.md)。介绍视频使用 1.7B CustomVoice 与 Serena 声线，角色是自然、亲近的中文学习搭子。APK 构建不需要 Qwen；模型权重另行下载，不打进手机 APK，也不提交到 Git。
+`--debug` 生成独立包 `com.genyin.gojuon.dev` 和临时开发签名，可与正式版并存。SDK、JDK 位置和输出路径可通过构建参数修改，详见 [Android 构建说明](android/README.md)。正式版构建需自己的签名密钥和 `GENYIN_KEYSTORE_PASSWORD` 环境变量；私钥与密码不公开。交付件位于 `outputs/`，临时资料位于 `work/`。
 
-## 目录
+网页预览可执行 `python -m http.server 8766`，然后打开 `http://127.0.0.1:8766`。不依赖浏览器的学习逻辑检查为 `node tools/verify_learning_logic.cjs`，公开文件检查为 `python tools/publish_source.py --check`。
 
-| 路径 | 内容 |
-| --- | --- |
-| `index.html`、`css/` | 应用页面与手机布局 |
-| `js/` | 教学数据、题目、书写、音频、进度与复习逻辑 |
-| `android/src/`、`android/res/` | Android Java 宿主与原生资源 |
-| `assets/fonts/` | 改名后的 OFL 字体子集与许可 |
-| `assets/audio/` | 完整课程语音清单、来源说明与本地 MP3 生成位置 |
-| `tools/` | 资源处理、验证、录制、旁白与视频渲染脚本 |
-| `outputs/`、`work/` | 本地交付件和临时资料；均不进 Git |
+### 语音与许可
 
-Android 构建只打包根目录当前网页源文件。遗产 `android/assets/www/` 的重复副本不参与构建，也不公开为第二套源码。
+APK 的 364 条固定读音使用 Microsoft Edge TTS：日语 Nanami、普通话 Xiaoxiao。**Qwen3-TTS 仅用于介绍视频旁白，不运行在 APK 中。** 可选视频配音工具见 [Qwen 配置](tools/qwen_README.md)；模型权重不在仓库内。
 
-## 验证与贡献
+项目代码与文档采用 [MIT](LICENSE)，字体采用 SIL OFL 1.1。Microsoft 服务语音输出不纳入根 MIT 许可；Qwen 上游模型和代码采用 Apache-2.0。详细来源见 [NOTICE](NOTICE)、[THIRD_PARTY.md](THIRD_PARTY.md) 和 [音频说明](assets/audio/LICENSE)。
 
-不依赖浏览器的软件逻辑检查可执行：
+欢迎通过 [Issues](https://github.com/Beatrice-III/genyin-gojuon/issues) 反馈手机型号、Android 版本和可复现步骤，或提交附可靠资料的内容勘误。教学数据的来源与校订范围见 THIRD_PARTY.md。
 
-```powershell
-node tools/verify_learning_logic.cjs
-python tools/publish_source.py --check
-```
-
-其他 `verify_*` 工具覆盖界面与音频等具体方面，所需浏览器或媒体工具见脚本。CI 检查代码语法、学习逻辑和公开清单；手机可用性、听感与教学正确性仍需要分别验证。
-
-欢迎提交可复现的问题、手机型号与 Android 版本，或附原始资料的内容勘误。涉及学习记录时，请先去除个人信息。请勿提交发布密钥、凭证、进度备份或大体积模型文件。
-
-## 许可
-
-项目代码与文档采用 [MIT](LICENSE)，字体采用 SIL OFL 1.1。Microsoft 服务语音输出不纳入根 MIT 许可，也不进入公开源码。Qwen 上游模型与代码采用 Apache-2.0，仅用于可选的视频旁白工具。详情见 [音频来源说明](assets/audio/LICENSE)、[NOTICE](NOTICE) 和 [THIRD_PARTY.md](THIRD_PARTY.md)。
+</details>

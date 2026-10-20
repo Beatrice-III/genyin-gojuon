@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5206,
-      "sha256": "5589334200404acec7c15e8548d5a2ca8cc0d019824f3706961417ccc36dfefe"
+      "bytes": 6092,
+      "sha256": "c84f1516352e861d9255f36983fe8f662a46b18a942202de788c03506e9ce943"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -100,6 +100,21 @@
       "path": "css/style.css",
       "bytes": 29695,
       "sha256": "6dd47d6e4e27a1390da7405d8ec8a2987e67d88df88defd8bc1c5986a592c385"
+    },
+    {
+      "path": "docs/images/home.png",
+      "bytes": 121037,
+      "sha256": "1f0e64e6fc75fb89815d5ef27ee006b82034ff7e7f657adf73dacbe547343201"
+    },
+    {
+      "path": "docs/images/practice.png",
+      "bytes": 92035,
+      "sha256": "c9ab0bcb5935179dbabacc3c02942dfe536fa76e2c9258dfffe1570c36d56c65"
+    },
+    {
+      "path": "docs/images/writing.png",
+      "bytes": 124109,
+      "sha256": "23e278016cad922e17126b38e1ca48e59b5c829c684dd7221c3dd5fcecfecb9d"
     },
     {
       "path": "index.html",
@@ -188,8 +203,8 @@
     },
     {
       "path": "tools/publish_source.py",
-      "bytes": 9308,
-      "sha256": "f2ec6d72e2fbd78906b925ffe438e2fe2b25d6ee41fd3047a1474278c5fe8695"
+      "bytes": 9455,
+      "sha256": "65f614a9aa4ed539b9aa080f75b803e5dba45d7e935002422240dc029f10d722"
     },
     {
       "path": "tools/qwen_README.md",
@@ -210,6 +225,11 @@
       "path": "tools/qwen_narration_v3.json",
       "bytes": 9297,
       "sha256": "df5761a9633d6bb4e358f55aa4c26435e6d1620e023cfea4e3a28b7bb28b518c"
+    },
+    {
+      "path": "tools/qwen_narration_walkthrough.json",
+      "bytes": 9321,
+      "sha256": "251ae7c732db06ce7bf178198593a33f77d20be03dee97d347a5885808212e37"
     },
     {
       "path": "tools/qwen_requirements.txt",

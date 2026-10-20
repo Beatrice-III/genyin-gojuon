@@ -9,7 +9,7 @@ from pathlib import Path
 from functools import lru_cache
 sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parents[1]
-WORK=ROOT/'work/video_v3'; OUT=ROOT/'outputs/video_v3'; CAP=Path(os.environ.get('GENYIN_VIDEO_CAPTURE',str(WORK/'capture2x')))
+WORK=ROOT/'work/video_v4'; OUT=ROOT/'outputs/video_v4'; CAP=Path(os.environ.get('GENYIN_VIDEO_CAPTURE',str(ROOT/'work/video_v3/capture2x')))
 for p in (WORK,OUT,WORK/'render_cache'):p.mkdir(parents=True,exist_ok=True)
 for key in ('TEMP','TMP','TMPDIR','XDG_CACHE_HOME'):os.environ[key]=str(WORK/'render_cache')
 import numpy as np
@@ -17,13 +17,13 @@ from PIL import Image,ImageDraw,ImageFont,ImageFilter
 FF=Path(r'D:\ffmpeg-2025-03-31-git-35c091f4b7-full_build\bin\ffmpeg.exe')
 FP=FF.with_name('ffprobe.exe')
 W,H,FPS=1920,1080,15
-VIDEO=OUT/'源音五十音_小音陪你练_1080p.mp4'
+VIDEO=OUT/'源音五十音_上手介绍_1080p.mp4'
 PAPER='#F7F5EF';INK='#203C36';RED='#D88B72';WHITE='#F6F7EE';MUTED='#ADC4B6'
 SX,SY,SW,SH=88,94,430,900
 LX,LY,LW,LH=620,154,1220,756
-ORDER=['02_confusable','01_kana','03_listening','04_cross','09_origin','05_typing','06_trace','07_memory','08_course']
-TITLES={'02_confusable':'认错了？再练一次','01_kana':'记不住，就点开字卡','03_listening':'只凭声音，选出假名','04_cross':'平假名 ↔ 片假名','09_origin':'从汉字，找回假名','05_typing':'拿掉选项，自己输入','06_trace':'跟着底稿，完整写一遍','07_memory':'藏起提示，再写一次','08_course':'照着课程学，也能自己选'}
-SHORT={'02_confusable':'辨形与错题','01_kana':'字卡与来源','03_listening':'听音辨字','04_cross':'平片对应','09_origin':'书源配对','05_typing':'输入读音','06_trace':'临摹','07_memory':'默写','08_course':'课程与定制'}
+ORDER=['01_kana','02_confusable','12_practice','03_listening','04_cross','05_typing','06_trace','07_memory','11_backup']
+TITLES={'01_kana':'音图与查字','02_confusable':'辨形与错题练习','12_practice':'自选练习与课程','03_listening':'听音辨字','04_cross':'平片对应','05_typing':'罗马字输入','06_trace':'临摹','07_memory':'默写','11_backup':'设置与备份'}
+SHORT=TITLES.copy()
 
 def run(args,**kw):return subprocess.run([str(x) for x in args],check=True,capture_output=True,**kw)
 def probe(p):return json.loads(run([FP,'-v','error','-show_format','-show_streams','-of','json',p]).stdout)
@@ -43,41 +43,29 @@ def mapped(scene,t):
     return None
 
 def make_plan():
-    voices={x['id']:x for x in voice_clips()}
     scenes=[];cursor=0
     for sid in ORDER:
-        sc=load_scene(sid);sc['parts']=[]
-        ranges=[(0,sc['duration'],False,0)]
-        if sid=='02_confusable':
-            q=max(0,mark(sc,'question')-.15)
-            end=mark(sc,'retry_correct')+2.1
-            result=max(end,mark(sc,'session_results')-.15)
-            ranges=[(q,q,True,voices['hook']['duration']+.6),(q,end,False,0),(result,sc['duration'],False,0)]
-        if sid=='03_listening':
-            slow=next(e['time'] for e in sc['media'] if e['type']=='play' and e.get('rate')==.75)
-            pause=max(0,slow-.15)
-            ranges=[(0,0,True,voices['listening']['duration']+.7),(0,pause,False,0),(pause,pause,True,voices['slow']['duration']+.7),(pause,sc['duration'],False,0)]
-        if sid=='08_course':ranges.append((sc['duration']-.07,sc['duration']-.07,True,voices['outro']['duration']+.8))
-        if sid=='07_memory':ranges.append((sc['duration']-.07,sc['duration']-.07,True,1.5))
+        sc=load_scene(sid);sc['parts']=[];end=sc['duration']
+        # Source ranges preserve real UI actions; holds give spoken explanations room.
+        if sid=='01_kana':
+            ranges=[(0,3.3,0),(3.3,3.3,8),(3.3,8.1,0),(8.1,8.1,7.9),(8.1,end,0)]
+        elif sid=='02_confusable':
+            ranges=[(0,3.8,0),(3.8,3.8,2.3),(3.8,9.55,0),(9.55,9.55,4.2),(9.55,12.7,0),
+                    (71.05,73,0),(73,73,.6),(73,81.2,0)]
+        elif sid=='03_listening':
+            ranges=[(0,0,5.7),(0,2.7,0),(2.7,2.7,3.4),(2.7,11.8,0)]
+        elif sid=='04_cross':ranges=[(0,.9,0),(.9,.9,1.4),(.9,6.6,0)]
+        elif sid=='05_typing':ranges=[(0,.9,0),(.9,.9,2.2),(.9,end,0)]
+        elif sid=='06_trace':ranges=[(1.06,end,0)]
+        elif sid=='07_memory':ranges=[(0,end,0),(end-.07,end-.07,1.0)]
+        elif sid=='11_backup':ranges=[(0,end,0),(end-.07,end-.07,6.0)]
+        else:ranges=[(0,end,0)]
         local=0
-        for start,end,freeze,hold in ranges:
-            dur=hold if freeze else end-start
-            dur=math.ceil(dur*FPS)/FPS
-            sc['parts'].append({'start':start,'end':end,'freeze':freeze,'duration':dur,'local':local})
+        for start,finish,hold in ranges:
+            dur=math.ceil((hold or finish-start)*FPS)/FPS
+            sc['parts'].append({'start':start,'end':finish,'freeze':bool(hold),'duration':dur,'local':local})
             local+=dur
-        if sid=='02_confusable' and (CAP/'10_explanation.json').exists():
-            explanation=load_scene('10_explanation');explanation['camera_cues']=[(0,607,290)]
-            insert=mark(sc,'wrong_feedback')+1.05
-            first=sc['parts'][1];old_end=first['end'];old_duration=first['duration']
-            first['end']=insert;first['duration']=math.ceil((insert-first['start'])*FPS)/FPS
-            ext_start=mark(explanation,'full_explanation')
-            extra={'start':ext_start,'end':ext_start+3.6,'duration':3.6,'freeze':False,'external':True,'path':explanation['path']}
-            tail={'start':insert,'end':old_end,'duration':math.ceil((old_end-insert)*FPS)/FPS,'freeze':False}
-            sc['parts'][2:2]=[extra,tail];sc['externalMeta']=explanation
-            local=0
-            for part in sc['parts']:part['local']=local;local+=part['duration']
-        sc['start']=cursor;sc['edited_duration']=local;cursor+=local
-        scenes.append(sc)
+        sc['start']=cursor;sc['edited_duration']=local;cursor+=local;scenes.append(sc)
     return scenes,cursor
 
 @lru_cache(maxsize=1)
@@ -98,35 +86,29 @@ def voice_clips():
 def voice_plan(scenes):
     clips={v['id']:v for v in voice_clips()};schedule=[]
     def add(sc,key,t):
-        c=clips[key];t=max(0,min(t,sc['edited_duration']-c['duration']-.1))
+        c=clips[key]
+        if t+c['duration']>sc['edited_duration']+.001:raise ValueError('Narration exceeds scene '+key)
         schedule.append({**c,'start':sc['start']+t,'scene':sc['id']})
     for sc in scenes:
         sid=sc['id']
-        if sid=='02_confusable':
-            add(sc,'hook',.1)
-            wrong=mapped(sc,mark(sc,'wrong_feedback'))
-            retry=mapped(sc,mark(sc,'retry_question'))
-            result=mapped(sc,mark(sc,'session_results'))
-            add(sc,'wrong',wrong+.05)
-            add(sc,'retry_explain',wrong+clips['wrong']['duration']+.35)
-            add(sc,'retry',retry-.2)
-            add(sc,'results',result+.2)
-        elif sid=='01_kana':
-            add(sc,'intro',.15)
-            add(sc,'lookup',clips['intro']['duration']+.5)
-        elif sid=='03_listening':
-            add(sc,'listening',.15)
-            add(sc,'slow',sc['parts'][2]['local']+.15)
-        elif sid=='04_cross':add(sc,'cross',.2)
-        elif sid=='09_origin':add(sc,'origin',.2)
+        if sid=='01_kana':
+            add(sc,'intro',.15);add(sc,'chart',5.75)
+            detail=mapped(sc,8.1)+.1
+            add(sc,'detail',detail);add(sc,'sound',detail+clips['detail']['duration']+.3)
+            add(sc,'tabs',mapped(sc,15)+.05)
+        elif sid=='02_confusable':
+            add(sc,'confusable',.1);add(sc,'wrong',mapped(sc,mark(sc,'wrong_feedback'))+.2)
+            add(sc,'results',mapped(sc,71.05)+.15)
+        elif sid=='12_practice':add(sc,'modes',.2)
+        elif sid=='03_listening':add(sc,'listening',.15);add(sc,'slow',8.55)
+        elif sid=='04_cross':add(sc,'cross',.15)
         elif sid=='05_typing':add(sc,'typing',.15)
         elif sid=='06_trace':add(sc,'trace',.1)
         elif sid=='07_memory':
-            add(sc,'memory',.15)
-            add(sc,'reveal',mapped(sc,mark(sc,'memory_revealed'))+.1)
-        elif sid=='08_course':
-            add(sc,'course',.2)
-            add(sc,'outro',sc['edited_duration']-clips['outro']['duration']-.4)
+            add(sc,'memory',.15);add(sc,'reveal',mapped(sc,mark(sc,'memory_revealed'))+.15)
+        elif sid=='11_backup':
+            add(sc,'backup',mapped(sc,mark(sc,'settings'))+.15)
+            add(sc,'outro',mapped(sc,mark(sc,'outro'))+.15)
     schedule.sort(key=lambda x:x['start'])
     for a,b in zip(schedule,schedule[1:]):
         if a['start']+a['duration']>b['start']+.05:raise ValueError('Overlapping narration: '+a['id']+' / '+b['id'])
@@ -144,13 +126,13 @@ def background(title,short,chapter):
     # App and magnifier are the only large visual surfaces.
     d.rounded_rectangle((SX-9,SY-9,SX+SW+9,SY+SH+9),radius=31,fill='#112B26',outline='#668377',width=2)
     d.rounded_rectangle((LX-2,LY-2,LX+LW+2,LY+LH+2),radius=19,fill=PAPER,outline='#668377',width=2)
-    d.text((SX+SW/2,1025),'跟着听 · 跟着选 · 动手写',font=font(20),fill=MUTED,anchor='mm')
+    d.text((SX+SW/2,1025),'源音 · 五十音  安卓版',font=font(20),fill=MUTED,anchor='mm')
     return bg
 
 def camera_cues(sc):
     cues=[(0,500.,440.)];sid=sc['id']
     if sid=='01_kana':cues=[(0,650.,280.)]
-    if sid=='08_course':cues=[(0,360.,280.)]
+    if sid in ('12_practice','11_backup'):cues=[(0,410.,500.)]
     for e in sc['events']:
         t=e['time'];typ=e['type'];name=e.get('name','');label=e.get('label','')
         center=None;height=280.;rects=e.get('rects',{})
@@ -215,9 +197,6 @@ def composite(sc,local,shot,schedule,total,chapter):
     title=TITLES[sid]
     active=next((p for p in sc['parts'] if p['local']<=local<p['local']+p['duration']-1e-7),sc['parts'][-1])
     camera_sc=sc['externalMeta'] if active.get('external') else sc
-    if sid=='02_confusable' and st>=mark(sc,'retry_question') and st<mark(sc,'retry_correct')+2:title='刚才的错题，又回来了'
-    if sid=='08_course' and local>sc['edited_duration']-6.5:title='从第一个假名，开始练'
-    if active.get('external'):title='选错，马上看解释'
     img=background(title,SHORT[sid],chapter).copy();pixel_scale=shot.width/430
     phone=shot.resize((SW,SH),Image.Resampling.LANCZOS)
     mask=Image.new('L',(SW,SH));ImageDraw.Draw(mask).rounded_rectangle((0,0,SW,SH),radius=23,fill=255)
@@ -233,6 +212,21 @@ def composite(sc,local,shot,schedule,total,chapter):
         img.paste(crop,(px,py));lens=(box,px,py,scale*pixel_scale)
     else:
         cy,ch=camera_y(camera_sc,st)
+        # Stable detail views follow the function being explained.
+        if sid=='01_kana':
+            if local<11.5:cy,ch=490,680
+            elif local<15.8:cy,ch=330,300
+            elif local<21.2:cy,ch=620,360
+            elif local<30.8:cy,ch=300,260
+            else:cy,ch=630,500
+        elif sid=='11_backup':
+            if st<2.4 or st>=12.4:cy,ch=460,650
+            elif st<8.9:cy,ch=535,360
+            else:cy,ch=625,430
+        elif sid=='12_practice':cy,ch=475,640
+        elif sid=='03_listening' and st<10.2:cy,ch=360,460
+        elif sid=='05_typing' and st<5.8:cy,ch=410,540
+
         if sid=='02_confusable' and active.get('freeze') and active['local']==0:
             event=next(e for e in sc['events'] if e.get('name')=='question')
             main=event['rects']['#quiz-q-main'];choices=event['rects']['#quiz-choices-container']
@@ -295,7 +289,7 @@ def storyboard():
     for sc in scenes:sc['camera_cues']=camera_cues(sc)
     for idx,sc in enumerate(scenes):
         sid=sc['id']
-        wanted={'02_confusable':'wrong_feedback','01_kana':'detail','03_listening':'listen_question','04_cross':'cross_question','09_origin':'origin_question','05_typing':'typing_feedback','06_trace':'trace_complete','07_memory':'memory_revealed','08_course':'setup_selection'}[sid]
+        wanted={'02_confusable':'wrong_feedback','01_kana':'detail','03_listening':'listen_question','04_cross':'cross_question','09_origin':'origin_question','05_typing':'typing_feedback','06_trace':'trace_complete','07_memory':'memory_revealed','08_course':'setup_selection','12_practice':'setup_selection','11_backup':'settings'}[sid]
         st=mark(sc,wanted)+.35;t=mapped(sc,st)
         if t is None:t=2
         shot=frame_at(sc['path'],st)
@@ -348,22 +342,11 @@ def mix_audio(scenes,schedule,total):
                 place(native,a,at,gain)
                 native_log.append({'scene':sc['id'],'time':at,'path':e['path'],'rate':rate,'duration':len(a)/sr})
             elif e['type']=='sfx':place(sfx,sound_tone(e['name'],e.get('args',[])),at,.65)
-    # Sparse, original plucks. Listening practice is left completely music-free.
-    bg=np.zeros(n,np.float32)
-    for at in np.arange(0,total,2.8):
-        freq=[220,293.665,329.628,440,391.995][int(at/2.8)%5]
-        t=np.arange(round(1.9*sr))/sr
-        a=(np.sin(2*np.pi*freq*t)+.2*np.sin(2*np.pi*freq*2*t))*np.exp(-t*2.5)*.008
-        a*=np.minimum(1,t/.018);place(bg,a,float(at))
-    env=np.ones(n,np.float32)
-    for c in schedule:
-        s=max(0,round((c['start']-.1)*sr));e=min(n,round((c['start']+c['duration']+.2)*sr));env[s:e]=.3
-    for sc in scenes:
-        if sc['id']=='03_listening':bg[round(sc['start']*sr):round((sc['start']+sc['edited_duration'])*sr)]=0
+    bg=np.zeros(n,np.float32);env=np.ones(n,np.float32)
     # Narration is intentionally absent over all listening examples.
     for item in native_log:
         s=max(0,round(item['time']*sr));e=min(n,round((item['time']+item['duration'])*sr))
-        if item['scene']=='03_listening' and np.max(np.abs(voice[s:e]),initial=0)>.005:
+        if np.max(np.abs(voice[s:e]),initial=0)>.005:
             raise ValueError('Narration obscures listening example')
     duck=np.where(np.abs(voice)>.006,.5,1).astype(np.float32)
     # Smooth speech-dependent gain over 80 ms without a slow full convolution.
@@ -382,20 +365,20 @@ def write_texts(scenes,schedule,total):
     subs=[]
     for c in schedule:
         for b in c['boundaries']:subs.append((c['start']+b['start'],c['start']+b['end'],b['text']))
-    (OUT/'源音五十音_小音陪你练.srt').write_text('\n\n'.join(f'{i+1}\n{stamp(s)} --> {stamp(e)}\n'+ '\n'.join(wrap(t)) for i,(s,e,t) in enumerate(subs))+'\n','utf-8')
+    (OUT/'源音五十音_上手介绍.srt').write_text('\n\n'.join(f'{i+1}\n{stamp(s)} --> {stamp(e)}\n'+ '\n'.join(wrap(t)) for i,(s,e,t) in enumerate(subs))+'\n','utf-8')
     (OUT/'旁白稿.txt').write_text('\n'.join(c['text'] for c in schedule),'utf-8')
     (OUT/'B站投稿文案.md').write_text('''# 投稿文案
 
-标题：五十音总是认反？跟着做一轮听、认、写练习｜源音·五十音
+标题：源音·五十音 安卓版功能介绍｜查字、练习、书写
 
 简介：
-给汉语母语者的五十音学习手帖。这次直接跟着实际练习，看看怎样辨形、听音选字、平片对照、输入读音，再亲手写一遍。
+《源音·五十音》是一款面向汉语母语者的日语假名学习应用。
+本视频按正常使用顺序介绍：音图和字卡、发音与汉字来源、辨形与错题重练、练习题型与课程、听音辨字、平片对应、罗马字输入、临摹、默写，以及学习进度备份。
 
-视频里完整展示了认错后的解释、三题后的自动复考，以及一轮结束后的错题重练；也能查汉字来源、选择课程，或自己设置题型与范围。
+安卓安装包、完整源码与更新：
+https://github.com/Beatrice-III/genyin-gojuon/releases/tag/v3.0.0
 
-应用安装包见随附文件，手机本地保存学习进度。完整源码：https://github.com/Beatrice-III/genyin-gojuon
-
-画面使用应用真实界面操作录制，配以局部放大；旁白为本机 Qwen3-TTS 合成的小音女声。日语示范使用应用内置发音，声音按实际播放事件同步。
+画面是应用真实界面操作，右侧为同一画面的局部放大。中文旁白使用本机 Qwen3-TTS 女声；日语为应用内正常发音。
 
 标签：五十音、日语入门、假名、学习软件、安卓应用
 ''','utf-8')
@@ -437,18 +420,18 @@ def render():
     print('Completed',VIDEO,total,flush=True)
 
 def create_cover(scenes):
-    sc=next(s for s in scenes if s['id']=='02_confusable')
-    shot=frame_at(sc['path'],mark(sc,'question')+.2)
+    sc=next(s for s in scenes if s['id']=='01_kana')
+    shot=frame_at(sc['path'],.8)
     img=Image.new('RGB',(1920,1080),INK);d=ImageDraw.Draw(img)
-    d.text((105,65),'源音 · 五十音',font=font(33,True),fill=WHITE)
-    d.text((105,245),'シ  ツ  ソ  ン',font=font(103,jp=True),fill=RED)
-    d.text((105,420),'看着认识，',font=font(91,True),fill=WHITE)
-    d.text((105,545),'一练就混？',font=font(91,True),fill=WHITE)
-    d.text((110,765),'听音 · 对照 · 输入 · 默写',font=font(33),fill=MUTED)
-    d.text((110,850),'跟着做一轮真实练习',font=font(35,True),fill=WHITE)
+    d.text((105,125),'源音 · 五十音',font=font(84,True),fill=WHITE)
+    d.text((110,350),'安卓版功能介绍',font=font(64,True),fill=WHITE)
+    d.text((114,500),'查字 · 听辨 · 输入 · 书写',font=font(39),fill=MUTED)
+    d.line((115,620,1115,620),fill='#668377',width=2)
+    d.text((114,705),'音图与字源 / 实际练习 / 临摹与默写',font=font(33),fill=MUTED)
     device=shot.resize((430,900),Image.Resampling.LANCZOS);img.paste(device,(1320,88))
     d=ImageDraw.Draw(img);d.rounded_rectangle((1309,77,1761,999),radius=25,outline=MUTED,width=3)
-    img.save(OUT/'源音五十音_实操版封面_1920x1080.png')
+    img.save(OUT/'源音五十音_功能介绍封面_1920x1080.png')
+
 
 def verify():
     p=probe(VIDEO);run([FF,'-v','error','-i',VIDEO,'-f','null','-'])
@@ -457,7 +440,7 @@ def verify():
     assert a['codec_name']=='aac'
     scs,total=make_plan()
     practice=sum(s['edited_duration'] for s in scs if s['id'] in ('02_confusable','03_listening','04_cross','09_origin','05_typing','06_trace','07_memory'))
-    result={'file':VIDEO.name,'sha256':hashlib.sha256(VIDEO.read_bytes()).hexdigest(),'duration':float(p['format']['duration']),'bytes':VIDEO.stat().st_size,'video':{'width':1920,'height':1080,'fps':30,'codec':'h264'},'audio':{'codec':'aac','sampleRate':a['sample_rate'],'channels':a['channels']},'fullDecode':'passed','practiceSceneSeconds':practice,'practiceSceneRatio':practice/total,'appFilesModified':False,'recording':'Unmodified app UI captured in Chromium with isolated demo profile; local detail windows are crops from the same frame.','voice':'Local Qwen3-TTS-12Hz-1.7B-CustomVoice, Serena, BF16 SDPA; fictional study partner Xiaoyin','sourceAudio':'Original bundled kana audio, normal/0.75 speed, synchronized to observed app playback; UI tones reconstructed from engine parameters and recorded events.'}
+    result={'file':VIDEO.name,'sha256':hashlib.sha256(VIDEO.read_bytes()).hexdigest(),'duration':float(p['format']['duration']),'bytes':VIDEO.stat().st_size,'video':{'width':1920,'height':1080,'fps':30,'codec':'h264'},'audio':{'codec':'aac','sampleRate':a['sample_rate'],'channels':a['channels']},'fullDecode':'passed','practiceSceneSeconds':practice,'practiceSceneRatio':practice/total,'appFilesModified':False,'recording':'Unmodified app UI captured in Chromium with isolated demo profile; local detail windows are crops from the same frame.','voice':'Local Qwen3-TTS-12Hz-1.7B-CustomVoice, Serena, BF16 SDPA; straightforward female product narration','sourceAudio':'Original bundled kana audio, normal/0.75 speed, synchronized to observed app playback; UI tones reconstructed from engine parameters and recorded events.'}
     (OUT/'视频验证.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),'utf-8');print(json.dumps(result,ensure_ascii=False),flush=True)
 
 if __name__=='__main__':

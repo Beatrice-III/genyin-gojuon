@@ -526,10 +526,58 @@ async def main(url, only=None, scale=1, output="capture", dry_run=False):
             await c.wait(1.2)
             await c.tap('#btn-close-modal', '关闭字卡')
 
+        async def backup():
+            await c.nav('tab-gojuon', '音图')
+            await c.top()
+            await c.mark('home')
+            await c.wait(1.2)
+            await c.tap('#btn-open-settings', '学习记录与设置')
+            await c.mark('settings')
+            await c.wait(2)
+            await c.tap('#btn-toggle-theme', '切换夜间模式')
+            await c.wait(1.4)
+            await c.tap('#btn-toggle-theme', '切换日间模式')
+            await c.wait(.8)
+            async with page.expect_download() as download_info:
+                await c.tap('#btn-export-progress', '导出学习记录')
+            download=await download_info.value
+            exported=OUT/'demo-progress.json'
+            await download.save_as(str(exported))
+            await c.mark('exported')
+            await c.wait(.8)
+            await page.locator('#progress-file').set_input_files(str(exported))
+            await c.mark('import_preview')
+            await c.wait(2)
+            await c.tap('#btn-cancel-import', '取消恢复')
+            await c.wait(.8)
+            await c.tap('#btn-close-settings', '关闭设置')
+            await c.mark('outro')
+            await c.wait(1.6)
+
+        async def practice_overview():
+            await c.nav('tab-arena', '练习')
+            await c.top()
+            await c.mark('practice_home')
+            await c.wait(2)
+            await c.tap('.mobile-practice-actions button:first-child', '自选题型与范围')
+            await page.locator('#mobile-mode-select').select_option('audio-dictation')
+            c.events.append({'time':c.now(),'type':'select','label':'听音辨字',**await c.geometry()})
+            await c.tap('#arena-scope-firsthalf', '选择前半范围')
+            await c.tap('#arena-count-selector [data-count="15"]', '选择15题')
+            await c.mark('setup_selection')
+            await c.wait(2)
+            await c.tap('#mobile-practice-sheet .sheet-done', '完成自选设置')
+            await c.tap('.mobile-practice-actions button:nth-child(2)', '十阶课程')
+            await c.mark('course')
+            await c.wait(2)
+            await c.tap('#tab-stages .mobile-section-back', '返回练习')
+            await c.mark('practice_ready')
+            await c.wait(1)
+
         scenes = [("01_kana", home), ("02_confusable", confusable), ("03_listening", listening),
                   ("04_cross", cross), ("05_typing", typing), ("06_trace", trace),
                   ("07_memory", memory), ("08_course", course), ("09_origin", origin),
-                  ("10_explanation", explanation)]
+                  ("10_explanation", explanation), ("11_backup", backup), ("12_practice", practice_overview)]
         for scene, action in scenes:
             if only and scene not in only:
                 continue

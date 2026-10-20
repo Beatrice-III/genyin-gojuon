@@ -178,8 +178,8 @@
     },
     {
       "path": "tools/capture_product_demo.py",
-      "bytes": 29036,
-      "sha256": "5a8ce811659dabfb6f804b865e0796cf347e223209924851b9ca193ec977ddb3"
+      "bytes": 31995,
+      "sha256": "c65356a593d1a1665e666b1fd143c6414b9cc4415e2a22d77613c241695608e3"
     },
     {
       "path": "tools/prepare_audio.py",
@@ -208,8 +208,8 @@
     },
     {
       "path": "tools/qwen_README.md",
-      "bytes": 3223,
-      "sha256": "670ca7b0199517e699441b815fdda4313916a93f0a311d1514fd063d130fb25d"
+      "bytes": 4333,
+      "sha256": "feb693edbc40a55de993e2f533fb2d377936ba40c56b452e98455e526310dc7c"
     },
     {
       "path": "tools/qwen_download.py",
@@ -228,8 +228,8 @@
     },
     {
       "path": "tools/qwen_narration_walkthrough.json",
-      "bytes": 9321,
-      "sha256": "251ae7c732db06ce7bf178198593a33f77d20be03dee97d347a5885808212e37"
+      "bytes": 9324,
+      "sha256": "77567b775cdc5a905902f6154f8e0573fa342f665b9aef045e520648c99e4bd6"
     },
     {
       "path": "tools/qwen_requirements.txt",
@@ -263,8 +263,8 @@
     },
     {
       "path": "tools/render_product_demo.py",
-      "bytes": 28586,
-      "sha256": "dd60340328f7d3fa444bf43135b76743adef289a23deb33b3dd53f12939430f6"
+      "bytes": 26687,
+      "sha256": "0a61ab3065b2f29cf06cb9e256c647e412ee9977f5b0541260af51710aa5e47a"
     },
     {
       "path": "tools/verify_android_interactions.cjs",
@@ -295,6 +295,11 @@
       "path": "tools/verify_phone_interactions.py",
       "bytes": 9339,
       "sha256": "d0e0b0843b072b4e157ec3db5f40a498985c81e47253f6a14e76398755e0feed"
+    },
+    {
+      "path": "tools/verify_product_video.py",
+      "bytes": 3409,
+      "sha256": "e7ed177dff8b2e2b0dea8439a0c8103d7c8a862bed648db83cc45bd4ea5a55f2"
     },
     {
       "path": "启动应用.bat",
